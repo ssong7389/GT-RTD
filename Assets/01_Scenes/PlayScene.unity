@@ -2287,6 +2287,7 @@ GameObject:
   - component: {fileID: 637023142}
   - component: {fileID: 637023141}
   - component: {fileID: 637023140}
+  - component: {fileID: 637023143}
   m_Layer: 0
   m_Name: Spine GameObject (future_knight_side)
   m_TagString: Untagged
@@ -2344,7 +2345,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: rifle_shoot2_side
   loop: 1
   timeScale: 1
 --- !u!23 &637023141
@@ -2397,6 +2398,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637023138}
   m_Mesh: {fileID: 0}
+--- !u!114 &637023143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637023138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon1_side'
+    region: cwp_futureknight
 --- !u!1 &659326211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,6 +4554,7 @@ GameObject:
   - component: {fileID: 1157774667}
   - component: {fileID: 1157774666}
   - component: {fileID: 1157774665}
+  - component: {fileID: 1157774668}
   m_Layer: 0
   m_Name: Spine GameObject (future_knight_front)
   m_TagString: Untagged
@@ -4593,7 +4612,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: rifle_shoot2_front
   loop: 1
   timeScale: 1
 --- !u!23 &1157774666
@@ -4646,6 +4665,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157774663}
   m_Mesh: {fileID: 0}
+--- !u!114 &1157774668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157774663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon1_front'
+    region: cwp_futureknight
 --- !u!1 &1171918835
 GameObject:
   m_ObjectHideFlags: 0
@@ -5188,6 +5224,7 @@ MonoBehaviour:
   life: 0
   difficulty: 
   preTime: 5
+  rounds: 0
   isRoundClear: 0
   gold: 0
   selected: 0
@@ -6361,6 +6398,7 @@ GameObject:
   - component: {fileID: 1534741360}
   - component: {fileID: 1534741359}
   - component: {fileID: 1534741358}
+  - component: {fileID: 1534741361}
   m_Layer: 0
   m_Name: Spine GameObject (future_knight_back)
   m_TagString: Untagged
@@ -6418,7 +6456,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: rifle_shoot2_back
   loop: 1
   timeScale: 1
 --- !u!23 &1534741359
@@ -6471,6 +6509,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534741356}
   m_Mesh: {fileID: 0}
+--- !u!114 &1534741361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534741356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon1_back'
+    region: cwp_futureknight
 --- !u!4 &1535539725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6604376233783896068, guid: 69602fc0c881dee47b49c016b50d9127, type: 3}

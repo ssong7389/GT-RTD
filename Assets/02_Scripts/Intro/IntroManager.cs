@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+
 
 public class IntroManager : MonoBehaviour
 {
     List<Dictionary<string, object>> modes;
     string modesPath = "Modes";
-    GameObject modeContent;
-    GameObject modePrefab;
-    private void Start()
+    public GameObject modeContent;
+    public GameObject modePrefab;
+    private void Awake()
     {
         modes = CSVReader.Read(modesPath);
-        modeContent = GameObject.FindGameObjectWithTag("ModeContent");
+        //modeContent = GameObject.FindGameObjectWithTag("ModeContent");
+    }
+    private void Start()
+    {
+
         for (int i = 0; i < modes.Count; i++)
         {
             GameObject mode = Instantiate(modePrefab);
@@ -22,14 +26,12 @@ public class IntroManager : MonoBehaviour
             modeManager.life = (int)modes[i]["Life"];
             modeManager.gold = (int)modes[i]["Gold"];
             modeManager.ratio = (int)modes[i]["Ratio"];
-            mode.transform.parent = modeContent.transform;
+            modeManager.SetText();
+            mode.GetComponent<Button>().onClick.AddListener(() => modeManager.OnModeBtnClicked());
+            mode.transform.SetParent(modeContent.transform, false);
         }
 
     }
-    void OnDiffBtnClicked(ModeManager diffMgr)
-    {
-        diffMgr.SetDifficulty();
-        SceneManager.LoadScene(1);
-    }
+
 
 }

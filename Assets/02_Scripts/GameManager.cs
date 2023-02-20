@@ -119,7 +119,10 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
         rounds = 0;
-        ratio = 1;
+        //ratio = 1;
+
+        // test pretime
+        PreTime = 5f;
         IsRoundClear = true;
         selected = Selected.NONE;
         selectedObject = null;
