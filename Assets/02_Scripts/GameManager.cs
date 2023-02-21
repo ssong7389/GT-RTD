@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
             {
                 removedEnemyCnt = 0;
                 isRoundClear = true;
+                gold += 300;
             }
         }
     }
@@ -118,7 +119,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
-        rounds = 0;
+        rounds = 1;
         //ratio = 1;
 
         // test pretime

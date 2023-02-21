@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Linq;
 public class EnemyController : MonoBehaviour
 {
     GameManager gm;
@@ -11,14 +11,14 @@ public class EnemyController : MonoBehaviour
 
     GameObject spawn;
     GameObject arrival;
-
-    Transform[] turnPoints;
+    
+    List<GameObject> turns;
     Vector3 dir;
     int tpIndex = 0;
 
     public float hp = 100f;
     public float initHp = 100f;
-    public float hpPercent = 1.25f;
+    public float maxHp = 100f;
     void Start()
     {
         gm = GameManager.Instance;
@@ -37,13 +37,15 @@ public class EnemyController : MonoBehaviour
     }
     public void MoveToArrival()
     {
+        Dictionary<GameObject, string> turnPoints = new Dictionary<GameObject, string>();
         enemyTr = GetComponent<Transform>();
         GameObject[] tps = GameObject.FindGameObjectsWithTag("TurnPoints");
-        turnPoints = new Transform[tps.Length];
         for (int i = 0; i < tps.Length; i++)
         {
-            turnPoints[i] = tps[i].GetComponent<Transform>();
+            turnPoints.Add(tps[i], tps[i].name);
         }
+        turnPoints = turnPoints.OrderBy(tp => tp.Value).ToDictionary(tp => tp.Key, tp => tp.Value);
+        turns = turnPoints.Keys.ToList();
         StartCoroutine(MoveCoroutine());
     }
 
@@ -51,14 +53,14 @@ public class EnemyController : MonoBehaviour
     {
         while (true)
         {
-            if (tpIndex < turnPoints.Length)
+            if (tpIndex < turns.Count)
             {
-                dir = (turnPoints[tpIndex].position - enemyTr.position);
+                dir = (turns[tpIndex].transform.position - enemyTr.position);
                 enemyTr.Translate(dir.normalized * moveSpeed * Time.deltaTime);
                 if (dir.magnitude < Vector3.forward.magnitude * 0.1)
                 {
-                    enemyTr.position = turnPoints[tpIndex].position;
-                    dir = (turnPoints[tpIndex].position - enemyTr.position);
+                    enemyTr.position = turns[tpIndex].transform.position;
+                    dir = (turns[tpIndex].transform.position - enemyTr.position);
                     // 회전 추가
                     tpIndex++;
                 }
@@ -83,6 +85,11 @@ public class EnemyController : MonoBehaviour
 
     public void EnemyDead()
     {
+        if (gm.selectedObject == gameObject)
+        {
+            //gm.selectedObject = null;
+            gm.selected = GameManager.Selected.NONE;
+        }
         StopCoroutine(MoveCoroutine());
         ++gm.RemovedEnemyCnt;
         //Debug.Log($"removed: {gm.RemovedEnemyCnt}");
@@ -93,17 +100,16 @@ public class EnemyController : MonoBehaviour
 
     public void InitEnemy()
     {
+        if(spawn==null)
+            spawn = GameObject.FindGameObjectWithTag("Spawn");
         // 렌더러 끄기
-        int round = gm.Rounds + 1;
-        gameObject.name = $"Round {round}";
-        enemyTr.position = spawn.transform.position;
+        gameObject.name = $"Round {GameManager.Instance.Rounds}";
+        transform.position = spawn.transform.position;
         tpIndex = 0;
+        initHp += 50 * ((GameManager.Instance.Rounds - 1)/ 5);
+        maxHp = initHp * GameManager.Instance.Rounds * GameManager.Instance.Ratio;
+        hp = maxHp;
         gameObject.SetActive(false);
         // 라운드에 따른 hp 상승 및 초기화      
-        if(round%5==1 && round != 1)
-        {
-            initHp *= hpPercent;
-        }
-        hp = initHp * round * gm.Ratio;
     }
 }

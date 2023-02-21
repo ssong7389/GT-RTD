@@ -10,11 +10,15 @@ public class Tower : MonoBehaviour
     //GameManager gm;
 
     [SerializeField]
-    float dmg;
+    public float dmg;
     [SerializeField]
-    float increment;
+    public float increment;
+
+    // 2, 2.5 | 3.6, 4, 4.5 | 5.5, 6
     [SerializeField]
     float range;
+
+    // 공격 애니메이션 길이로
     [SerializeField]
     float attackSpeed;
     [SerializeField]
@@ -32,6 +36,10 @@ public class Tower : MonoBehaviour
     TowerManager.Ranks rank;
     [SerializeField]
     TowerManager.Type type;
+    public TowerManager.Type Type
+    {
+        get { return type; }
+    }
     public TowerManager.Ranks Rank
     {
         get { return rank; }
@@ -142,11 +150,11 @@ public class Tower : MonoBehaviour
             Dictionary<GameObject, float> nearby = new Dictionary<GameObject, float>();
             foreach (var coll in colls)
             {
-                nearby.Add(coll.gameObject, (coll.transform.position - towerTr.position).sqrMagnitude);
+                if (coll.CompareTag("ENEMY"))
+                {
+                    nearby.Add(coll.gameObject, (coll.transform.position - towerTr.position).sqrMagnitude);
+                }
             }
-            GameObject arrival = GameObject.FindGameObjectWithTag("Arrival");
-            if (nearby.ContainsKey(arrival))
-                nearby.Remove(arrival);
 
             if (nearby.Count == 0)
                 return;

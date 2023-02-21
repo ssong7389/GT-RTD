@@ -22,12 +22,15 @@ public class EnemySpawner : MonoBehaviour
         {
             GameObject enemy = Instantiate(enemyPrefab);
             //enemy.GetComponent<EnemyController>().InitEnemy();
-            enemy.name = $"Round {GameManager.Instance.Rounds}";
-            enemy.transform.position = spawnPoint.position;
+            //enemy.name = $"Round {GameManager.Instance.Rounds}";
+            //enemy.transform.position = spawnPoint.position;
             enemies[i] = enemy;
-            enemies[i].SetActive(false);
+            EnemyController enemyCtrl = enemies[i].GetComponent<EnemyController>();
+            enemyCtrl.maxHp = 100f;
+            enemyCtrl.initHp = 100f;
+            enemyCtrl.InitEnemy();
+            //enemies[i].SetActive(false);
         }
-        Debug.Log(gm.IsRoundClear);
         StartCoroutine(StartRound());
     }
 
