@@ -78,6 +78,13 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Arrival"))
         {
+            gm.Life--;
+            //Debug.Log(gm.Life);
+            ++gm.RemovedEnemyCnt;
+            if (gm.SelectedObject == gameObject)
+            {
+                gm.SelectedObject = null;
+            }
             StopCoroutine(MoveCoroutine());
             InitEnemy();
         }
@@ -85,10 +92,9 @@ public class EnemyController : MonoBehaviour
 
     public void EnemyDead()
     {
-        if (gm.selectedObject == gameObject)
+        if (gm.SelectedObject == gameObject)
         {
-            //gm.selectedObject = null;
-            gm.selected = GameManager.Selected.NONE;
+            gm.SelectedObject = null;
         }
         StopCoroutine(MoveCoroutine());
         ++gm.RemovedEnemyCnt;

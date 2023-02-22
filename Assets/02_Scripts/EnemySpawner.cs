@@ -21,22 +21,19 @@ public class EnemySpawner : MonoBehaviour
         for (int i = 0; i < enemyCnt; i++)
         {
             GameObject enemy = Instantiate(enemyPrefab);
-            //enemy.GetComponent<EnemyController>().InitEnemy();
-            //enemy.name = $"Round {GameManager.Instance.Rounds}";
-            //enemy.transform.position = spawnPoint.position;
+
             enemies[i] = enemy;
             EnemyController enemyCtrl = enemies[i].GetComponent<EnemyController>();
             enemyCtrl.maxHp = 100f;
             enemyCtrl.initHp = 100f;
             enemyCtrl.InitEnemy();
-            //enemies[i].SetActive(false);
         }
         StartCoroutine(StartRound());
     }
 
     IEnumerator StartRound()
     {
-        Debug.Log(gm.IsRoundClear);
+        //Debug.Log(gm.IsRoundClear);
             yield return new WaitForSeconds(gm.PreTime);
             gm.IsRoundClear = false;
         for (int i = 0; i < enemies.Length; i++)
@@ -47,7 +44,7 @@ public class EnemySpawner : MonoBehaviour
         }
         yield return new WaitUntil(() => gm.IsRoundClear);
         StartCoroutine(StartRound());
-        gm.Rounds++;
+        //gm.Rounds++;
     }
 
 }

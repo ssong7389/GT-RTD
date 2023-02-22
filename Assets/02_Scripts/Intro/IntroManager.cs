@@ -26,6 +26,7 @@ public class IntroManager : MonoBehaviour
             modeManager.life = (int)modes[i]["Life"];
             modeManager.gold = (int)modes[i]["Gold"];
             modeManager.ratio = (int)modes[i]["Ratio"];
+            modeManager.end = (int)modes[i]["End"];
             modeManager.SetText();
             mode.GetComponent<Button>().onClick.AddListener(() => modeManager.OnModeBtnClicked());
             mode.transform.SetParent(modeContent.transform, false);

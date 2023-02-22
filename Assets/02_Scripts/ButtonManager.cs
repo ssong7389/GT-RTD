@@ -19,17 +19,22 @@ public class ButtonManager : MonoBehaviour
         get { return mainBtn; }
     }
     public Button sellBtn;
+    public Button exchangeBtn;
+    public GameObject crystalPopup;
 
-     GameManager gm;
-     TowerManager tm;
+    GameManager gm;
+    TowerManager tm;
+
     void Awake()
     {
         if (_instance == null)
         {
             _instance = this;
         }
-        sellBtn.onClick.AddListener(() => OnSellBtnClicked(gm.selectedObject));
+        sellBtn.onClick.AddListener(() => OnSellBtnClicked(gm.SelectedObject));
         sellBtn.gameObject.SetActive(false);
+
+        exchangeBtn.onClick.AddListener(() => OnExchangeBtnClicked());
     }
 
     void Start()
@@ -39,6 +44,7 @@ public class ButtonManager : MonoBehaviour
     }
     void Update()
     {
+        // test
         if(gm.selected == GameManager.Selected.TOWER_AREA)
         {
             mainBtn.GetComponentInChildren<Text>().text = "Build";
@@ -62,7 +68,7 @@ public class ButtonManager : MonoBehaviour
 
     public void OnBuildBtnClicked()
     {
-        tm.BuildTower(GameManager.Instance.selectedObject.transform);
+        tm.BuildTower(GameManager.Instance.SelectedObject.transform);
     }
     private void OnSellBtnClicked(GameObject towerToSell)
     {
@@ -75,5 +81,14 @@ public class ButtonManager : MonoBehaviour
     public void OnMergeBtnClicked(GameObject towerToMerge)
     { 
         tm.MergeTower(towerToMerge);
+    }
+
+    private void OnExchangeBtnClicked()
+    {
+        if (gm.Gold < 100)
+            return;
+
+        gm.Gold -= 100;
+        gm.Gem += Random.Range(gm.MinRandomGem, gm.MaxRandomGem + 1);
     }
 }

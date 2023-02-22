@@ -16,6 +16,8 @@ TagManager:
   - Enemy
   - TowerArea
   - ModesConent
+  - CreditManager
+  - InfoManager
   layers:
   - Default
   - TransparentFX

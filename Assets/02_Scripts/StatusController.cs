@@ -29,19 +29,14 @@ public class StatusController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gm.selectedObject == null)
-        {
-            return;
-        }
-
-        switch (gm.selected)
+       switch (gm.selected)
         {
             case GameManager.Selected.TOWER:
-                nameText.text = gm.selectedObject.name;
+                nameText.text = gm.SelectedObject.name;
                 statName.SetActive(true);
                 statHp.SetActive(false);
                 statDmg.SetActive(true);
-                Tower selectedTower = gm.selectedObject.GetComponent<Tower>();
+                Tower selectedTower = gm.SelectedObject.GetComponent<Tower>();
                 if (TowerManager.Instance.GetUpgrade(selectedTower.Type) == 0)
                     dmgText.text = $"°ø°Ý·Â: {selectedTower.dmg}";
                 else
@@ -50,11 +45,11 @@ public class StatusController : MonoBehaviour
                 }
                 break;
             case GameManager.Selected.ENEMY:
-                nameText.text = gm.selectedObject.name;
+                nameText.text = gm.SelectedObject.name;
                 statName.SetActive(true);
                 statDmg.SetActive(false);
                 statHp.SetActive(true);
-                EnemyController enemyController = gm.selectedObject.GetComponent<EnemyController>();
+                EnemyController enemyController = gm.SelectedObject.GetComponent<EnemyController>();
                 hpSlider.value = enemyController.hp / enemyController.maxHp;
                 break;
             default:

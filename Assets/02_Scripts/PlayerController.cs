@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     GameManager gm;
     ButtonManager bm;
     Camera cam;
+    Transform camTr;
     public float camLimit = 5f;
 
     private float Speed = 0.25f;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
         gm = GameManager.Instance;
         bm = ButtonManager.Instance;
         cam = Camera.main;
+        camTr = cam.transform;
     }
     void Update()
     {
@@ -33,11 +35,21 @@ public class PlayerController : MonoBehaviour
             {
                 nowPos = touch.position - touch.deltaPosition;
                 movePos = (Vector3)(prePos - nowPos) * Time.deltaTime * Speed;
-                cam.transform.Translate(movePos);
+
+                camTr.Translate(movePos);
                 prePos = touch.position - touch.deltaPosition;
+
+                if (camTr.position.x < -camLimit)
+                    camTr.position = new Vector3(-camLimit, camTr.position.y, camTr.position.z);
+                if (camTr.position.x > camLimit)
+                    camTr.position = new Vector3(camLimit, camTr.position.y, camTr.position.z);
+                if (camTr.position.y < -camLimit)
+                    camTr.position = new Vector3(camTr.position.x, -camLimit, camTr.position.z);
+                if (camTr.position.y > camLimit)
+                    camTr.position = new Vector3(camTr.position.x, camLimit, camTr.position.z);
             }
-            // camera 이동 범위 제한
         }
+
         if (Input.touchCount == 2)
         {
             Touch touch1 = Input.GetTouch(0);
@@ -50,8 +62,8 @@ public class PlayerController : MonoBehaviour
 
             float deltaMagnitudeDiff = preTouchDeltaMag - touchDeltaMag;
 
-            Camera.main.orthographicSize += deltaMagnitudeDiff * zoomSpeed * Time.deltaTime;
-            Camera.main.orthographicSize = Mathf.Max(cam.orthographicSize, 0.1f);
+            cam.orthographicSize += deltaMagnitudeDiff * zoomSpeed * Time.deltaTime;
+            cam.orthographicSize = Mathf.Max(cam.orthographicSize, 0.1f);
 
             if (cam.orthographicSize > 7)
                 cam.orthographicSize = 7;
@@ -59,42 +71,18 @@ public class PlayerController : MonoBehaviour
             if (cam.orthographicSize < 1)
                 cam.orthographicSize = 1;
         }
+
         if (Input.GetMouseButtonUp(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                switch (hit.collider.gameObject.layer)
-                {
-                    case 6:
-                        Debug.Log("TowerArea");
-                        gm.selected = GameManager.Selected.TOWER_AREA;
-                        bm.MainBtn.onClick.RemoveAllListeners();
-                        bm.MainBtn.onClick.AddListener(() => bm.OnBuildBtnClicked());
-                        break;
-                    case 7:
-                        Debug.Log("Tower");
-                        gm.selected = GameManager.Selected.TOWER;
-                        bm.MainBtn.onClick.RemoveAllListeners();
-                        bm.MainBtn.onClick.AddListener(() => bm.OnMergeBtnClicked(hit.collider.gameObject));
-                        break;
-                    case 8:
-                        Debug.Log("Enemy");
-                        gm.selected = GameManager.Selected.ENEMY;
-                        bm.MainBtn.onClick.RemoveAllListeners();
-                        break;
-                    default:
-                        break;
-                }
-                gm.selectedObject = hit.collider.gameObject;
-                // UI 선택 대상 상태창 연동
+                gm.SelectedObject = hit.collider.gameObject;
             }
             else
-            {
-                bm.MainBtn.onClick.RemoveAllListeners();
-                gm.selected = GameManager.Selected.NONE;
-                gm.selectedObject = null;
+            {                
+                gm.SelectedObject = null;
             }
         }
     }

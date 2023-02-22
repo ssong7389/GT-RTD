@@ -19,7 +19,17 @@ public class TowerManager : MonoBehaviour
     {
         HUMAN, SUIN, DEMON
     }
-    int[] upgrades;
+    [SerializeField]
+    private int[] upgrades;
+    public int[] Upgrades
+    {
+        get { return upgrades; }
+        set
+        {
+            upgrades = value;
+
+        }
+    }
 
     GameManager gm;
 
@@ -83,7 +93,6 @@ public class TowerManager : MonoBehaviour
                 {
                     // selectedTr에 다음 등급 타워 생성
                     GameObject mergedTower = GetRandomTower(++rank, selectedTr.position);
-                    //Debug.Log($"Rank to get: {rank}");
                     mergedTower.transform.position = selectedTr.position;
                     Destroy(selectedTower);
                     Destroy(tower);
