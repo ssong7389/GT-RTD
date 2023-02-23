@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
+using Spine.Unity;
+using Spine;
 
 public class Tower : MonoBehaviour
 {
@@ -27,6 +29,7 @@ public class Tower : MonoBehaviour
     {
         get { return towerName; }
     }
+    public string assetName;
     // 스파인
 
     // 공격 이펙트
@@ -44,17 +47,34 @@ public class Tower : MonoBehaviour
     {
         get { return rank; }
     }
-    enum Dir
+    public enum Dir
     {
-        UP, DOWN, SIDE
+        back, front, side
     }
-    Dir dir;
+    Dir direction = Dir.front;
+    public Dir Direction
+    {
+        get { return direction; }
+        set
+        {
+            direction = value;
+            path = $"characters/{assetName}/{assetName}_{direction}_SkeletonData";
+            skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load(path);
+            skel.Initialize(true);
+        }
+    }
     Transform towerTr;
-    public GameObject[] directions = new GameObject[3];
-    GameObject activatedDir;
     [SerializeField]
     GameObject target;
-    public void SetupTower(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,float range,float attackSpeed,string towerName)
+    SkeletonAnimation skel;
+    string path;
+    MeshRenderer meshRenderer;
+    float originScaleXY;
+    string weaponAtlas;
+    SpineAtlasAsset items;
+
+    public void SetupTower(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
+        float range,float attackSpeed,string towerName, string assetName, string weaponAtlas)
     {
         this.rank = rank;
         this.type = type;
@@ -63,6 +83,8 @@ public class Tower : MonoBehaviour
         this.range = range;
         this.increment = increment;
         this.towerName = towerName;
+        this.assetName = assetName;
+        this.weaponAtlas = weaponAtlas;
     }
 
     private void Start()
@@ -70,15 +92,9 @@ public class Tower : MonoBehaviour
         tm = TowerManager.Instance;
         //gm = GameManager.Instance;
         towerTr = GetComponent<Transform>();
-        directions = new GameObject[towerTr.childCount];
-        // back side front
-        for (int i = 0; i < towerTr.childCount; i++)
-        {
-            directions[i] = towerTr.GetChild(i).gameObject;
-            directions[i].SetActive(false);
-        }
-        activatedDir = directions[(int)Dir.DOWN];
-        activatedDir.SetActive(true);
+        skel = GetComponent<SkeletonAnimation>();
+        Init();
+        originScaleXY = towerTr.localScale.x;
 
     }
     private void Update()
@@ -88,29 +104,45 @@ public class Tower : MonoBehaviour
         {
             //Debug.Log(Quaternion.FromToRotation(Vector2.one, (target.transform.position - towerTr.position)).eulerAngles.z);
             float angle = Quaternion.FromToRotation((target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
-            activatedDir.SetActive(false);
             if (angle > 0 && angle <= 90)
             {
-                activatedDir = directions[(int)Dir.UP];
+                Direction = Dir.back;
             }
             else if(angle >90 && angle <= 180)
             {
-                activatedDir = directions[(int)Dir.SIDE];
-                towerTr.localScale = new Vector3(1, 1, 1);
+                Direction = Dir.side;
+                towerTr.localScale = new Vector3(originScaleXY, originScaleXY);
             }
             else if(angle >180 && angle <= 270)
             {
-                activatedDir = directions[(int)Dir.DOWN];
+                Direction = Dir.front;
             }
             else if(angle>270 && angle <= 360)
             {
-                activatedDir = directions[(int)Dir.SIDE];
-                towerTr.localScale = new Vector3(-1, 1, 1);
+                Direction = Dir.side;
+                towerTr.localScale = new Vector3(-originScaleXY, originScaleXY, 1);
             }
-            activatedDir.SetActive(true);
         }
     }
+    public void Init()
+    {
+        tm = TowerManager.Instance;
+        //gm = GameManager.Instance;
+        direction = Dir.front;
 
+        skel = GetComponent<SkeletonAnimation>();
+        path = $"characters/{assetName}/{assetName}";
+        meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.sharedMaterial = (Material)Resources.Load($"{path}_Material");
+        skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
+
+        items = (SpineAtlasAsset)Resources.Load("Items/items_Atlas");
+        Atlas atlas = items.GetAtlas();
+        AtlasRegion item = atlas.FindRegion(weaponAtlas);
+
+        Slot slot = skel.Skeleton.FindSlot($"[base]weapon1_{direction}");
+        //slot.Attachment = item;
+    }
     IEnumerator AttackCoroutine()
     {
         while (target != null)

@@ -9,10 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7298602293716056581}
-  - component: {fileID: 7829112875663227073}
-  - component: {fileID: 4608663902025190735}
-  - component: {fileID: 7627708148251458607}
   - component: {fileID: 6312632047989230639}
+  - component: {fileID: -6840745725825506582}
+  - component: {fileID: -4548348424873931244}
+  - component: {fileID: -6872543757342496443}
+  - component: {fileID: -7953892437725693902}
+  - component: {fileID: -6324580946653292884}
   m_Layer: 7
   m_Name: Legend_3
   m_TagString: LEGEND
@@ -29,21 +31,42 @@ Transform:
   m_GameObject: {fileID: 1339249944383261839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5, y: 6.5, z: -0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7829112875663227073
+--- !u!114 &6312632047989230639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339249944383261839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 400
+  increment: 3
+  range: 6
+  attackSpeed: 0.5
+  towerName: "\uC804\uC124_3"
+  assetName: redhood_ascent
+  rank: 3
+  type: 0
+  target: {fileID: 0}
+--- !u!33 &-6840745725825506582
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339249944383261839}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &4608663902025190735
+  m_Mesh: {fileID: 0}
+--- !u!23 &-4548348424873931244
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,7 +86,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c0db8cfa80f2ed43b3afe63dc547d30, type: 2}
+  - {fileID: 2100000, guid: 5c94eabdf93a0dd458b9693b1fc509a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,20 +108,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7627708148251458607
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339249944383261839}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6312632047989230639
+--- !u!114 &-6872543757342496443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,6 +117,62 @@ MonoBehaviour:
   m_GameObject: {fileID: 1339249944383261839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: eacd976f39a8e924da4192996144f466, type: 2}
+  initialSkinName: 
+  initialFlipX: 0
+  initialFlipY: 0
+  updateMode: 3
+  updateWhenInvisible: 3
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  fixDrawOrder: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  _animationName: 
+  loop: 0
+  timeScale: 1
+--- !u!65 &-7953892437725693902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339249944383261839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 1}
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &-6324580946653292884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339249944383261839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon1_front'
+    region: Minotaur_necklace_accessory

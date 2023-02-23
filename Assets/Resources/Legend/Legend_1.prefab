@@ -9,10 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9217428614547993426}
-  - component: {fileID: 9064992047745208852}
-  - component: {fileID: 1858270654380845784}
-  - component: {fileID: 2102298135003227136}
   - component: {fileID: 4247155778209886657}
+  - component: {fileID: 8742594006221012557}
+  - component: {fileID: 6594211649052195080}
+  - component: {fileID: -3430998048832895325}
+  - component: {fileID: 8893114344296485639}
+  - component: {fileID: -4370273511631640862}
   m_Layer: 7
   m_Name: Legend_1
   m_TagString: LEGEND
@@ -29,21 +31,42 @@ Transform:
   m_GameObject: {fileID: 5863858103747573334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5, y: 6.5, z: -0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &9064992047745208852
+--- !u!114 &4247155778209886657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863858103747573334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 400
+  increment: 3
+  range: 2.5
+  attackSpeed: 0.5
+  towerName: "\uC804\uC124_1"
+  assetName: china_chef
+  rank: 3
+  type: 0
+  target: {fileID: 0}
+--- !u!33 &8742594006221012557
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5863858103747573334}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1858270654380845784
+  m_Mesh: {fileID: 0}
+--- !u!23 &6594211649052195080
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,7 +86,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c0db8cfa80f2ed43b3afe63dc547d30, type: 2}
+  - {fileID: 2100000, guid: 85cf0dd252c81284787a80d28d98d6c8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,20 +108,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2102298135003227136
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5863858103747573334}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4247155778209886657
+--- !u!114 &-3430998048832895325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,6 +117,62 @@ MonoBehaviour:
   m_GameObject: {fileID: 5863858103747573334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: 418e9390fd454294ab747f0fe9f66539, type: 2}
+  initialSkinName: china_chef_5
+  initialFlipX: 0
+  initialFlipY: 0
+  updateMode: 3
+  updateWhenInvisible: 3
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  fixDrawOrder: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  _animationName: 
+  loop: 0
+  timeScale: 1
+--- !u!65 &8893114344296485639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863858103747573334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 1}
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &-4370273511631640862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863858103747573334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon1_front'
+    region: Minotaur_necklace_accessory

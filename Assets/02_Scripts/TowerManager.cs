@@ -108,7 +108,7 @@ public class TowerManager : MonoBehaviour
 
         GameObject tower = Instantiate(towerList[UnityEngine.Random.Range(0, towerList.Count)]);
         tower.name = tower.GetComponent<Tower>().TowerName;
-        tower.transform.position = pos;
+        tower.transform.position = new Vector3(pos.x, pos.y-0.5f, pos.z);
         return tower;
     }
 
@@ -126,8 +126,10 @@ public class TowerManager : MonoBehaviour
         float range = (float)data["Range"];
         float speed = (float)data["Speed"];
         string towerName = (string)data["TowerName"];
-
-        towerData.SetupTower(rank, type, dmg, increment, range, speed, towerName);
+        string assetName = (string)data["AssetName"];
+        string weaponAtlas = (string)data["WeaponAtlas"];
+        towerData.SetupTower(rank, type, dmg, increment, range, speed, towerName, assetName, weaponAtlas);
+        towerData.Init();
 
         return towerPrefab;
     }

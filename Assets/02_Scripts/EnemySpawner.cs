@@ -43,7 +43,22 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
         }
         yield return new WaitUntil(() => gm.IsRoundClear);
-        StartCoroutine(StartRound());
+        if (GameManager.Instance.End == 0)
+        {
+            StartCoroutine(StartRound());
+        }
+        else
+        {            
+            if (GameManager.Instance.Rounds > GameManager.Instance.End)
+            {
+                // 게임 클리어
+                yield return null;
+            }
+            else
+            {
+                StartCoroutine(StartRound());
+            }
+        }
         //gm.Rounds++;
     }
 

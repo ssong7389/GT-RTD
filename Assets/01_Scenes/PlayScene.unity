@@ -4122,8 +4122,9 @@ GameObject:
   - component: {fileID: 637023141}
   - component: {fileID: 637023140}
   - component: {fileID: 637023143}
+  - component: {fileID: 637023144}
   m_Layer: 0
-  m_Name: Spine GameObject (future_knight_side)
+  m_Name: future_knight_side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4249,6 +4250,19 @@ MonoBehaviour:
   attachments:
   - slot: '[base]weapon1_side'
     region: cwp_futureknight
+--- !u!114 &637023144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637023138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bfa4b6996ae430418629b37674da859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: 
 --- !u!1 &657707168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5701,12 +5715,9 @@ MonoBehaviour:
   range: 2
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &853733417 stripped
 Transform:
@@ -6554,12 +6565,9 @@ MonoBehaviour:
   range: 3.6
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1067274300
 Transform:
@@ -6882,12 +6890,9 @@ MonoBehaviour:
   range: 5.5
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1124778774
 Transform:
@@ -7065,12 +7070,9 @@ MonoBehaviour:
   range: 6
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1137028167
 Transform:
@@ -7320,13 +7322,14 @@ GameObject:
   - component: {fileID: 1157774666}
   - component: {fileID: 1157774665}
   - component: {fileID: 1157774668}
+  - component: {fileID: 1157774669}
   m_Layer: 0
-  m_Name: Spine GameObject (future_knight_front)
+  m_Name: future_knight_front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1157774664
 Transform:
   m_ObjectHideFlags: 0
@@ -7335,7 +7338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157774663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7447,6 +7450,19 @@ MonoBehaviour:
   attachments:
   - slot: '[base]weapon1_front'
     region: cwp_futureknight
+--- !u!114 &1157774669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157774663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bfa4b6996ae430418629b37674da859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: 
 --- !u!1 &1171918835
 GameObject:
   m_ObjectHideFlags: 0
@@ -9089,12 +9105,9 @@ MonoBehaviour:
   range: 4
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1375458866
 Transform:
@@ -10631,13 +10644,14 @@ GameObject:
   - component: {fileID: 1534741359}
   - component: {fileID: 1534741358}
   - component: {fileID: 1534741361}
+  - component: {fileID: 1534741362}
   m_Layer: 0
-  m_Name: Spine GameObject (future_knight_back)
+  m_Name: future_knight_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1534741357
 Transform:
   m_ObjectHideFlags: 0
@@ -10758,6 +10772,19 @@ MonoBehaviour:
   attachments:
   - slot: '[base]weapon1_back'
     region: cwp_futureknight
+--- !u!114 &1534741362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534741356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bfa4b6996ae430418629b37674da859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: 
 --- !u!4 &1535539725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6604376233783896068, guid: 69602fc0c881dee47b49c016b50d9127, type: 3}
@@ -11264,12 +11291,9 @@ MonoBehaviour:
   range: 2.5
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1590608996
 Transform:
@@ -12062,12 +12086,9 @@ MonoBehaviour:
   range: 4.5
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_\uBBF8\uB798\uAE30\uC0AC"
+  assetName: 
   rank: 0
   type: 0
-  directions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   target: {fileID: 0}
 --- !u!4 &1748246036
 Transform:

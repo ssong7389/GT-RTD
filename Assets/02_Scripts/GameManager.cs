@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
@@ -25,6 +24,11 @@ public class GameManager : MonoBehaviour
             if (infoManager != null)
             {
                 infoManager.lifeText.text = life.ToString();
+            }
+            if (life == 0)
+            {
+                //Game over
+                GameOver();
             }
         }
     }
@@ -97,7 +101,16 @@ public class GameManager : MonoBehaviour
             rounds = value;
             if (infoManager != null)
             {
-                infoManager.roundText.text = $"{rounds.ToString()} Round";
+                if (End == 0)
+                {
+                    infoManager.roundText.text = $"{rounds.ToString()} Round";
+                }
+                else if(rounds <= End)
+                {
+                    // Clear
+                    //Debug.Log($"{rounds}/{End}");
+                    infoManager.roundText.text = $"{rounds.ToString()} Round";
+                }                    
             }
         }
     }
@@ -113,9 +126,8 @@ public class GameManager : MonoBehaviour
             if (removedEnemyCnt == unitsPerRound)
             {
                 removedEnemyCnt = 0;
-                isRoundClear = true;
-                Gold += 300;
-                Rounds++;
+                IsRoundClear = true;
+
             }
         }
     }
@@ -127,6 +139,11 @@ public class GameManager : MonoBehaviour
         set
         {
             isRoundClear = value;
+            if (isRoundClear)
+            {
+                Gold += 300;
+                Rounds++;
+            }
         }
     }
     #endregion
@@ -221,7 +238,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
-        rounds = 1;
+
 
         // test pretime
         PreTime = 5f;
@@ -245,10 +262,14 @@ public class GameManager : MonoBehaviour
             creditManager = GameObject.FindGameObjectWithTag("CreditManager").GetComponent<CreditManager>();
             creditManager.SetGold();
             creditManager.SetGem();
-
             infoManager = GameObject.FindGameObjectWithTag("InfoManager").GetComponent<GameInfoManager>();
             infoManager.lifeText.text = life.ToString();
+            Rounds = 1;
         }
     }
 
+    void GameOver()
+    {
+        Debug.Log("Game Over");
+    }
 }

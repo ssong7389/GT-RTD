@@ -606,11 +606,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 0
-  difficulty: 
+  mode: 
   preTime: 5
   rounds: 0
+  unitsPerRound: 0
   isRoundClear: 1
   gold: 0
+  gem: 0
   selected: 0
   selectedObject: {fileID: 0}
 --- !u!4 &465179656
