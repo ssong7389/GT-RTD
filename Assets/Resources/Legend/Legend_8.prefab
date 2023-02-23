@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -4037986971470027484}
   - component: {fileID: 6896208239437964386}
   - component: {fileID: -7926621075441699685}
-  - component: {fileID: 3287686713313801444}
   m_Layer: 7
   m_Name: Legend_8
   m_TagString: LEGEND
@@ -58,6 +57,8 @@ MonoBehaviour:
   rank: 3
   type: 2
   target: {fileID: 0}
+  weaponAtlas: cwp_succubusnoble
+  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
 --- !u!33 &7661458591439870080
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -159,20 +160,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0.25, z: 0}
---- !u!114 &3287686713313801444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8090693632921037043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
-  inheritProperties: 1
-  attachments:
-  - slot: '[base]weapon1_front'
-    region: Minotaur_necklace_accessory

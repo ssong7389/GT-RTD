@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4597807141383787582}
   - component: {fileID: -605464049138046350}
   - component: {fileID: 4071696029417165828}
-  - component: {fileID: 8958570968939704805}
   m_Layer: 7
   m_Name: God_7
   m_TagString: GOD
@@ -58,6 +57,8 @@ MonoBehaviour:
   rank: 4
   type: 2
   target: {fileID: 0}
+  weaponAtlas: cwp_vampirelord
+  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
 --- !u!33 &8155579322558620062
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -159,20 +160,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0.25, z: 0}
---- !u!114 &8958570968939704805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5505647105108754866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
-  inheritProperties: 1
-  attachments:
-  - slot: '[base]weapon1_front'
-    region: Minotaur_necklace_accessory

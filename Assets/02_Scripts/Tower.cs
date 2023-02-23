@@ -5,6 +5,7 @@ using System;
 using System.Linq;
 using Spine.Unity;
 using Spine;
+using Spine.Unity.AttachmentTools;
 
 public class Tower : MonoBehaviour
 {
@@ -58,8 +59,7 @@ public class Tower : MonoBehaviour
         set
         {
             direction = value;
-            path = $"characters/{assetName}/{assetName}_{direction}_SkeletonData";
-            skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load(path);
+            skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
             skel.Initialize(true);
         }
     }
@@ -70,7 +70,9 @@ public class Tower : MonoBehaviour
     string path;
     MeshRenderer meshRenderer;
     float originScaleXY;
+    [SerializeField]
     string weaponAtlas;
+    [SerializeField]
     SpineAtlasAsset items;
 
     public void SetupTower(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
@@ -85,6 +87,7 @@ public class Tower : MonoBehaviour
         this.towerName = towerName;
         this.assetName = assetName;
         this.weaponAtlas = weaponAtlas;
+        //Debug.Log(weaponAtlas);
     }
 
     private void Start()
@@ -136,12 +139,14 @@ public class Tower : MonoBehaviour
         meshRenderer.sharedMaterial = (Material)Resources.Load($"{path}_Material");
         skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
 
-        items = (SpineAtlasAsset)Resources.Load("Items/items_Atlas");
+        items = (SpineAtlasAsset)Resources.Load("items/items_Atlas");
         Atlas atlas = items.GetAtlas();
         AtlasRegion item = atlas.FindRegion(weaponAtlas);
 
         Slot slot = skel.Skeleton.FindSlot($"[base]weapon1_{direction}");
-        //slot.Attachment = item;
+        Debug.Log(skel.SkeletonDataAsset.scale);
+        var newRegionAttachment = item.ToRegionAttachment(item.name, skel.SkeletonDataAsset.scale*0.75f);
+        slot.Attachment = newRegionAttachment;
     }
     IEnumerator AttackCoroutine()
     {
