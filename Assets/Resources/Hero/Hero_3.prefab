@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: dancing_archer
   rank: 2
   type: 0
+  state: 0
+  weaponType: 8
   target: {fileID: 0}
   weaponAtlas: cwp_dancingarcher
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: bow_attack
 --- !u!33 &-6819206548718855285
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-1284374608804924943
 MonoBehaviour:
@@ -122,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: b614ad2a4dc228a418ea16331bdc2d39, type: 2}
-  initialSkinName: dancing_archer_5
+  initialSkinName: dancing_archer_4
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

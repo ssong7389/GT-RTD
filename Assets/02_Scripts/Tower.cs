@@ -59,24 +59,79 @@ public class Tower : MonoBehaviour
         set
         {
             direction = value;
-            skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
-            skel.Initialize(true);
+            SetSkeletonDirection();
+            SetWeaponAtlas();
         }
     }
+    public enum States
+    {
+        idle, attack
+    }
+    [SerializeField]
+    States state;
+    public States State
+    {
+        get { return state; }
+        set
+        {
+            state = value;
+            
+            if (state == States.attack)
+            {
+                //skel.AnimationName = 
+                skel.AnimationName = $"{attackName}_{direction}";
+                skel.loop = false;
+                //Debug.Log("att");
+                State = States.idle;
+            }
+
+            else
+            {
+                skel.AnimationName = $"{weaponType}_{state}_{direction}";
+                skel.loop = true;
+                //Debug.Log("idle");
+            }
+        }
+    }
+    public enum Weapon
+    {
+        // (1)  (1,2)       (1)    (2)      (1)    (1)    (2)    (1)
+        rifle, gauntlet, twohand, basket, katana, staff, spear, sword, bow
+    }
+    [SerializeField]
+    Weapon weaponType;
     Transform towerTr;
     [SerializeField]
     GameObject target;
+    GameObject Target
+    {
+        get { return target; }
+        set
+        {
+            target = value;
+            if(target != null)
+            {
+                State = States.attack;
+            }
+            else
+            {
+                State = States.idle;
+            }
+        }
+    }
     SkeletonAnimation skel;
     string path;
     MeshRenderer meshRenderer;
     float originScaleXY;
     [SerializeField]
     string weaponAtlas;
-    [SerializeField]
-    SpineAtlasAsset items;
 
-    public void SetupTower(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
-        float range,float attackSpeed,string towerName, string assetName, string weaponAtlas)
+    SpineAtlasAsset atlasAsset; 
+    Atlas atlas;
+
+    public string attackName;
+    public void InitTowerData(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
+        float range,float attackSpeed)
     {
         this.rank = rank;
         this.type = type;
@@ -84,29 +139,39 @@ public class Tower : MonoBehaviour
         this.attackSpeed = attackSpeed;
         this.range = range;
         this.increment = increment;
+
+        //Debug.Log(weaponAtlas);
+    }
+    public void InitTowerAssets(string towerName, string assetName, string weaponAtlas, string weaponType, string attackName)
+    {
         this.towerName = towerName;
         this.assetName = assetName;
         this.weaponAtlas = weaponAtlas;
-        //Debug.Log(weaponAtlas);
+        this.weaponType = (Weapon)Enum.Parse(typeof(Weapon), weaponType);
+        this.attackName = attackName;
     }
-
     private void Start()
     {
         tm = TowerManager.Instance;
-        //gm = GameManager.Instance;
         towerTr = GetComponent<Transform>();
         skel = GetComponent<SkeletonAnimation>();
-        Init();
+        skel.loop = true;
+        path = $"characters/{assetName}/{assetName}";
+        atlasAsset = (SpineAtlasAsset)Resources.Load("items/items_Atlas");
+        atlas = atlasAsset.GetAtlas();
+        
+        Direction = Dir.front;
         originScaleXY = towerTr.localScale.x;
+        State = States.idle;
 
     }
     private void Update()
     {
         SetTargetAndAttack();
-        if (target != null)
+        if (Target != null)
         {
             //Debug.Log(Quaternion.FromToRotation(Vector2.one, (target.transform.position - towerTr.position)).eulerAngles.z);
-            float angle = Quaternion.FromToRotation((target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
+            float angle = Quaternion.FromToRotation((Target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
             if (angle > 0 && angle <= 90)
             {
                 Direction = Dir.back;
@@ -127,41 +192,88 @@ public class Tower : MonoBehaviour
             }
         }
     }
-    public void Init()
+    public void InitTowerSkeleton()
     {
-        tm = TowerManager.Instance;
-        //gm = GameManager.Instance;
-        direction = Dir.front;
-
         skel = GetComponent<SkeletonAnimation>();
         path = $"characters/{assetName}/{assetName}";
-        meshRenderer = GetComponent<MeshRenderer>();
-        meshRenderer.sharedMaterial = (Material)Resources.Load($"{path}_Material");
-        skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
-
-        items = (SpineAtlasAsset)Resources.Load("items/items_Atlas");
-        Atlas atlas = items.GetAtlas();
-        AtlasRegion item = atlas.FindRegion(weaponAtlas);
-
-        Slot slot = skel.Skeleton.FindSlot($"[base]weapon1_{direction}");
-        Debug.Log(skel.SkeletonDataAsset.scale);
-        var newRegionAttachment = item.ToRegionAttachment(item.name, skel.SkeletonDataAsset.scale*0.75f);
-        slot.Attachment = newRegionAttachment;
+        direction = Dir.front;
+        SetSkeletonDirection();
     }
+    void SetSkeletonDirection()
+    {
+        meshRenderer = GetComponent<MeshRenderer>();
+        //Debug.Log($"{path}_Material");
+        meshRenderer.sharedMaterial = (Material)Resources.Load($"{path}_Material");
+        meshRenderer.sortingOrder = -1;
+        //Debug.Log($"{path}_{direction}_SkeletonData");
+        SkeletonDataAsset newSkeletonData = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
+        if (skel.skeletonDataAsset != newSkeletonData)
+        {
+            skel.skeletonDataAsset = newSkeletonData;
+            skel.Initialize(true);
+            if (state == States.idle)
+            {
+                skel.AnimationName = $"{weaponType}_{state}_{direction}";
+            }
+            else if (state == States.attack)
+            {
+                skel.AnimationName = $"{attackName}_{direction}";
+            }
+        }
+        //skel.AnimationName = $"{weaponType}_{state}_{direction}";
+    }
+    void SetWeaponAtlas()
+    {
+        Slot slot;
+        switch (weaponType)
+        {
+            case Weapon.gauntlet:
+                slot = skel.Skeleton.FindSlot($"[base]weapon1_{direction}");
+                break;
+            case Weapon.basket:
+                slot = skel.Skeleton.FindSlot($"[base]weapon2_{direction}");
+                break;
+            case Weapon.spear:
+                slot = skel.Skeleton.FindSlot($"[base]weapon2_{direction}");
+                break;
+            default:
+                slot = skel.Skeleton.FindSlot($"[base]weapon1_{direction}");
+                break;
+        }
+        Attachment originalAttachment = slot.Attachment;
+        AtlasRegion region = atlas.FindRegion(weaponAtlas);
+        
+        float scale = skel.SkeletonDataAsset.scale;
+        if (region == null)
+        {
+            slot.Attachment = null;
+        }
+        else if (originalAttachment != null)
+        {
+            slot.Attachment = originalAttachment.GetRemappedClone(region, true, true, scale);
+        }
+        else
+        {
+            var newRegionAttachment = region.ToRegionAttachment(region.name, scale);
+            slot.Attachment = newRegionAttachment;
+        }       
+    }
+
     IEnumerator AttackCoroutine()
     {
-        while (target != null)
+        while (Target != null)
         {
-            EnemyController targetCtrl = target.GetComponent<EnemyController>();
-            float distance = Vector2.Distance(towerTr.position, target.transform.position);
+            EnemyController targetCtrl = Target.GetComponent<EnemyController>();
+            float distance = Vector2.Distance(towerTr.position, Target.transform.position);
             if (distance > range + 0.125)
             {
-                target.GetComponent<MeshRenderer>().material.color = Color.white;
+                Target.GetComponent<MeshRenderer>().material.color = Color.white;
                 //Debug.Log(Vector2.Distance(towerTr.position, target.transform.position));
                 break;
             }
             else
             {
+                state = States.attack;
                 targetCtrl.hp -= dmg + increment * tm.GetUpgrade(type);
                 yield return new WaitForSeconds(attackSpeed);
             }
@@ -169,7 +281,7 @@ public class Tower : MonoBehaviour
         }
         //Debug.Log($"target null");
         yield return new WaitForSeconds(attackSpeed);
-        target = null;
+        Target = null;
         StopCoroutine(AttackCoroutine());
     }
 
@@ -181,7 +293,7 @@ public class Tower : MonoBehaviour
     }
     void SetTargetAndAttack()
     {
-        if(target == null)
+        if(Target == null)
         {
             Collider[] colls = Physics.OverlapSphere(transform.position, range);
             Dictionary<GameObject, float> nearby = new Dictionary<GameObject, float>();
@@ -202,10 +314,10 @@ public class Tower : MonoBehaviour
             //Debug.Log($"min: {nearby.First().Value}");
             if (Vector2.Distance(towerTr.position, nearest.transform.position) < range)
             {
-                target = nearest;
+                Target = nearest;
 
                 // Å¸°Ù Ç¥½Ã..
-                target.GetComponent<MeshRenderer>().material.color = Color.red;
+                Target.GetComponent<MeshRenderer>().material.color = Color.red;
                 StartCoroutine(AttackCoroutine());
             }
         }

@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: sea_witch
   rank: 3
   type: 1
+  state: 0
+  weaponType: 3
   target: {fileID: 0}
   weaponAtlas: cwp_seawitch
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: sea_witch/attack3
 --- !u!33 &7620482662507412865
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &5653016940428653730
 MonoBehaviour:
@@ -122,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a7441d59560b66b4a9cf512c92d7f821, type: 2}
-  initialSkinName: sea_witch_5
+  initialSkinName: sea_witch_3
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

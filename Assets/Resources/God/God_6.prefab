@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: garam
   rank: 4
   type: 1
+  state: 0
+  weaponType: 8
   target: {fileID: 0}
   weaponAtlas: cwp_garam
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: bow_attack
 --- !u!33 &4156865516349753070
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &8522653321798800753
 MonoBehaviour:

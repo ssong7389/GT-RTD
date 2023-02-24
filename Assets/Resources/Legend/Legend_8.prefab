@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: succubus_noble
   rank: 3
   type: 2
+  state: 0
+  weaponType: 7
   target: {fileID: 0}
   weaponAtlas: cwp_succubusnoble
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: unique/charging_attack2
 --- !u!33 &7661458591439870080
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &6896208239437964386
 MonoBehaviour:
@@ -122,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: d1a185a1949bf4140a4d0009a3ed7737, type: 2}
-  initialSkinName: succubus_noble_5
+  initialSkinName: succubus_noble_3
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

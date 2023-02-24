@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: ms_chrome
   rank: 2
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
   weaponAtlas: cwp_mschrome
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: rifle_shoot
 --- !u!33 &7336989348862649008
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-3218064355178965506
 MonoBehaviour:
@@ -122,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: bd773dd8e266b3045a9517aba8df6218, type: 2}
-  initialSkinName: ms_chrome_5
+  initialSkinName: ms_chrome_4
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

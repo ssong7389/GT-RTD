@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: alpaca_girl
   rank: 4
   type: 1
+  state: 0
+  weaponType: 1
   target: {fileID: 0}
   weaponAtlas: cwp_alpacagirl
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: alpaca_girl/attack3
 --- !u!33 &-7994705670526324344
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-2446345175383623957
 MonoBehaviour:

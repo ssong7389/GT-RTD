@@ -53,12 +53,14 @@ MonoBehaviour:
   range: 4.5
   attackSpeed: 0.5
   towerName: "\uD76C\uADC0_8"
-  assetName: demon_brother_5
+  assetName: demon_brother_2
   rank: 1
   type: 2
+  state: 0
+  weaponType: 3
   target: {fileID: 0}
   weaponAtlas: cwp_demonbrother
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: basket_attack
 --- !u!33 &8641944493387343032
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87,7 +89,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43d0f94bd90f09544a07a2181e6fdfb3, type: 2}
+  - {fileID: 2100000, guid: 9c54958df694f2a458633bdb923a97a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-8370021920948652097
 MonoBehaviour:
@@ -121,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 24bfa6b8bc8774e478f982568985f0f8, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: fcfadec60532a8b46af377a559278b6d, type: 2}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0

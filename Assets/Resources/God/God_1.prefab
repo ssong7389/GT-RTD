@@ -53,12 +53,14 @@ MonoBehaviour:
   range: 2.5
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_1"
-  assetName: admiral_sharkpajama
+  assetName: legendary_hero
   rank: 4
   type: 0
+  state: 0
+  weaponType: 7
   target: {fileID: 0}
-  weaponAtlas: onehandsword_shark_pillow
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  weaponAtlas: cwp_legendaryhero
+  attackName: legendary_hero/attack3
 --- !u!33 &-906304243431106792
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87,7 +89,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 942469bbfa234254983b83a2b0349556, type: 2}
+  - {fileID: 2100000, guid: 2f5b0fee5f5fa3a43a098cfe870c2a90, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &5545629155553457957
 MonoBehaviour:
@@ -121,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: c3c976abd4061fc48b778fed4a047739, type: 2}
-  initialSkinName: 
+  skeletonDataAsset: {fileID: 11400000, guid: 8f1cf341ff1448548bc152fc9977f84d, type: 2}
+  initialSkinName: legendary_hero_5
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

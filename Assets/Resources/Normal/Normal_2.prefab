@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: knight_captain_4
   rank: 0
   type: 0
+  state: 0
+  weaponType: 5
   target: {fileID: 0}
   weaponAtlas: cwp_knightcaptain
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: staff_attack
 --- !u!33 &-2430051960755842695
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-8390330255946904735
 MonoBehaviour:

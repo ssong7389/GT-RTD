@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: eight_tail
   rank: 3
   type: 1
+  state: 0
+  weaponType: 3
   target: {fileID: 0}
   weaponAtlas: cwp_eighttail
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: basket_attack
 --- !u!33 &3813046824773260728
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-9073364780154796689
 MonoBehaviour:
@@ -122,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: eac75288a167aa743a945a96ae2ebfac, type: 2}
-  initialSkinName: eight_tail_5
+  initialSkinName: eight_tail_4
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

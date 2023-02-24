@@ -53,12 +53,14 @@ MonoBehaviour:
   range: 2
   attackSpeed: 0.5
   towerName: "\uD76C\uADC0_1"
-  assetName: steam_knight_5
+  assetName: steam_knight_3
   rank: 1
   type: 0
+  state: 0
+  weaponType: 6
   target: {fileID: 0}
   weaponAtlas: cwp_steamknight
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: spear_attack2
 --- !u!33 &-3371259905547227323
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87,7 +89,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e97266f441dc9ec4a9dd790b2a891b3e, type: 2}
+  - {fileID: 2100000, guid: b32414b79bc3af04a9e74909ebf5e9cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-5588917468377994147
 MonoBehaviour:
@@ -121,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 25143c08c01ef5e429b9d697a33e5dfa, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: b61f41e556768a94486347dfec996db6, type: 2}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -144,7 +146,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: spear_idle_front
   loop: 0
   timeScale: 1
 --- !u!65 &6873264149538492177

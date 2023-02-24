@@ -56,9 +56,11 @@ MonoBehaviour:
   assetName: china_chef
   rank: 3
   type: 0
+  state: 0
+  weaponType: 7
   target: {fileID: 0}
   weaponAtlas: cwp_chinachef
-  items: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  attackName: china_chef/attack1
 --- !u!33 &8742594006221012557
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &-3430998048832895325
 MonoBehaviour:
