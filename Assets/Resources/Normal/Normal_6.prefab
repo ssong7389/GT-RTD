@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -1988740339362592042}
   - component: {fileID: 8947785716784697077}
   - component: {fileID: -8362456906178415435}
+  - component: {fileID: -6569833064721150432}
   m_Layer: 7
   m_Name: Normal_6
   m_TagString: NORMAL
@@ -49,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 30
-  increment: 0
+  increment: 0.1
   range: 5.5
   attackSpeed: 0.5
   towerName: "\uC77C\uBC18_6"
@@ -162,3 +163,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &-6569833064721150432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6868910062356404223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd10f2cfa434e244982f21fae22f6e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productScaleX: 0.3
+  productScaleY: 0.2
+  order: -2
+  shadowColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}

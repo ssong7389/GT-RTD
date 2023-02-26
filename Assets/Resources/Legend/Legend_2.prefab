@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3565171936739604396}
   - component: {fileID: -6941676775223751031}
   - component: {fileID: -2332429172297855608}
-  - component: {fileID: 6888245024021618525}
+  - component: {fileID: -8069503666007388140}
   m_Layer: 7
   m_Name: Legend_2
   m_TagString: LEGEND
@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 400
-  increment: 3
+  increment: 0.1
   range: 3.6
   attackSpeed: 0.5
   towerName: "\uC804\uC124_2"
@@ -163,7 +163,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0.25, z: 0}
---- !u!114 &6888245024021618525
+--- !u!114 &-8069503666007388140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,11 +172,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7224342839691174149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Script: {fileID: 11500000, guid: dd10f2cfa434e244982f21fae22f6e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
-  inheritProperties: 1
-  attachments:
-  - slot: '[base]weapon2_front'
-    region: cwp_festivalgirl
+  productScaleX: 0.3
+  productScaleY: 0.2
+  order: -2
+  shadowColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}

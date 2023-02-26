@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4865995321814855361}
   - component: {fileID: -4984755145008024525}
   - component: {fileID: -7471977911787019778}
+  - component: {fileID: 6578518601894116307}
   m_Layer: 7
   m_Name: Normal_4
   m_TagString: NORMAL
@@ -49,18 +50,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 30
-  increment: 0
+  increment: 0.1
   range: 2
   attackSpeed: 0.5
   towerName: "\uC77C\uBC18_4"
-  assetName: pet_2
+  assetName: white_beast
   rank: 0
   type: 1
   state: 0
   weaponType: 1
   target: {fileID: 0}
-  weaponAtlas: cwp_pet
-  attackName: pet/attack1
+  weaponAtlas: cwp_whitebeast
+  attackName: white_beast/attack2
 --- !u!33 &8402392974759877461
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f0f49af8004401b4293273a09b39bf45, type: 2}
+  - {fileID: 2100000, guid: 3e286a743b113aa4e90ee2f99486076b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,8 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: acecc6bd2ce41a14cb504642779ffe83, type: 2}
-  initialSkinName: 
+  skeletonDataAsset: {fileID: 11400000, guid: a5921a69b6bd2db41b4bf7b0ac93d3a0, type: 2}
+  initialSkinName: white_beast_4
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3
@@ -146,7 +147,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: gauntlet_idle_front
   loop: 0
   timeScale: 1
 --- !u!65 &-7471977911787019778
@@ -162,3 +163,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 1}
   m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &6578518601894116307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7501038205439663449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd10f2cfa434e244982f21fae22f6e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productScaleX: 0.3
+  productScaleY: 0.2
+  order: -2
+  shadowColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
