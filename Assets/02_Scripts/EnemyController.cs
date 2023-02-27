@@ -30,10 +30,10 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
-        if (hp <= 0)
-        {
-            EnemyDead();
-        }
+        //if (hp <= 0)
+        //{
+        //    EnemyDead();
+        //}
     }
     public void MoveToArrival()
     {
@@ -61,7 +61,7 @@ public class EnemyController : MonoBehaviour
                 {
                     enemyTr.position = turns[tpIndex].transform.position;
                     dir = (turns[tpIndex].transform.position - enemyTr.position);
-                    // 회전 추가
+                    // 방향전환
                     tpIndex++;
                 }
             }
@@ -78,15 +78,28 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Arrival"))
         {
-            gm.Life--;
-            //Debug.Log(gm.Life);
-            ++gm.RemovedEnemyCnt;
-            if (gm.SelectedObject == gameObject)
+            if (gameObject.CompareTag("BOSS"))
             {
-                gm.SelectedObject = null;
+                gm.Life -= 10;
+                gm.RemovedEnemyCnt += 20;
+                if (gm.SelectedObject == gameObject)
+                {
+                    gm.SelectedObject = null;
+                }
+                InitEnemy();
             }
-            StopCoroutine(MoveCoroutine());
-            InitEnemy();
+            else
+            {
+                gm.Life--;
+                //Debug.Log(gm.Life);
+                ++gm.RemovedEnemyCnt;
+                if (gm.SelectedObject == gameObject)
+                {
+                    gm.SelectedObject = null;
+                }
+                StopCoroutine(MoveCoroutine());
+                InitEnemy();
+            }
         }
     }
 
@@ -97,25 +110,42 @@ public class EnemyController : MonoBehaviour
             gm.SelectedObject = null;
         }
         StopCoroutine(MoveCoroutine());
-        ++gm.RemovedEnemyCnt;
-        //Debug.Log($"removed: {gm.RemovedEnemyCnt}");
-        ++gm.TotalKills;
-        //Debug.Log(gm.TotalKills);
-        InitEnemy();
+        if (CompareTag("BOSS"))
+        {
+            ++gm.Crystals;
+            // 보스 처치 연출 등
+            GameManager.Instance.IsRoundClear = true;
+            InitEnemy();
+        }
+        else
+        {
+            ++gm.RemovedEnemyCnt;
+            //Debug.Log($"removed: {gm.RemovedEnemyCnt}");
+            ++gm.TotalKills;
+            //Debug.Log(gm.TotalKills);
+            InitEnemy();
+        }
+
     }
 
     public void InitEnemy()
-    {
-        if(spawn==null)
+    {       
+        GetComponent<BoxCollider>().enabled = false;
+        gameObject.SetActive(false);
+        if (spawn == null)
             spawn = GameObject.FindGameObjectWithTag("Spawn");
         // 렌더러 끄기
         gameObject.name = $"Round {GameManager.Instance.Rounds}";
         transform.position = spawn.transform.position;
         tpIndex = 0;
-        initHp += 50 * ((GameManager.Instance.Rounds - 1)/ 5);
+        initHp += 50 * ((GameManager.Instance.Rounds - 1) / 5);
         maxHp = initHp * GameManager.Instance.Rounds * GameManager.Instance.Ratio;
         hp = maxHp;
-        gameObject.SetActive(false);
-        // 라운드에 따른 hp 상승 및 초기화      
+        if (gameObject.CompareTag("BOSS"))
+        {
+            maxHp *= GameManager.Instance.unitsPerRound;
+            hp = maxHp;
+        }
+
     }
 }

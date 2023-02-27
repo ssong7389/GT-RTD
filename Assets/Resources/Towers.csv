@@ -10,7 +10,7 @@ TowerName,Rank,Type,Damage,Increment,Range,Speed,Path,AssetName,WeaponAtlas,Weap
 희귀_1,1,0,50.0,0.1,2.0,0.5,Rare/Rare_1,steam_knight_4,cwp_steamknight,spear,spear_attack2
 희귀_2,1,0,50.0,0.1,3.6,0.5,Rare/Rare_2,flower_girl_3,cwp_flowergirl,basket,unique/basket_cast
 희귀_3,1,0,50.0,0.1,6.0,0.5,Rare/Rare_3,sniper_3,cwp_sniper,rifle,sniper_shoot
-희귀_4,1,1,50.0,0.1,2.0,0.5,Rare/Rare_4,sheep_girl,cwp_sheepgirl,katana,sheepgirl/attack1
+희귀_4,1,1,50.0,0.1,2.0,0.5,Rare/Rare_4,sheep_girl,cwp_sheepgirl,katana,sheep_girl/attack1
 희귀_5,1,1,50.0,0.1,4.0,0.5,Rare/Rare_5,dragon_boy_3,cwp_dragonboy,staff,staff_attack
 희귀_6,1,1,50.0,0.1,5.5,0.5,Rare/Rare_6,party_mad_panda_panda,cwp_partymadpanda_minigun,rifle,rifle_shoot
 희귀_7,1,2,50.0,0.1,2.0,0.5,Rare/Rare_7,demon_sister_5,cwp_demonsister,gauntlet,gauntlet_boong_attack

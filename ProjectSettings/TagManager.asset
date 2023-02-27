@@ -18,6 +18,7 @@ TagManager:
   - ModesConent
   - CreditManager
   - InfoManager
+  - BOSS
   layers:
   - Default
   - TransparentFX

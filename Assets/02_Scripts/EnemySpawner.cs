@@ -11,8 +11,10 @@ public class EnemySpawner : MonoBehaviour
     public float spawnRate = 0.2f;
 
     public GameObject enemyPrefab;
+    public GameObject bossPrefab;
     GameObject[] enemies;
-
+    GameObject boss;
+    EnemyController bossController;
     void Start()
     {
         gm = GameManager.Instance;
@@ -28,19 +30,37 @@ public class EnemySpawner : MonoBehaviour
             enemyCtrl.initHp = 100f;
             enemyCtrl.InitEnemy();
         }
+        boss = Instantiate(bossPrefab);
+        bossController = boss.GetComponent<EnemyController>();
+        bossController.maxHp = 100f;
+        bossController.initHp = 100f;
+        boss.SetActive(false);
         StartCoroutine(StartRound());
     }
 
     IEnumerator StartRound()
     {
         //Debug.Log(gm.IsRoundClear);
-            yield return new WaitForSeconds(gm.PreTime);
-            gm.IsRoundClear = false;
-        for (int i = 0; i < enemies.Length; i++)
+        yield return new WaitForSeconds(gm.PreTime);
+        gm.IsRoundClear = false;
+
+        if (GameManager.Instance.Rounds % 10 == 0)
         {
-            enemies[i].SetActive(true);
-            enemies[i].GetComponent<EnemyController>().MoveToArrival();
-            yield return new WaitForSeconds(spawnRate);
+            bossController.InitEnemy();
+            boss.SetActive(true);
+            boss.GetComponent<BoxCollider>().enabled = true;
+            bossController.MoveToArrival();
+        }
+        else
+        {
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                //enemies[i].transform.position = spawnPoint.position;
+                enemies[i].SetActive(true);
+                enemies[i].GetComponent<BoxCollider>().enabled = true;
+                enemies[i].GetComponent<EnemyController>().MoveToArrival();
+                yield return new WaitForSeconds(spawnRate);
+            }
         }
         yield return new WaitUntil(() => gm.IsRoundClear);
         if (GameManager.Instance.End == 0)
@@ -59,7 +79,14 @@ public class EnemySpawner : MonoBehaviour
                 StartCoroutine(StartRound());
             }
         }
-        //gm.Rounds++;
     }
 
+    IEnumerator StartBossRound()
+    {
+        yield return new WaitForSeconds(gm.PreTime);
+        gm.IsRoundClear = false;
+
+
+
+    }
 }

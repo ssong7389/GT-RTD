@@ -79,10 +79,11 @@ public class Tower : MonoBehaviour
             if (state == States.attack)
             {
                 //skel.AnimationName = 
+                //skel.loop = false;
                 skel.AnimationName = $"{attackName}_{direction}";
-                skel.loop = false;
+                //skel.loop = false;
                 //Debug.Log("att");
-                State = States.idle;
+                //State = States.idle;
             }
 
             else
@@ -111,6 +112,7 @@ public class Tower : MonoBehaviour
             target = value;
             if(target != null)
             {
+                targetCtrl = Target.GetComponent<EnemyController>();
                 State = States.attack;
             }
             else
@@ -119,6 +121,7 @@ public class Tower : MonoBehaviour
             }
         }
     }
+    EnemyController targetCtrl;
     SkeletonAnimation skel;
     string path;
     MeshRenderer meshRenderer;
@@ -167,29 +170,36 @@ public class Tower : MonoBehaviour
     }
     private void Update()
     {
-        SetTargetAndAttack();
-        if (Target != null)
+        if (Target != null && targetCtrl.hp>0)
         {
             //Debug.Log(Quaternion.FromToRotation(Vector2.one, (target.transform.position - towerTr.position)).eulerAngles.z);
-            float angle = Quaternion.FromToRotation((Target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
-            if (angle > 0 && angle <= 90)
-            {
-                Direction = Dir.back;
-            }
-            else if(angle >90 && angle <= 180)
-            {
-                Direction = Dir.side;
-                towerTr.localScale = new Vector3(originScaleXY, originScaleXY);
-            }
-            else if(angle >180 && angle <= 270)
-            {
-                Direction = Dir.front;
-            }
-            else if(angle>270 && angle <= 360)
-            {
-                Direction = Dir.side;
-                towerTr.localScale = new Vector3(-originScaleXY, originScaleXY, 1);
-            }
+
+        }
+        if (Target == null)
+        {
+            SetTargetAndAttack();
+        }
+    }
+    void SetDirection()
+    {
+        float angle = Quaternion.FromToRotation((Target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
+        if (angle > 0 && angle <= 90)
+        {
+            Direction = Dir.back;
+        }
+        else if (angle > 90 && angle <= 180)
+        {
+            Direction = Dir.side;
+            towerTr.localScale = new Vector3(originScaleXY, originScaleXY);
+        }
+        else if (angle > 180 && angle <= 270)
+        {
+            Direction = Dir.front;
+        }
+        else if (angle > 270 && angle <= 360)
+        {
+            Direction = Dir.side;
+            towerTr.localScale = new Vector3(-originScaleXY, originScaleXY, 1);
         }
     }
     public void InitTowerSkeleton()
@@ -263,25 +273,36 @@ public class Tower : MonoBehaviour
     {
         while (Target != null)
         {
-            EnemyController targetCtrl = Target.GetComponent<EnemyController>();
+
             float distance = Vector2.Distance(towerTr.position, Target.transform.position);
             if (distance > range + 0.125)
             {
                 Target.GetComponent<MeshRenderer>().material.color = Color.white;
                 //Debug.Log(Vector2.Distance(towerTr.position, target.transform.position));
+                Target = null;
                 break;
             }
             else
             {
-                state = States.attack;
+                if (Target.activeSelf)
+                {
+                    SetDirection();
+                }
+                if(State != States.attack)
+                    State = States.attack;
                 targetCtrl.hp -= dmg + increment * tm.GetUpgrade(type);
+                if (targetCtrl.hp <= 0)
+                {
+                    Target = null;
+                    targetCtrl.EnemyDead();
+                    break;
+                }
                 yield return new WaitForSeconds(attackSpeed);
             }
-            // °ø°Ý ÀÌÆåÆ®
         }
+        
         //Debug.Log($"target null");
         yield return new WaitForSeconds(attackSpeed);
-        Target = null;
         StopCoroutine(AttackCoroutine());
     }
 
@@ -289,17 +310,17 @@ public class Tower : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, range);
+        Gizmos.DrawWireSphere(new Vector2(transform.position.x, transform.position.y +0.25f), range);
     }
     void SetTargetAndAttack()
     {
         if(Target == null)
         {
-            Collider[] colls = Physics.OverlapSphere(transform.position, range);
+            Collider[] colls = Physics.OverlapSphere(transform.position + Vector3.up *0.25f, range);
             Dictionary<GameObject, float> nearby = new Dictionary<GameObject, float>();
             foreach (var coll in colls)
             {
-                if (coll.CompareTag("ENEMY"))
+                if (coll.CompareTag("ENEMY") || coll.CompareTag("BOSS"))
                 {
                     nearby.Add(coll.gameObject, (coll.transform.position - towerTr.position).sqrMagnitude);
                 }

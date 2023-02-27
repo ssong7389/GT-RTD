@@ -301,6 +301,7 @@ MonoBehaviour:
   gold: 5000
   life: 20
   ratio: 0
+  end: 0
 --- !u!1 &6260143693338663629
 GameObject:
   m_ObjectHideFlags: 0

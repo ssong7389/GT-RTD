@@ -101,6 +101,10 @@ public class GameManager : MonoBehaviour
             rounds = value;
             if (infoManager != null)
             {
+                if (Rounds == 1)
+                {
+
+                }
                 if (End == 0)
                 {
                     infoManager.roundText.text = $"{rounds.ToString()} Round";
@@ -122,6 +126,7 @@ public class GameManager : MonoBehaviour
         set
         {
             //Debug.Log(removedEnemyCnt);
+            Debug.Log(gameObject.GetHashCode());
             removedEnemyCnt = value;
             if (removedEnemyCnt == unitsPerRound)
             {
@@ -181,6 +186,14 @@ public class GameManager : MonoBehaviour
     public int Crystals
     {
         get { return crystals; }
+        set
+        {
+            crystals = value;
+            if (creditManager != null)
+            {
+                creditManager.SetCrystal();
+            }
+        }
     }
     #endregion
     public enum Selected
@@ -214,6 +227,7 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Tower");
                         selected = Selected.TOWER;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnMergeBtnClicked(selectedObject));
+                        selectedObject.GetComponent<CharacterShadow>().IndicatesTower(true);
                         break;
                     case 8:
                         Debug.Log("Enemy");
@@ -229,6 +243,7 @@ public class GameManager : MonoBehaviour
     private GameInfoManager infoManager;
     void Awake()
     {
+        Debug.Log(gameObject.GetHashCode());
         if(_instance == null)
         {
             _instance = this;
@@ -254,7 +269,18 @@ public class GameManager : MonoBehaviour
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    public void InitGameData(string modeName, int gold, int life, int ratio, int end)
+    {
+        mode = modeName;
+        this.gold = gold;
+        this.life = life;
+        this.ratio = ratio;
+        this.end = end;
+    }
+    void InitInfoData()
+    {
 
+    }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if(scene.buildIndex == 1)
@@ -263,8 +289,14 @@ public class GameManager : MonoBehaviour
             creditManager.SetGold();
             creditManager.SetGem();
             infoManager = GameObject.FindGameObjectWithTag("InfoManager").GetComponent<GameInfoManager>();
+            Debug.Log(life);
             infoManager.lifeText.text = life.ToString();
             Rounds = 1;
+            Life = life;
+            Gold = gold;
+            Ratio = ratio;
+            End = end;
+            Mode = this.mode;
         }
     }
 

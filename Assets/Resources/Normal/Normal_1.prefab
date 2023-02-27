@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7998757378460552065}
-  - component: {fileID: -2758106647108260637}
   - component: {fileID: -3008553460020155113}
   - component: {fileID: 3242173144644786478}
-  - component: {fileID: -8658899423906529315}
   - component: {fileID: -32136040051665865}
   - component: {fileID: -2053069895231352686}
+  - component: {fileID: 8292844730811624790}
+  - component: {fileID: 6485338296742386552}
   m_Layer: 7
   m_Name: Normal_1
   m_TagString: NORMAL
@@ -37,31 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-2758106647108260637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7998757378460552069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dmg: 30
-  increment: 0.1
-  range: 2
-  attackSpeed: 0.5
-  towerName: "\uC77C\uBC18_1"
-  assetName: knight_female_hero
-  rank: 0
-  type: 0
-  state: 0
-  weaponType: 7
-  target: {fileID: 0}
-  weaponAtlas: cwp_knight
-  attackName: sword_attack
 --- !u!33 &-3008553460020155113
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -112,7 +87,66 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-8658899423906529315
+--- !u!65 &-32136040051665865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7998757378460552069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 1}
+  m_Center: {x: 0, y: 0.125, z: 0}
+--- !u!114 &-2053069895231352686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7998757378460552069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd10f2cfa434e244982f21fae22f6e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadowOrder: -1
+  highlightOrder: -2
+  indicatorOrder: 1
+  indicator: {fileID: 0}
+  shadowColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}
+  highlightColor: {r: 1, g: 1, b: 0, a: 1}
+  shadowScale: {x: 0.3, y: 0.2, z: 1}
+  highlightScale: {x: 0.6, y: 0.6, z: 1}
+  indicatorScale: {x: 1, y: 1, z: 1}
+--- !u!114 &8292844730811624790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7998757378460552069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 30
+  increment: 0.1
+  range: 2
+  attackSpeed: 0.5
+  towerName: "\uC77C\uBC18_1"
+  assetName: knight_female_hero
+  rank: 0
+  type: 0
+  state: 0
+  weaponType: 7
+  target: {fileID: 0}
+  weaponAtlas: cwp_knight
+  attackName: sword_attack
+--- !u!114 &6485338296742386552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,35 +181,6 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: gauntlet_idle_front
   loop: 0
   timeScale: 1
---- !u!65 &-32136040051665865
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7998757378460552069}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 1}
-  m_Center: {x: 0, y: 0.25, z: 0}
---- !u!114 &-2053069895231352686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7998757378460552069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd10f2cfa434e244982f21fae22f6e55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  productScaleX: 0.3
-  productScaleY: 0.2
-  order: -2
-  shadowColor: {r: 0.11764706, g: 0.11764706, b: 0.11764706, a: 1}

@@ -2248,6 +2248,7 @@ MonoBehaviour:
   enemyCnt: 20
   spawnRate: 1
   enemyPrefab: {fileID: 7998757378460552069, guid: 05ca19eccfeee2b499301f0e9731754e, type: 3}
+  bossPrefab: {fileID: 7998757378460552069, guid: a753ca7fc10cb2944a7b4f1816956fa7, type: 3}
 --- !u!4 &335970725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6604376233783896068, guid: 69602fc0c881dee47b49c016b50d9127, type: 3}
@@ -5718,7 +5719,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &853733417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6604376233783896068, guid: 69602fc0c881dee47b49c016b50d9127, type: 3}
@@ -6568,7 +6573,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1067274300
 Transform:
   m_ObjectHideFlags: 0
@@ -6893,7 +6902,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1124778774
 Transform:
   m_ObjectHideFlags: 0
@@ -7073,7 +7086,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1137028167
 Transform:
   m_ObjectHideFlags: 0
@@ -9108,7 +9125,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1375458866
 Transform:
   m_ObjectHideFlags: 0
@@ -11294,7 +11315,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1590608996
 Transform:
   m_ObjectHideFlags: 0
@@ -12089,7 +12114,11 @@ MonoBehaviour:
   assetName: 
   rank: 0
   type: 0
+  state: 0
+  weaponType: 0
   target: {fileID: 0}
+  weaponAtlas: 
+  attackName: 
 --- !u!4 &1748246036
 Transform:
   m_ObjectHideFlags: 0

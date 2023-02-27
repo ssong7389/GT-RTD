@@ -64,13 +64,16 @@ public class TowerManager : MonoBehaviour
         if(gm.Gold >= towerPrice)
         {
             gm.Gold -= towerPrice;
-            GameObject tower =  GetRandomTower(Ranks.NORMAL, buildArea.position);
+
+            Vector3 pos = buildArea.position - Vector3.up * 0.25f;
+            GameObject tower =  GetRandomTower(Ranks.NORMAL, pos);
         }
     }
     public void SellTower(GameObject towerToSell)
     {
         int price = towerPrice * (1 << (int)towerToSell.GetComponent<Tower>().Rank);
         gm.Gold += price / 2;
+        towerToSell.GetComponent<CharacterShadow>().IndicatesTower(false);
         Destroy(towerToSell);
     }
 
@@ -93,7 +96,8 @@ public class TowerManager : MonoBehaviour
                 {
                     // selectedTr에 다음 등급 타워 생성
                     GameObject mergedTower = GetRandomTower(++rank, selectedTr.position);
-                    mergedTower.transform.position = selectedTr.position;
+                    selectedTower.GetComponent<CharacterShadow>().IndicatesTower(false);
+                    //GameManager.Instance.SelectedObject = null;
                     Destroy(selectedTower);
                     Destroy(tower);
                     break;
@@ -108,7 +112,7 @@ public class TowerManager : MonoBehaviour
 
         GameObject tower = Instantiate(towerList[UnityEngine.Random.Range(0, towerList.Count)]);
         tower.name = tower.GetComponent<Tower>().TowerName;
-        tower.transform.position = new Vector3(pos.x, pos.y-0.5f, pos.z);
+        tower.transform.position = pos;
         return tower;
     }
 

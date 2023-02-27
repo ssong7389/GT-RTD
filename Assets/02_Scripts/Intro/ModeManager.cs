@@ -23,14 +23,7 @@ public class ModeManager : MonoBehaviour
         //modeInfoText = transform.Find("ModeInfoText").GetComponent<Text>();
     }
 
-    public void SetDifficulty()
-    {
-        gm.Mode = modeName;
-        gm.Gold = gold;
-        gm.Life = life;
-        gm.Ratio = ratio;
-        gm.End = end;
-    }
+
     public void SetText()
     {
         modeNameText = transform.Find("ModeNameText").GetComponent<Text>();
@@ -44,7 +37,7 @@ public class ModeManager : MonoBehaviour
     }
     public void OnModeBtnClicked()
     {
-        SetDifficulty();
+        GameManager.Instance.InitGameData(modeName, gold, life, ratio, end);
         SceneManager.LoadScene(1);
     }
 }
