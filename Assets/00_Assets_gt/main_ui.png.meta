@@ -126,7 +126,7 @@ TextureImporter:
         height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 24, y: 24, z: 24, w: 24}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -158,6 +158,195 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: life
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1419
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c4b79b5d99c8b42919db58f89d660c
+      internalID: -1591582931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upgrade_human
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 442
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ade7e1092b63245abd8cf1b7c917e8
+      internalID: 462237529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upgrade_suin
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 154
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d356f41d3fe39654db88d28cb38f846a
+      internalID: 1303906024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upgrade_demon
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 27
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882b828e25c774840a7f339549fcc691
+      internalID: -224338114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_bg
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 27
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35495c411db4024d9f668871f66b381
+      internalID: -23197905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_indicator
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 493
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52664ea3495b4d4abd701c25b15d358
+      internalID: -990248745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_button
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 874
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47fd80b1b46ced4ab5cca5c48055c19
+      internalID: 1442250003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_bg_01
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 262
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5957b0b51ba33ed4d9a055a8594f5c83
+      internalID: 1987922316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sell
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1206
+        width: 126
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c0e2c896c8acf4985fa0d2cf1370ff
+      internalID: -434615075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -169,8 +358,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      button_bg: -23197905
+      main_button: 1442250003
+      ui_bg_01: 1987922316
       indicator: -1609993798
       range: -623593542
+      sell: -434615075
+      life: -1591582931
+      upgrade_demon: -224338114
+      upgrade_suin: 1303906024
+      upgrade_human: 462237529
+      ui_indicator: -990248745
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

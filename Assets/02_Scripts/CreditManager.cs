@@ -8,13 +8,12 @@ public class CreditManager : MonoBehaviour
     GameObject golds;
     GameObject gems;
     GameObject crystals;
-    GameObject crystalPopup;
+    public GameObject crystalPopup;
     private void Start()
     {
         golds = transform.Find("Golds").gameObject;
         gems = transform.Find("Gems").gameObject;
         crystals = transform.Find("Crystals").gameObject;
-        crystalPopup = transform.Find("CrystalsPopup").gameObject;
         crystalPopup.SetActive(false);
         crystals.GetComponent<Button>().onClick.AddListener(() => OnCrystalBtnClicked());
     }

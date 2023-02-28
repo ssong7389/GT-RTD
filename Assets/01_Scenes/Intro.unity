@@ -610,7 +610,8 @@ MonoBehaviour:
   preTime: 5
   rounds: 0
   unitsPerRound: 0
-  isRoundClear: 1
+  removedEnemyCnt: 0
+  isRoundClear: 0
   gold: 0
   gem: 0
   selected: 0
