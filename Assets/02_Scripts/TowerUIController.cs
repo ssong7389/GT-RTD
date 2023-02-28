@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterShadow : MonoBehaviour
+public class TowerUIController : MonoBehaviour
 {
-    public int shadowOrder = -2;
+    public int shadowOrder = -1;
     public int highlightOrder = -2;
     public int indicatorOrder = 1;
+    public int rangeOrder = -3;
     GameObject shadow;
     public GameObject indicator;
     GameObject highlight;
+    GameObject range;
 
     public Color shadowColor = new Color(30f/255, 30f/255, 30f/255, 1f);
     public Color highlightColor = new Color(1f, 1f, 0, 1f);
+    public Color rangeColor = new Color(100f/255, 255f/255, 250f/255, 1f);
     Transform parentTr;
 
     public Vector3 shadowScale;
@@ -29,11 +32,17 @@ public class CharacterShadow : MonoBehaviour
         highlight.transform.localPosition += Vector3.up * 0.2f;
         highlight.SetActive(false);
 
-        indicator = AddSpriteFromResources("indicator", "characters/indicator", highlightColor, indicatorOrder, indicatorScale);
+        indicator = AddSpriteFromResources("indicator", "characters/ui_indicator", Color.white, indicatorOrder, indicatorScale);
         indicator.transform.localPosition += Vector3.up * 0.85f;
         indicator.SetActive(false);
 
+        // 사거리 x 2
         tower = gameObject.GetComponent<Tower>();
+        float scaleX = tower.range * 2f / 2.5f;
+        Vector3 rangeScale = new Vector3(scaleX, scaleX, 1f);
+        range = AddSpriteFromResources("range", "characters/range", rangeColor, rangeOrder, rangeScale);
+        range.transform.localPosition += Vector3.up * 0.1f;
+        range.SetActive(false);
     }
     private void Update()
     {
@@ -65,6 +74,7 @@ public class CharacterShadow : MonoBehaviour
     {
 
         indicator.SetActive(onOff);
+        range.SetActive(onOff);
         // 같은 타워면 인디케이터만 끄도록
         GameObject selectedObj = GameManager.Instance.SelectedObject;
         if ( selectedObj!= gameObject && selectedObj?.name == gameObject.name)
@@ -85,7 +95,7 @@ public class CharacterShadow : MonoBehaviour
         {
             if (tower.name == gameObject.name)
             {
-                tower.GetComponent<CharacterShadow>().highlight.SetActive(onOff);
+                tower.GetComponent<TowerUIController>().highlight.SetActive(onOff);
             }
         }
     }
