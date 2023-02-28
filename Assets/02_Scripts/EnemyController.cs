@@ -15,7 +15,6 @@ public class EnemyController : MonoBehaviour
     List<GameObject> turns;
     Vector3 dir;
     int tpIndex = 0;
-
     public float hp = 100f;
     public float initHp = 100f;
     public float maxHp = 100f;
@@ -25,15 +24,14 @@ public class EnemyController : MonoBehaviour
 
         spawn = GameObject.FindGameObjectWithTag("Spawn");
         arrival = GameObject.FindGameObjectWithTag("Arrival");
-
         //MoveToArrival();
     }
     private void Update()
     {
-        //if (hp <= 0)
-        //{
-        //    EnemyDead();
-        //}
+        if (hp <= 0)
+        {
+            EnemyDead();
+        }
     }
     public void MoveToArrival()
     {
@@ -86,7 +84,6 @@ public class EnemyController : MonoBehaviour
                 {
                     gm.SelectedObject = null;
                 }
-                InitEnemy();
             }
             else
             {
@@ -98,8 +95,9 @@ public class EnemyController : MonoBehaviour
                     gm.SelectedObject = null;
                 }
                 StopCoroutine(MoveCoroutine());
-                InitEnemy();
             }
+
+            InitEnemy();
         }
     }
 
@@ -115,7 +113,6 @@ public class EnemyController : MonoBehaviour
             ++gm.Crystals;
             // 보스 처치 연출 등
             GameManager.Instance.IsRoundClear = true;
-            InitEnemy();
         }
         else
         {
@@ -123,29 +120,46 @@ public class EnemyController : MonoBehaviour
             //Debug.Log($"removed: {gm.RemovedEnemyCnt}");
             ++gm.TotalKills;
             //Debug.Log(gm.TotalKills);
-            InitEnemy();
         }
-
+        InitEnemy();
     }
-
+    public void GenerateEnemy(float initHp, float maxHp)
+    {
+        GetComponent<BoxCollider>().enabled = false;
+        gameObject.SetActive(false);
+        if (spawn == null)
+            spawn = GameObject.FindGameObjectWithTag("Spawn");
+        transform.position = spawn.transform.position;
+        tpIndex = 0;
+        this.initHp = initHp;
+        this.maxHp = maxHp;
+        hp = maxHp;
+        gameObject.name = $"Round {GameManager.Instance.Rounds}";
+    }
     public void InitEnemy()
-    {       
+    {
+        int nextRound = GameManager.Instance.Rounds + 1;
         GetComponent<BoxCollider>().enabled = false;
         gameObject.SetActive(false);
         if (spawn == null)
             spawn = GameObject.FindGameObjectWithTag("Spawn");
         // 렌더러 끄기
-        gameObject.name = $"Round {GameManager.Instance.Rounds}";
         transform.position = spawn.transform.position;
         tpIndex = 0;
-        initHp += 50 * ((GameManager.Instance.Rounds - 1) / 5);
-        maxHp = initHp * GameManager.Instance.Rounds * GameManager.Instance.Ratio;
-        hp = maxHp;
-        if (gameObject.CompareTag("BOSS"))
+        initHp += 50 * ((nextRound - 1) / 5);
+        if (gameObject.CompareTag("ENEMY"))
         {
-            maxHp *= GameManager.Instance.unitsPerRound;
+            gameObject.name = $"Round {nextRound}";
+            maxHp = initHp * nextRound * GameManager.Instance.Ratio;
             hp = maxHp;
         }
-
+        if (gameObject.CompareTag("BOSS"))
+        {
+            int round = GameManager.Instance.Rounds;
+            gameObject.name = $"Round {round} Boss";
+            maxHp = initHp * round * GameManager.Instance.Ratio;
+            maxHp *= GameManager.Instance.unitsPerRound;
+            hp = maxHp;
+        }     
     }
 }

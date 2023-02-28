@@ -26,14 +26,13 @@ public class EnemySpawner : MonoBehaviour
 
             enemies[i] = enemy;
             EnemyController enemyCtrl = enemies[i].GetComponent<EnemyController>();
-            enemyCtrl.maxHp = 100f;
-            enemyCtrl.initHp = 100f;
-            enemyCtrl.InitEnemy();
+            enemyCtrl.GenerateEnemy(100f, 100f);
         }
         boss = Instantiate(bossPrefab);
         bossController = boss.GetComponent<EnemyController>();
         bossController.maxHp = 100f;
         bossController.initHp = 100f;
+        //boss.GetComponent<BoxCollider>().enabled = false;
         boss.SetActive(false);
         StartCoroutine(StartRound());
     }
@@ -50,19 +49,24 @@ public class EnemySpawner : MonoBehaviour
             boss.SetActive(true);
             boss.GetComponent<BoxCollider>().enabled = true;
             bossController.MoveToArrival();
+            foreach (var enemy in enemies)
+            {
+                enemy.GetComponent<EnemyController>().InitEnemy();
+            }
         }
         else
         {
             for (int i = 0; i < enemies.Length; i++)
             {
-                //enemies[i].transform.position = spawnPoint.position;
                 enemies[i].SetActive(true);
                 enemies[i].GetComponent<BoxCollider>().enabled = true;
                 enemies[i].GetComponent<EnemyController>().MoveToArrival();
                 yield return new WaitForSeconds(spawnRate);
             }
         }
-        yield return new WaitUntil(() => gm.IsRoundClear);
+
+        yield return new WaitUntil(() => GameManager.Instance.IsRoundClear == true);
+        GameManager.Instance.Rounds++;
         if (GameManager.Instance.End == 0)
         {
             StartCoroutine(StartRound());
@@ -79,14 +83,5 @@ public class EnemySpawner : MonoBehaviour
                 StartCoroutine(StartRound());
             }
         }
-    }
-
-    IEnumerator StartBossRound()
-    {
-        yield return new WaitForSeconds(gm.PreTime);
-        gm.IsRoundClear = false;
-
-
-
     }
 }
