@@ -19,7 +19,7 @@ public class Tower : MonoBehaviour
 
     // 2, 2.5 | 3.6, 4, 4.5 | 5.5, 6
     [SerializeField]
-    float range;
+    public float range;
 
     // 공격 애니메이션 길이로
     [SerializeField]
@@ -288,15 +288,15 @@ public class Tower : MonoBehaviour
                 {
                     SetDirection();
                 }
+                else
+                {
+                    Target = null;
+                    break;
+                }
                 if(State != States.attack)
                     State = States.attack;
                 targetCtrl.hp -= dmg + increment * tm.GetUpgrade(type);
-                if (targetCtrl.hp <= 0)
-                {
-                    Target = null;
-                    targetCtrl.EnemyDead();
-                    break;
-                }
+
                 yield return new WaitForSeconds(attackSpeed);
             }
         }

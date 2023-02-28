@@ -23,7 +23,7 @@ TowerName,Rank,Type,Damage,Increment,Range,Speed,Path,AssetName,WeaponAtlas,Weap
 영웅_6,2,1,100.0,0.1,5.5,0.5,Hero/Hero_6,fire_harpy,cwp_fireharpy,gauntlet,fire_harpy/attack3
 영웅_7,2,2,100.0,0.1,2.0,0.5,Hero/Hero_7,demon_slayer,cwp_demonslayer,staff,staff_attack
 영웅_8,2,2,100.0,0.1,4.5,0.5,Hero/Hero_8,mad_scientist_2,cwp_madscientist,basket,basket_attack
-전설_1,3,0,400.0,0.1,2.5,0.5,Legend/Legend_1,china_chef,cwp_chinachef,sword,china_chef/attack1
+전설_1,3,0,400.0,0.1,2.5,0.5,Legend/Legend_1,china_chef,cwp_chinachef,sword,china_chef/attack
 전설_2,3,0,400.0,0.1,3.6,0.5,Legend/Legend_2,festival_girl,cwp_festivalgirl,basket,festival_girl/attack1
 전설_3,3,0,400.0,0.1,6.0,0.5,Legend/Legend_3,redhood_ascent,cwp_redhood,rifle,rifle_shoot
 전설_4,3,1,400.0,0.1,2.0,0.5,Legend/Legend_4,fire_bishop,cwp_firebishop,gauntlet,unique/bishop_attack3

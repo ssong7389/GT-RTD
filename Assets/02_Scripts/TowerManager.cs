@@ -73,7 +73,7 @@ public class TowerManager : MonoBehaviour
     {
         int price = towerPrice * (1 << (int)towerToSell.GetComponent<Tower>().Rank);
         gm.Gold += price / 2;
-        towerToSell.GetComponent<CharacterShadow>().IndicatesTower(false);
+        towerToSell.GetComponent<TowerUIController>().IndicatesTower(false);
         Destroy(towerToSell);
     }
 
@@ -96,7 +96,7 @@ public class TowerManager : MonoBehaviour
                 {
                     // selectedTr에 다음 등급 타워 생성
                     GameObject mergedTower = GetRandomTower(++rank, selectedTr.position);
-                    selectedTower.GetComponent<CharacterShadow>().IndicatesTower(false);
+                    selectedTower.GetComponent<TowerUIController>().IndicatesTower(false);
                     //GameManager.Instance.SelectedObject = null;
                     Destroy(selectedTower);
                     Destroy(tower);
