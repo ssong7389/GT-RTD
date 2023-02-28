@@ -22,7 +22,7 @@ public class UpgradeManager : MonoBehaviour
     {
         //Debug.Log("type: " + self.name);
         TowerManager.Type type = (TowerManager.Type)(Enum.Parse(typeof(TowerManager.Type), self.name));
-        int cost = GameManager.Instance.UpgradeBaseGem * TowerManager.Instance.GetUpgrade(type);
+        int cost = GameManager.Instance.UpgradeBaseGem + TowerManager.Instance.GetUpgrade(type);
         if (GameManager.Instance.Gem < cost)
         {
             return;
