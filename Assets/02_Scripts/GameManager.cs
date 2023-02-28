@@ -101,10 +101,6 @@ public class GameManager : MonoBehaviour
             rounds = value;
             if (infoManager != null)
             {
-                if (Rounds == 1)
-                {
-
-                }
                 if (End == 0)
                 {
                     infoManager.roundText.text = $"{rounds.ToString()} Round";
@@ -119,6 +115,7 @@ public class GameManager : MonoBehaviour
         }
     }
     public int unitsPerRound;
+    [SerializeField]
     int removedEnemyCnt;
     public int RemovedEnemyCnt
     {
@@ -126,11 +123,10 @@ public class GameManager : MonoBehaviour
         set
         {
             //Debug.Log(removedEnemyCnt);
-            Debug.Log(gameObject.GetHashCode());
             removedEnemyCnt = value;
             if (removedEnemyCnt == unitsPerRound)
             {
-                removedEnemyCnt = 0;
+
                 IsRoundClear = true;
 
             }
@@ -146,8 +142,9 @@ public class GameManager : MonoBehaviour
             isRoundClear = value;
             if (isRoundClear)
             {
-                Gold += 300;
-                Rounds++;
+                Gold += 300; 
+                removedEnemyCnt = 0;
+                //Rounds++;
             }
         }
     }
@@ -219,18 +216,18 @@ public class GameManager : MonoBehaviour
                 switch (selectedObject.layer)
                 {
                     case 6:
-                        Debug.Log("TowerArea");
+                        //Debug.Log("TowerArea");
                         selected = Selected.TOWER_AREA;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnBuildBtnClicked());
                         break;
                     case 7:
-                        Debug.Log("Tower");
+                        //Debug.Log("Tower");
                         selected = Selected.TOWER;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnMergeBtnClicked(selectedObject));
-                        selectedObject.GetComponent<CharacterShadow>().IndicatesTower(true);
+                        selectedObject.GetComponent<TowerUIController>().IndicatesTower(true);
                         break;
                     case 8:
-                        Debug.Log("Enemy");
+                        //Debug.Log("Enemy");
                         selected = Selected.ENEMY;
                         break;
                     default:
@@ -243,7 +240,6 @@ public class GameManager : MonoBehaviour
     private GameInfoManager infoManager;
     void Awake()
     {
-        Debug.Log(gameObject.GetHashCode());
         if(_instance == null)
         {
             _instance = this;
@@ -260,14 +256,17 @@ public class GameManager : MonoBehaviour
         IsRoundClear = true;
         selected = Selected.NONE;
         selectedObject = null;
-
         unitsPerRound = 20;
 
         minRandomGem = 20;
         maxRandomGem = 120;
         upgradeBaseGem = 10;
 
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        // playscene에서 생성되었다 사라지는 GameManager에 의한 데이터 변동 방지
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
     }
     public void InitGameData(string modeName, int gold, int life, int ratio, int end)
     {
@@ -277,10 +276,7 @@ public class GameManager : MonoBehaviour
         this.ratio = ratio;
         this.end = end;
     }
-    void InitInfoData()
-    {
 
-    }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if(scene.buildIndex == 1)
@@ -289,7 +285,7 @@ public class GameManager : MonoBehaviour
             creditManager.SetGold();
             creditManager.SetGem();
             infoManager = GameObject.FindGameObjectWithTag("InfoManager").GetComponent<GameInfoManager>();
-            Debug.Log(life);
+            //Debug.Log(life);
             infoManager.lifeText.text = life.ToString();
             Rounds = 1;
             Life = life;
