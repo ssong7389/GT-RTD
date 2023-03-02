@@ -117,11 +117,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: range
+      name: range1
       rect:
         serializedVersion: 2
         x: 745
-        y: 1271
+        y: 1272
         width: 118
         height: 118
       alignment: 0
@@ -183,10 +183,10 @@ TextureImporter:
       name: upgrade_human
       rect:
         serializedVersion: 2
-        x: 1546
-        y: 442
-        width: 58
-        height: 64
+        x: 1547
+        y: 443
+        width: 56
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       name: upgrade_suin
       rect:
         serializedVersion: 2
-        x: 415
+        x: 416
         y: 154
-        width: 46
+        width: 44
         height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -285,11 +285,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_button
+      name: range2
       rect:
         serializedVersion: 2
         x: 1
-        y: 874
+        y: 877
         width: 100
         height: 100
       alignment: 0
@@ -309,10 +309,10 @@ TextureImporter:
       name: ui_bg_01
       rect:
         serializedVersion: 2
-        x: 1109
-        y: 262
-        width: 34
-        height: 34
+        x: 1110
+        y: 263
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 6, y: 6, z: 6, w: 6}
@@ -335,7 +335,7 @@ TextureImporter:
         width: 126
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,6 +343,111 @@ TextureImporter:
       bones: []
       spriteID: 98c0e2c896c8acf4985fa0d2cf1370ff
       internalID: -434615075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_popup
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 34
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe18e92ab671da46b7e826dad9dede9
+      internalID: -1069171256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_setting
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 158
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f61df250dd654a9c66eaffa5a51cc
+      internalID: -1438274092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_upper_bg
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 12, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e31ecdea0b3b1d49a358ccfaef63793
+      internalID: -1495774290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main_button
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 664
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd37ff29b97d7c4ea7ca36201ba40af
+      internalID: 1639588919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: range
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1346
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b133f80b7d2a454a863e5198497c0f7
+      internalID: 1245495245
       vertices: []
       indices: 
       edges: []
@@ -358,11 +463,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      icon_setting: -1438274092
+      ui_upper_bg: -1495774290
+      ui_popup: -1069171256
       button_bg: -23197905
-      main_button: 1442250003
+      range1: -623593542
+      range2: 1442250003
+      main_button: 1639588919
       ui_bg_01: 1987922316
       indicator: -1609993798
-      range: -623593542
+      range: 1245495245
       sell: -434615075
       life: -1591582931
       upgrade_demon: -224338114

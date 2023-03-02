@@ -15,12 +15,12 @@ public class TowerUIController : MonoBehaviour
 
     public Color shadowColor = new Color(30f/255, 30f/255, 30f/255, 1f);
     public Color highlightColor = new Color(1f, 1f, 0, 1f);
-    public Color rangeColor = new Color(100f/255, 255f/255, 250f/255, 1f);
+    public Color rangeColor = new Color(1f, 30f/255, 0f, 150f/255);
     Transform parentTr;
 
-    public Vector3 shadowScale;
-    public Vector3 highlightScale;
-    public Vector3 indicatorScale;
+    public Vector3 shadowScale = new Vector3(0.3f, 0.2f, 1f);
+    public Vector3 highlightScale = new Vector3(0.6f, 0.6f, 1f);
+    public Vector3 indicatorScale = new Vector3(1f, -1f, 1f);
 
     private Tower tower;
     void Start()
@@ -38,7 +38,7 @@ public class TowerUIController : MonoBehaviour
 
         // »ç°Å¸® x 2
         tower = gameObject.GetComponent<Tower>();
-        float scaleX = tower.range * 2f / 2.5f;
+        float scaleX = tower.range * 0.8f;
         Vector3 rangeScale = new Vector3(scaleX, scaleX, 1f);
         range = AddSpriteFromResources("range", "characters/range", rangeColor, rangeOrder, rangeScale);
         range.transform.localPosition += Vector3.up * 0.1f;
