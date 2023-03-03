@@ -49,8 +49,10 @@ public class EnemySpawner : MonoBehaviour
             boss.SetActive(true);
             boss.GetComponent<BoxCollider>().enabled = true;
             bossController.MoveToArrival();
+
             foreach (var enemy in enemies)
             {
+                //Debug.Log(i++);
                 enemy.GetComponent<EnemyController>().InitEnemy();
             }
         }
@@ -61,6 +63,7 @@ public class EnemySpawner : MonoBehaviour
                 enemies[i].SetActive(true);
                 enemies[i].GetComponent<BoxCollider>().enabled = true;
                 enemies[i].GetComponent<EnemyController>().MoveToArrival();
+                //enemies[i].GetComponent<EnemyAnimController>().Direction = EnemyAnimController.Dir.front;
                 yield return new WaitForSeconds(spawnRate);
             }
         }

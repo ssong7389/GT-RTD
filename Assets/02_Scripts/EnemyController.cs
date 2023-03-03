@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using Spine.Unity;
+
 public class EnemyController : MonoBehaviour
 {
     GameManager gm;
@@ -14,16 +16,20 @@ public class EnemyController : MonoBehaviour
     
     List<GameObject> turns;
     Vector3 dir;
+    [SerializeField]
     int tpIndex = 0;
     public float hp = 100f;
     public float initHp = 100f;
     public float maxHp = 100f;
-    void Start()
+
+    EnemyAnimController enemyAnim;
+    void Awake()
     {
         gm = GameManager.Instance;
 
         spawn = GameObject.FindGameObjectWithTag("Spawn");
         arrival = GameObject.FindGameObjectWithTag("Arrival");
+        enemyAnim = GetComponent<EnemyAnimController>();     
         //MoveToArrival();
     }
     private void Update()
@@ -44,11 +50,12 @@ public class EnemyController : MonoBehaviour
         }
         turnPoints = turnPoints.OrderBy(tp => tp.Value).ToDictionary(tp => tp.Key, tp => tp.Value);
         turns = turnPoints.Keys.ToList();
+        //enemyAnim.Direction = EnemyAnimController.Dir.front;
         StartCoroutine(MoveCoroutine());
     }
 
     IEnumerator MoveCoroutine()
-    {
+    {        
         while (true)
         {
             if (tpIndex < turns.Count)
@@ -60,6 +67,11 @@ public class EnemyController : MonoBehaviour
                     enemyTr.position = turns[tpIndex].transform.position;
                     dir = (turns[tpIndex].transform.position - enemyTr.position);
                     // ¹æÇâÀüÈ¯
+
+                    int dirInt = (int)enemyAnim.Direction;
+                    enemyAnim.Direction = (EnemyAnimController.Dir)(++dirInt % 4);
+                    //Debug.Log((int)(++enemyAnim.Direction) % 4);
+                    //Debug.Log(enemyAnim.Direction);
                     tpIndex++;
                 }
             }
@@ -125,6 +137,8 @@ public class EnemyController : MonoBehaviour
     }
     public void GenerateEnemy(float initHp, float maxHp)
     {
+        enemyAnim = GetComponent<EnemyAnimController>();
+        enemyAnim.Direction = EnemyAnimController.Dir.front;
         GetComponent<BoxCollider>().enabled = false;
         gameObject.SetActive(false);
         if (spawn == null)
@@ -139,11 +153,13 @@ public class EnemyController : MonoBehaviour
     public void InitEnemy()
     {
         int nextRound = GameManager.Instance.Rounds + 1;
+
         GetComponent<BoxCollider>().enabled = false;
         gameObject.SetActive(false);
+
         if (spawn == null)
             spawn = GameObject.FindGameObjectWithTag("Spawn");
-        // ·»´õ·¯ ²ô±â
+
         transform.position = spawn.transform.position;
         tpIndex = 0;
         initHp += 50 * ((nextRound - 1) / 5);
@@ -152,6 +168,11 @@ public class EnemyController : MonoBehaviour
             gameObject.name = $"Round {nextRound}";
             maxHp = initHp * nextRound * GameManager.Instance.Ratio;
             hp = maxHp;
+            if (nextRound % 10 != 0)
+            {
+                enemyAnim.SetSkeleton(nextRound);
+                enemyAnim.Direction = EnemyAnimController.Dir.front;
+            }
         }
         if (gameObject.CompareTag("BOSS"))
         {
@@ -160,6 +181,10 @@ public class EnemyController : MonoBehaviour
             maxHp = initHp * round * GameManager.Instance.Ratio;
             maxHp *= GameManager.Instance.unitsPerRound;
             hp = maxHp;
+            if(nextRound % 10 == 0)
+            {
+                enemyAnim.Direction = EnemyAnimController.Dir.front;
+            }
         }     
     }
 }
