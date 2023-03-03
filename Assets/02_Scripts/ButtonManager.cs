@@ -25,6 +25,9 @@ public class ButtonManager : MonoBehaviour
     GameManager gm;
     TowerManager tm;
 
+    public Button settingsBtn;
+    Button settingsConfirm;
+    Button settingsIntro;
     void Awake()
     {
         if (_instance == null)
@@ -35,6 +38,13 @@ public class ButtonManager : MonoBehaviour
         sellBtn.gameObject.SetActive(false);
 
         exchangeBtn.onClick.AddListener(() => OnExchangeBtnClicked());
+
+        //settingsConfirm = settingsBtn.transform.Find("Confirm").GetComponent<Button>();
+        
+
+        //settingsIntro = settingsBtn.transform.Find("Intro").GetComponent<Button>();
+
+
     }
 
     void Start()
@@ -90,5 +100,11 @@ public class ButtonManager : MonoBehaviour
 
         gm.Gold -= 100;
         gm.Gem += Random.Range(gm.MinRandomGem, gm.MaxRandomGem + 1);
+    }
+
+    private void OnSettingsBtnClicked()
+    {
+        Time.timeScale = 0;
+
     }
 }
