@@ -19,7 +19,6 @@ public class EnemyAnimController : MonoBehaviour
         set
         {
             direction = value;
-            //SetSkeleton(GameManager.Instance.Rounds);
             if (direction == Dir.left)
             {
                 transform.localScale = new Vector3(-originScaleXY, originScaleXY, 1f);
@@ -74,7 +73,7 @@ public class EnemyAnimController : MonoBehaviour
         //Debug.Log($"{path}_{direction}_SkeletonData");
         SetSkeletonDataDirection(path, Direction);
     }
-    private void SetSkeletonDataDirection(string path, Dir dir)
+    public void SetSkeletonDataDirection(string path, Dir dir)
     {
         SkeletonDataAsset newSkeletonData;
         string strDir;
@@ -96,7 +95,6 @@ public class EnemyAnimController : MonoBehaviour
         if (skel.SkeletonDataAsset != newSkeletonData)
         {
             skel.skeletonDataAsset = newSkeletonData;
-            Debug.Log(skel.skeletonDataAsset.name);
         }
         skel.Initialize(true);
         skel.AnimationName = $"{State}_{strDir}";

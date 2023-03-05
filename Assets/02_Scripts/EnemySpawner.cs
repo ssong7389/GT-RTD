@@ -15,6 +15,7 @@ public class EnemySpawner : MonoBehaviour
     GameObject[] enemies;
     GameObject boss;
     EnemyController bossController;
+    EnemyAnimController bossAnimCtrl;
     void Start()
     {
         gm = GameManager.Instance;
@@ -32,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
         bossController = boss.GetComponent<EnemyController>();
         bossController.maxHp = 100f;
         bossController.initHp = 100f;
+        bossAnimCtrl = boss.GetComponent<EnemyAnimController>();
         //boss.GetComponent<BoxCollider>().enabled = false;
         boss.SetActive(false);
         StartCoroutine(StartRound());
@@ -45,6 +47,8 @@ public class EnemySpawner : MonoBehaviour
 
         if (GameManager.Instance.Rounds % 10 == 0)
         {
+            bossAnimCtrl.Direction = EnemyAnimController.Dir.front;
+            bossAnimCtrl.SetSkeleton(GameManager.Instance.Rounds);
             bossController.InitEnemy();
             boss.SetActive(true);
             boss.GetComponent<BoxCollider>().enabled = true;

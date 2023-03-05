@@ -23,6 +23,7 @@ public class EnemyController : MonoBehaviour
     public float maxHp = 100f;
 
     EnemyAnimController enemyAnim;
+    string path;
     void Awake()
     {
         gm = GameManager.Instance;
@@ -55,7 +56,7 @@ public class EnemyController : MonoBehaviour
     }
 
     IEnumerator MoveCoroutine()
-    {        
+    {
         while (true)
         {
             if (tpIndex < turns.Count)
@@ -70,6 +71,7 @@ public class EnemyController : MonoBehaviour
 
                     int dirInt = (int)enemyAnim.Direction;
                     enemyAnim.Direction = (EnemyAnimController.Dir)(++dirInt % 4);
+                    enemyAnim.SetSkeleton(GameManager.Instance.Rounds);
                     //Debug.Log((int)(++enemyAnim.Direction) % 4);
                     //Debug.Log(enemyAnim.Direction);
                     tpIndex++;
@@ -139,6 +141,7 @@ public class EnemyController : MonoBehaviour
     {
         enemyAnim = GetComponent<EnemyAnimController>();
         enemyAnim.Direction = EnemyAnimController.Dir.front;
+        enemyAnim.SetSkeleton(GameManager.Instance.Rounds);
         GetComponent<BoxCollider>().enabled = false;
         gameObject.SetActive(false);
         if (spawn == null)
@@ -162,6 +165,7 @@ public class EnemyController : MonoBehaviour
 
         transform.position = spawn.transform.position;
         tpIndex = 0;
+        enemyAnim.Direction = EnemyAnimController.Dir.front;
         initHp += 50 * ((nextRound - 1) / 5);
         if (gameObject.CompareTag("ENEMY"))
         {
@@ -170,8 +174,9 @@ public class EnemyController : MonoBehaviour
             hp = maxHp;
             if (nextRound % 10 != 0)
             {
+                Debug.Log("init");
                 enemyAnim.SetSkeleton(nextRound);
-                enemyAnim.Direction = EnemyAnimController.Dir.front;
+                //
             }
         }
         if (gameObject.CompareTag("BOSS"))
