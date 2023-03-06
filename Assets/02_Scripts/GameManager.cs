@@ -232,6 +232,7 @@ public class GameManager : MonoBehaviour
                         selected = Selected.TOWER;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnMergeBtnClicked(selectedObject));
                         selectedObject.GetComponent<TowerUIController>().IndicatesTower(true);
+
                         statusController.DisplayTower();
                         break;
                     case 8:

@@ -15,7 +15,7 @@ SpriteAtlas:
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      filterMode: 1
+      filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
@@ -23,11 +23,11 @@ SpriteAtlas:
     platformSettings: []
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
@@ -1274,10 +1274,13 @@ SpriteAtlas:
   - {fileID: 462237529, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1591582931, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1495774290, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: -8379311, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1069171256, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -23197905, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 1130324244, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1188666376, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1690207213, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 34887259, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 254259444, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1303906024, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 937945506, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
@@ -2521,10 +2524,13 @@ SpriteAtlas:
   - upgrade_HUMAN
   - life
   - ui_upper_bg
+  - ui_inner
   - ui_popup
   - button_bg
+  - ui_btn_ok
   - icon_gold
   - icon_atk
+  - ui_btn_no
   - icon_towers
   - upgrade_SUIN
   - icon_speed

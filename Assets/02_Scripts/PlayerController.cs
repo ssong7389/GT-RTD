@@ -78,7 +78,6 @@ public class PlayerController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log(hit.collider.name);
                 GameManager.Instance.SelectedObject = hit.collider.gameObject;
             }
             else

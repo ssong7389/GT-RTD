@@ -269,11 +269,11 @@ public class Tower : MonoBehaviour
             var newRegionAttachment = region.ToRegionAttachment(region.name, scale);
             slot.Attachment = newRegionAttachment;
             
-            Bone muzzle = skel.Skeleton.FindBone("b.aim");
-            Vector3 pos = muzzle.GetLocalPosition();
-            GameObject go = new GameObject();
-            Instantiate(go);
-            go.transform.position = pos;
+            //Bone muzzle = skel.Skeleton.FindBone("b.aim");
+            //Vector3 pos = muzzle.GetLocalPosition();
+            //GameObject go = new GameObject();
+            //Instantiate(go);
+            //go.transform.position = pos;
         }       
     }
 

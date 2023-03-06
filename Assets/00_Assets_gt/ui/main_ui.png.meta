@@ -503,7 +503,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,6 +511,69 @@ TextureImporter:
       bones: []
       spriteID: 49d73fad7a3288d4b8d62338effffcc0
       internalID: 937945506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_inner
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 370
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3890116a3da15449025fa702fdc7e1
+      internalID: -8379311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_btn_ok
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 237
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e74ab5b136115d4499b3b3c1e0c0483
+      internalID: 1130324244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_btn_no
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 237
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd25ab64b82a6c946a4e2a7d76d1b0e6
+      internalID: 34887259
       vertices: []
       indices: 
       edges: []
@@ -534,6 +597,8 @@ TextureImporter:
       range2: 1442250003
       icon_book: 1610613604
       main_button: 1639588919
+      ui_btn_ok: 1130324244
+      ui_btn_no: 34887259
       ui_bg_01: 1987922316
       upgrade_DEMON: -224338114
       icon_speed: 937945506
@@ -547,6 +612,7 @@ TextureImporter:
       life: -1591582931
       icon_atk: -1690207213
       icon_list: -331093151
+      ui_inner: -8379311
       ui_popup_bg: -798610487
       ui_indicator: -990248745
       upgrade_SUIN: 1303906024

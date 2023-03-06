@@ -8,11 +8,11 @@ public class StatusController : MonoBehaviour
 {
     GameManager gm;
 
-    GameObject statName;
+    public GameObject statName;
     GameObject statHp;
     GameObject statDmg;
 
-    Text nameText;
+    public Text nameText;
     Slider hpSlider;
     Text dmgText;
 
@@ -20,7 +20,7 @@ public class StatusController : MonoBehaviour
     Image towerIcon;
     SpriteAtlas uiAtlas;
     SpriteAtlas characterAtals;
-    void Start()
+    void Awake()
     {
         gm = GameManager.Instance;
         statName = transform.Find("StatusName").gameObject;
@@ -46,10 +46,6 @@ public class StatusController : MonoBehaviour
 
     public void DisplayTower()
     {
-        //if (gm.SelectedObject == null)
-        //{
-        //    Debug.Log("Null");
-        //}
         nameText.text = GameManager.Instance.SelectedObject.name;
         statName.SetActive(true);
         statHp.SetActive(false);

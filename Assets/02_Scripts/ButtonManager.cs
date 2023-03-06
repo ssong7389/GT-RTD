@@ -37,7 +37,7 @@ public class ButtonManager : MonoBehaviour
     GameObject clickedList;
     public Button upperTowerListBtn;
     public GameObject towerListPopup;
-    Button towerListBackBtn;
+    public Button towerListBackBtn;
     void Awake()
     {
         if (_instance == null)
@@ -61,7 +61,7 @@ public class ButtonManager : MonoBehaviour
 
         upperTowerListBtn.onClick.AddListener(() => OnUpperTowerListBtnClicked());
 
-        towerListBackBtn = towerListPopup.transform.Find("Back").GetComponent<Button>();
+
         towerListBackBtn.onClick.AddListener(() => OnTowerListBackBtbClicked());
     }
 
