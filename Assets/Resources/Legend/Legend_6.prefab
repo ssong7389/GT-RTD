@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_seawitch
   attackName: sea_witch/attack3
+  portraitName: sea_witch_3
 --- !u!33 &7620482662507412865
 MeshFilter:
   m_ObjectHideFlags: 0

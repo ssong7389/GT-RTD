@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_steamknight
   attackName: spear_attack2
+  portraitName: steam_knight_4
 --- !u!33 &-3371259905547227323
 MeshFilter:
   m_ObjectHideFlags: 0

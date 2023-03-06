@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_maiden
   attackName: basket_attack
+  portraitName: maiden_2
 --- !u!33 &566286679335871172
 MeshFilter:
   m_ObjectHideFlags: 0

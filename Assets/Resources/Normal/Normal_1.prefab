@@ -148,6 +148,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_knight
   attackName: sword_attack
+  portraitName: knight_female_hero
 --- !u!114 &6485338296742386552
 MonoBehaviour:
   m_ObjectHideFlags: 0

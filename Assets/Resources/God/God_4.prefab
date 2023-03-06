@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: assaultrifle_mayreel
   attackName: basket_attack
+  portraitName: fox_mouse_nari
 --- !u!33 &-8369929881796124280
 MeshFilter:
   m_ObjectHideFlags: 0

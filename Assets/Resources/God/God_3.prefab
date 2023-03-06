@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_futureknight
   attackName: rifle_shoot2
+  portraitName: future_knight_5
 --- !u!33 &5400042239873352029
 MeshFilter:
   m_ObjectHideFlags: 0

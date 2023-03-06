@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_innuit
   attackName: staff_attack
+  portraitName: innuit_3
 --- !u!33 &2812700828316231486
 MeshFilter:
   m_ObjectHideFlags: 0

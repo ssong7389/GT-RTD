@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_madscientist
   attackName: basket_attack
+  portraitName: mad_scientist_2
 --- !u!33 &220693477608482697
 MeshFilter:
   m_ObjectHideFlags: 0

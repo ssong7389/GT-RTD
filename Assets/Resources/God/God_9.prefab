@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_invaderknight
   attackName: invader_knight/attack3
+  portraitName: invader_knight_5
 --- !u!33 &-2330966878464645819
 MeshFilter:
   m_ObjectHideFlags: 0

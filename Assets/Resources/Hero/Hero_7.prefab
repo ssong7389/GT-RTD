@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_demonslayer
   attackName: staff_attack
+  portraitName: demon_slayer_5
 --- !u!33 &4794029288017124112
 MeshFilter:
   m_ObjectHideFlags: 0

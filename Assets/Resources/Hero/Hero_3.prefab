@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_dancingarcher
   attackName: bow_attack
+  portraitName: dancing_archer_4
 --- !u!33 &-6819206548718855285
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: onehandsword_shark_pillow
   attackName: unique/katana_attack
+  portraitName: admiral_sharkpajama
 --- !u!33 &4803466187451731593
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_vampirenoble
   attackName: staff_attack
+  portraitName: vampire_noble_3
 --- !u!33 &4002483522872833079
 MeshFilter:
   m_ObjectHideFlags: 0

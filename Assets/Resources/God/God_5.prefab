@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_alpacagirl
   attackName: alpaca_girl/attack3
+  portraitName: alpaca_girl_5
 --- !u!33 &-7994705670526324344
 MeshFilter:
   m_ObjectHideFlags: 0

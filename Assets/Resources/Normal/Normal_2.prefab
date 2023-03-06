@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_knightcaptain
   attackName: staff_attack
+  portraitName: knight_captain_4
 --- !u!33 &-2430051960755842695
 MeshFilter:
   m_ObjectHideFlags: 0

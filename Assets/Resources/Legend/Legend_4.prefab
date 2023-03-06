@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_firebishop
   attackName: unique/bishop_attack3
+  portraitName: fire_bishop_5
 --- !u!33 &3719387557597043221
 MeshFilter:
   m_ObjectHideFlags: 0

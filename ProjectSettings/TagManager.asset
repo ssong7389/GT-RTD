@@ -13,12 +13,12 @@ TagManager:
   - Spawn
   - TurnPoints
   - Arrival
-  - Enemy
   - TowerArea
   - ModesConent
   - CreditManager
   - InfoManager
   - BOSS
+  - Status
   layers:
   - Default
   - TransparentFX

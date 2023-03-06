@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_festivalgirl
   attackName: festival_girl/attack1
+  portraitName: festival_girl_4
 --- !u!33 &8975463778711601452
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_vampirelord
   attackName: vampire_lord/attack3
+  portraitName: vampire_lord_5
 --- !u!33 &8155579322558620062
 MeshFilter:
   m_ObjectHideFlags: 0

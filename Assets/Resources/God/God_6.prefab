@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_garam
   attackName: bow_attack
+  portraitName: garam_5
 --- !u!33 &4156865516349753070
 MeshFilter:
   m_ObjectHideFlags: 0

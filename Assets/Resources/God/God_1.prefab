@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_legendaryhero
   attackName: legendary_hero/attack3
+  portraitName: legendary_hero_5
 --- !u!33 &-906304243431106792
 MeshFilter:
   m_ObjectHideFlags: 0

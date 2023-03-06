@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_demonsister
   attackName: gauntlet_boong_attack
+  portraitName: demon_sister_5
 --- !u!33 &5857611934901535373
 MeshFilter:
   m_ObjectHideFlags: 0

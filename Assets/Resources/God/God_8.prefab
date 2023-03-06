@@ -54,7 +54,7 @@ MonoBehaviour:
   range: 4.5
   attackSpeed: 0.5
   towerName: "\uCD08\uC6D4_8"
-  assetName: demon_queen
+  assetName: demon_ceo
   rank: 4
   type: 2
   state: 0
@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_demonceo
   attackName: demon_ceo/attack
+  portraitName: demon_ceo_4
 --- !u!33 &8815002429421995413
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -90,7 +91,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d95339291b33cdd449f30f462da32d47, type: 2}
+  - {fileID: 2100000, guid: 9dca36cc9ca2d6646a6b7030966d8002, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 99fa6985ce520034cb2e7225ff9b7fd3, type: 2}
-  initialSkinName: 
+  skeletonDataAsset: {fileID: 11400000, guid: b4ec917f1f7513f41988a91ae551f1fe, type: 2}
+  initialSkinName: demon_ceo_5
   initialFlipX: 0
   initialFlipY: 0
   updateMode: 3

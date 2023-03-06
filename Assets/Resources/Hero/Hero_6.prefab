@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_fireharpy
   attackName: fire_harpy/attack3
+  portraitName: fire_harpy_4
 --- !u!33 &5647527661023515614
 MeshFilter:
   m_ObjectHideFlags: 0

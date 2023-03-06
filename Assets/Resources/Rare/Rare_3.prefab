@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_sniper
   attackName: sniper_shoot
+  portraitName: sniper_3
 --- !u!33 &-4227431573046944115
 MeshFilter:
   m_ObjectHideFlags: 0

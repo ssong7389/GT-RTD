@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_whitebeast
   attackName: white_beast/attack2
+  portraitName: white_beast_4
 --- !u!33 &8402392974759877461
 MeshFilter:
   m_ObjectHideFlags: 0

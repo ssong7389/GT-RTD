@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_partymadpanda_minigun
   attackName: rifle_shoot
+  portraitName: party_mad_panda_panda_5
 --- !u!33 &-7590221562872985468
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_mschrome
   attackName: rifle_shoot
+  portraitName: ms_chrome_4
 --- !u!33 &7336989348862649008
 MeshFilter:
   m_ObjectHideFlags: 0

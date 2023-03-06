@@ -62,6 +62,7 @@ MonoBehaviour:
   target: {fileID: 0}
   weaponAtlas: cwp_dragonboy
   attackName: staff_attack
+  portraitName: dragon_boy_3
 --- !u!33 &6205032712679280010
 MeshFilter:
   m_ObjectHideFlags: 0
