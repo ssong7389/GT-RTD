@@ -23,7 +23,7 @@ public class Tower : MonoBehaviour
 
     // 공격 애니메이션 길이로
     [SerializeField]
-    float attackSpeed;
+    public float attackSpeed;
     [SerializeField]
     string towerName;
     public string TowerName
@@ -133,6 +133,7 @@ public class Tower : MonoBehaviour
     Atlas atlas;
 
     public string attackName;
+    public string portraitName;
     public void InitTowerData(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
         float range,float attackSpeed)
     {
@@ -145,13 +146,14 @@ public class Tower : MonoBehaviour
 
         //Debug.Log(weaponAtlas);
     }
-    public void InitTowerAssets(string towerName, string assetName, string weaponAtlas, string weaponType, string attackName)
+    public void InitTowerAssets(string towerName, string assetName, string weaponAtlas, string weaponType, string attackName, string portraitName)
     {
         this.towerName = towerName;
         this.assetName = assetName;
         this.weaponAtlas = weaponAtlas;
         this.weaponType = (Weapon)Enum.Parse(typeof(Weapon), weaponType);
         this.attackName = attackName;
+        this.portraitName = portraitName;
     }
     private void Start()
     {

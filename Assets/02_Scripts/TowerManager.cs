@@ -134,8 +134,9 @@ public class TowerManager : MonoBehaviour
         string weaponAtlas = (string)data["WeaponAtlas"];
         string weaponType = (string)data["WeaponType"];
         string attackName = (string)data["AttackName"];
+        string portrait = (string)data["Portrait"];
         towerData.InitTowerData(rank, type, dmg, increment, range, speed);
-        towerData.InitTowerAssets(towerName, assetName, weaponAtlas, weaponType, attackName);
+        towerData.InitTowerAssets(towerName, assetName, weaponAtlas, weaponType, attackName, portrait);
         towerData.InitTowerSkeleton();
 
         return towerPrefab;

@@ -199,6 +199,7 @@ public class GameManager : MonoBehaviour
     }
     public Selected selected;
     [SerializeField]
+
     private GameObject selectedObject;
     public GameObject SelectedObject
     {
@@ -209,26 +210,33 @@ public class GameManager : MonoBehaviour
             ButtonManager.Instance.MainBtn.onClick.RemoveAllListeners();
             if (selectedObject == null)
             {
-                selected = Selected.NONE;              
+                selected = Selected.NONE;
+                if (statusController != null)
+                {
+                    statusController.gameObject.SetActive(false);
+                }
             }
             else
             {
+                statusController.gameObject.SetActive(true);
                 switch (selectedObject.layer)
                 {
                     case 6:
                         //Debug.Log("TowerArea");
                         selected = Selected.TOWER_AREA;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnBuildBtnClicked());
+                        statusController.gameObject.SetActive(false);
                         break;
                     case 7:
                         //Debug.Log("Tower");
                         selected = Selected.TOWER;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnMergeBtnClicked(selectedObject));
                         selectedObject.GetComponent<TowerUIController>().IndicatesTower(true);
+                        statusController.DisplayTower();
                         break;
                     case 8:
-                        //Debug.Log("Enemy");
                         selected = Selected.ENEMY;
+                        statusController.DisplayEnemy();
                         break;
                     default:
                         break;
@@ -238,6 +246,8 @@ public class GameManager : MonoBehaviour
     }
     private CreditManager creditManager;
     private GameInfoManager infoManager;
+    [SerializeField]
+    private StatusController statusController;
     void Awake()
     {
         if(_instance == null)
@@ -255,7 +265,7 @@ public class GameManager : MonoBehaviour
         PreTime = 5f;
         IsRoundClear = true;
         selected = Selected.NONE;
-        selectedObject = null;
+
         unitsPerRound = 20;
 
         minRandomGem = 20;
@@ -285,6 +295,7 @@ public class GameManager : MonoBehaviour
             creditManager.SetGold();
             creditManager.SetGem();
             infoManager = GameObject.FindGameObjectWithTag("InfoManager").GetComponent<GameInfoManager>();
+            statusController = GameObject.FindGameObjectWithTag("Status").GetComponent<StatusController>();
             //Debug.Log(life);
             infoManager.lifeText.text = life.ToString();
             Rounds = 1;
@@ -293,6 +304,7 @@ public class GameManager : MonoBehaviour
             Ratio = ratio;
             End = end;
             Mode = this.mode;
+            SelectedObject = null;
         }
     }
 

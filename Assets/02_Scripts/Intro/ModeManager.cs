@@ -19,8 +19,6 @@ public class ModeManager : MonoBehaviour
     void Start()
     {
         gm = GameManager.Instance;
-        //modeNameText = transform.Find("ModeNameText").GetComponent<Text>();
-        //modeInfoText = transform.Find("ModeInfoText").GetComponent<Text>();
     }
 
 

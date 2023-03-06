@@ -44,6 +44,7 @@ public class EnemyAnimController : MonoBehaviour
     }
     // front side back side front side back side front side back
     string[] enemyNames;
+    string[] enemyPortraits;
     private void Awake()
     {
         originScaleXY = transform.localScale.x;
@@ -51,10 +52,11 @@ public class EnemyAnimController : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
         List<Dictionary<string, object>> data = CSVReader.Read("enemy/Enemy");
         enemyNames = new string[data.Count];
+        enemyPortraits = new string[data.Count];
         for (int i = 0; i < data.Count; i++)
         {
-            //Debug.Log(data[i]["Name"].ToString());
             enemyNames[i] = data[i]["Name"].ToString();
+            enemyPortraits[i] = data[i]["Portrait"].ToString();
         }
     }
 
@@ -98,5 +100,9 @@ public class EnemyAnimController : MonoBehaviour
         }
         skel.Initialize(true);
         skel.AnimationName = $"{State}_{strDir}";
+    }
+    public string GetPortriatName()
+    {
+        return enemyPortraits[GameManager.Instance.Rounds - 1];
     }
 }

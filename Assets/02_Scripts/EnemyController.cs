@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
     public float initHp = 100f;
     public float maxHp = 100f;
 
-    EnemyAnimController enemyAnim;
+    public EnemyAnimController enemyAnim;
     string path;
     void Awake()
     {
@@ -174,9 +174,7 @@ public class EnemyController : MonoBehaviour
             hp = maxHp;
             if (nextRound % 10 != 0)
             {
-                Debug.Log("init");
                 enemyAnim.SetSkeleton(nextRound);
-                //
             }
         }
         if (gameObject.CompareTag("BOSS"))

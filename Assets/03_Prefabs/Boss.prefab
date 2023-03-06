@@ -223,9 +223,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  tpIndex: 0
   hp: 100
   initHp: 100
   maxHp: 100
+  enemyAnim: {fileID: 0}
 --- !u!114 &-9104776661066258854
 MonoBehaviour:
   m_ObjectHideFlags: 0
