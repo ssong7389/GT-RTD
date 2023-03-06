@@ -1,0 +1,8595 @@
+
+characters.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+accident_hiker
+  rotate: false
+  xy: 694, 1294
+  size: 26, 37
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+admiral_3
+  rotate: false
+  xy: 125, 1365
+  size: 54, 46
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+admiral_4
+  rotate: false
+  xy: 266, 1569
+  size: 62, 58
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+admiral_5
+  rotate: false
+  xy: 2, 1163
+  size: 62, 58
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+admiral_sharkpajama
+  rotate: false
+  xy: 233, 862
+  size: 52, 42
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+admiral_succubuzz
+  rotate: false
+  xy: 269, 260
+  size: 47, 41
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+adult_lavi
+  rotate: false
+  xy: 481, 790
+  size: 37, 50
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+afterworld_charon
+  rotate: false
+  xy: 2016, 1640
+  size: 30, 40
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+afterworld_soul_china_master
+  rotate: false
+  xy: 674, 328
+  size: 25, 43
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+afterworld_soul_teatan_marty
+  rotate: false
+  xy: 1587, 1662
+  size: 34, 36
+  orig: 64, 64
+  offset: 12, 4
+  index: -1
+akayuki_2
+  rotate: false
+  xy: 2006, 2003
+  size: 40, 43
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+akayuki_3
+  rotate: false
+  xy: 367, 95
+  size: 46, 48
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+akayuki_4
+  rotate: false
+  xy: 1466, 1758
+  size: 40, 40
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+akayuki_5
+  rotate: false
+  xy: 1824, 1932
+  size: 55, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+akayuki_china
+  rotate: false
+  xy: 1282, 1643
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+akayuki_devil_ghost
+  rotate: false
+  xy: 1466, 1703
+  size: 40, 53
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+akayuki_pv_costume
+  rotate: false
+  xy: 1587, 1618
+  size: 34, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+alpaca_girl_3
+  rotate: false
+  xy: 1509, 1772
+  size: 40, 43
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+alpaca_girl_4
+  rotate: false
+  xy: 1208, 1888
+  size: 41, 43
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+alpaca_girl_5
+  rotate: false
+  xy: 414, 2
+  size: 44, 43
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+alpaca_girl_cat
+  rotate: false
+  xy: 1120, 1801
+  size: 41, 43
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+alpaca_girl_cheerleader
+  rotate: false
+  xy: 269, 214
+  size: 47, 44
+  orig: 64, 64
+  offset: 4, 2
+  index: -1
+alpaca_girl_frogcoat
+  rotate: false
+  xy: 882, 1483
+  size: 38, 52
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+alpaca_girl_gyaru
+  rotate: false
+  xy: 1081, 1593
+  size: 35, 43
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+alpaca_girl_honeybee
+  rotate: false
+  xy: 500, 1407
+  size: 33, 48
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+alpaca_girl_sakura
+  rotate: false
+  xy: 833, 1594
+  size: 44, 49
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+alpaca_girl_snow_flower
+  rotate: false
+  xy: 480, 751
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+andras
+  rotate: false
+  xy: 116, 3
+  size: 49, 50
+  orig: 64, 64
+  offset: 4, 1
+  index: -1
+android_a
+  rotate: false
+  xy: 359, 1371
+  size: 49, 53
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+angel_armor
+  rotate: false
+  xy: 233, 804
+  size: 52, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+angel_captain
+  rotate: false
+  xy: 1406, 1994
+  size: 58, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+angel_magician
+  rotate: false
+  xy: 1205, 1609
+  size: 35, 41
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+anubis
+  rotate: false
+  xy: 625, 729
+  size: 32, 42
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+aojai
+  rotate: false
+  xy: 1508, 1727
+  size: 40, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+archangel_a
+  rotate: false
+  xy: 2, 622
+  size: 60, 50
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+archangel_c
+  rotate: false
+  xy: 464, 1794
+  size: 63, 60
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+archangel_d
+  rotate: false
+  xy: 2, 1997
+  size: 64, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+aria
+  rotate: false
+  xy: 169, 592
+  size: 49, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+assassin
+  rotate: false
+  xy: 1120, 1750
+  size: 41, 49
+  orig: 64, 64
+  offset: 5, 1
+  index: -1
+assassin_dancer_3
+  rotate: false
+  xy: 179, 1024
+  size: 53, 47
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+assassin_dancer_4
+  rotate: false
+  xy: 179, 1024
+  size: 53, 47
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+assassin_dancer_5
+  rotate: false
+  xy: 179, 1024
+  size: 53, 47
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+aw_soul_a
+  rotate: false
+  xy: 892, 1394
+  size: 28, 40
+  orig: 64, 64
+  offset: 17, 2
+  index: -1
+badboy
+  rotate: false
+  xy: 1365, 1211
+  size: 28, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+baker_redhood
+  rotate: false
+  xy: 784, 1566
+  size: 44, 51
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+bank_robber_mask
+  rotate: false
+  xy: 1485, 1415
+  size: 26, 36
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+barbarian
+  rotate: false
+  xy: 535, 1405
+  size: 33, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+bard_dl
+  rotate: false
+  xy: 367, 47
+  size: 46, 46
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+bard_girl
+  rotate: false
+  xy: 1839, 1783
+  size: 39, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+bari_mayreel
+  rotate: false
+  xy: 501, 1227
+  size: 25, 24
+  orig: 64, 64
+  offset: 23, 3
+  index: -1
+battleball_girl_2
+  rotate: false
+  xy: 1624, 1734
+  size: 34, 40
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+battleball_girl_3
+  rotate: false
+  xy: 922, 1483
+  size: 38, 40
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+battleball_girl_4
+  rotate: false
+  xy: 882, 1436
+  size: 38, 45
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+battleball_girl_5
+  rotate: false
+  xy: 269, 166
+  size: 47, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+battleball_girl_airline
+  rotate: false
+  xy: 1320, 1694
+  size: 35, 46
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+beach_safety_pet
+  rotate: false
+  xy: 1466, 2008
+  size: 58, 38
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+berial
+  rotate: false
+  xy: 514, 1547
+  size: 56, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+big_boss
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+dark_magician_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+dark_magician_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+dark_magician_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+dark_magician_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+demon_knight
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+future_princess_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_boy_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_boy_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_boy_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_boy_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_girl_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_girl_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_girl_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hunter_girl_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+idol_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+idol_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+idol_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+idol_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+king
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+leaf_witch
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+old_hero_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+old_hero_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+old_hero_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+old_hero_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+plitvice_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+saint_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+saint_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+saint_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+saint_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+streamer_2
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+streamer_3
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+streamer_4
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+streamer_5
+  rotate: false
+  xy: 1402, 1994
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+black_magician
+  rotate: false
+  xy: 1876, 1693
+  size: 33, 40
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+blackknight_tanksalot
+  rotate: false
+  xy: 2016, 1592
+  size: 30, 46
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+blacksmith
+  rotate: false
+  xy: 233, 748
+  size: 52, 54
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+block_flower_girl
+  rotate: false
+  xy: 886, 1956
+  size: 45, 40
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+blond_knight
+  rotate: false
+  xy: 1303, 1352
+  size: 29, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+blue_knight_female
+  rotate: false
+  xy: 688, 1376
+  size: 32, 44
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+blue_knight_male
+  rotate: false
+  xy: 722, 1379
+  size: 32, 44
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+blue_rose_seaman
+  rotate: false
+  xy: 1876, 1652
+  size: 33, 39
+  orig: 64, 64
+  offset: 11, 2
+  index: -1
+bob_younger
+  rotate: false
+  xy: 1485, 1375
+  size: 26, 38
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+boss_admiral_b
+  rotate: false
+  xy: 124, 1317
+  size: 54, 46
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+boss_demon
+  rotate: false
+  xy: 1526, 1982
+  size: 58, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+boss_nightmare_graboid
+  rotate: false
+  xy: 582, 1662
+  size: 55, 52
+  orig: 64, 64
+  offset: 5, 0
+  index: -1
+boss_snowman_general
+  rotate: false
+  xy: 2, 1034
+  size: 61, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bounty_hunter_2
+  rotate: false
+  xy: 887, 1352
+  size: 28, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+bounty_hunter_3
+  rotate: false
+  xy: 887, 1352
+  size: 28, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+bounty_hunter_4
+  rotate: false
+  xy: 887, 1352
+  size: 28, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+bounty_hunter_5
+  rotate: false
+  xy: 887, 1352
+  size: 28, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+burning_skull
+  rotate: false
+  xy: 480, 696
+  size: 37, 53
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+cafe_evil_faker
+  rotate: false
+  xy: 1551, 1780
+  size: 22, 35
+  orig: 64, 64
+  offset: 22, 3
+  index: -1
+cafe_succubus_a
+  rotate: false
+  xy: 318, 2
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+cafe_succubus_b
+  rotate: false
+  xy: 654, 1886
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+cafe_succubus_c
+  rotate: false
+  xy: 702, 1900
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+captain_rabbit_3
+  rotate: false
+  xy: 1203, 1555
+  size: 35, 52
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+captain_rabbit_4
+  rotate: false
+  xy: 480, 642
+  size: 37, 52
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+captain_rabbit_5
+  rotate: false
+  xy: 750, 1889
+  size: 46, 55
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+captain_rabbit_cafe
+  rotate: false
+  xy: 1508, 1670
+  size: 40, 55
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+captain_rabbit_moon_rabbit
+  rotate: false
+  xy: 1101, 1935
+  size: 56, 59
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+caravan_lisa
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_lisa_1
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_lisa_2
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_lisa_3
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_lisa_4
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_lisa_5
+  rotate: false
+  xy: 1118, 1562
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+caravan_maria
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+caravan_maria_1
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+caravan_maria_2
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+caravan_maria_3
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+caravan_maria_4
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+caravan_maria_5
+  rotate: false
+  xy: 933, 1956
+  size: 43, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+cat_coco
+  rotate: false
+  xy: 1660, 1731
+  size: 34, 45
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+cat_knight
+  rotate: false
+  xy: 1081, 1549
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+cat_ragdoll
+  rotate: false
+  xy: 978, 1963
+  size: 43, 28
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+china_chef_3
+  rotate: false
+  xy: 1163, 1623
+  size: 40, 39
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_chef_4
+  rotate: false
+  xy: 1161, 1582
+  size: 40, 39
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_chef_5
+  rotate: false
+  xy: 65, 636
+  size: 50, 40
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+china_chef_mecha
+  rotate: false
+  xy: 702, 1854
+  size: 46, 44
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+china_chef_police
+  rotate: false
+  xy: 1629, 1778
+  size: 40, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+china_female
+  rotate: false
+  xy: 1911, 1693
+  size: 33, 37
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+china_hero_boy_2
+  rotate: false
+  xy: 543, 444
+  size: 31, 41
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+china_hero_boy_3
+  rotate: false
+  xy: 543, 394
+  size: 31, 48
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+china_hero_boy_4
+  rotate: false
+  xy: 1120, 1704
+  size: 41, 44
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+china_hero_boy_5
+  rotate: false
+  xy: 233, 688
+  size: 52, 58
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+china_hero_boy_ascent
+  rotate: false
+  xy: 630, 1554
+  size: 40, 45
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+china_hero_boy_turtle
+  rotate: false
+  xy: 521, 845
+  size: 32, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_hero_girl_2
+  rotate: false
+  xy: 1624, 1690
+  size: 34, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_hero_girl_3
+  rotate: false
+  xy: 1155, 1538
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+china_hero_girl_4
+  rotate: false
+  xy: 922, 1438
+  size: 38, 43
+  orig: 64, 64
+  offset: 11, 2
+  index: -1
+china_hero_girl_5
+  rotate: false
+  xy: 1586, 1991
+  size: 58, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+china_hero_girl_ascent
+  rotate: false
+  xy: 1076, 1888
+  size: 42, 45
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+china_hero_girl_turtle
+  rotate: false
+  xy: 1911, 1651
+  size: 33, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_kid_boy
+  rotate: false
+  xy: 756, 1569
+  size: 26, 31
+  orig: 64, 64
+  offset: 18, 4
+  index: -1
+china_kid_girl
+  rotate: false
+  xy: 2016, 1559
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 4
+  index: -1
+china_merchant
+  rotate: false
+  xy: 540, 58
+  size: 34, 47
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+china_oldman
+  rotate: false
+  xy: 1059, 1586
+  size: 20, 34
+  orig: 64, 64
+  offset: 23, 3
+  index: -1
+chinese_swordman
+  rotate: false
+  xy: 1646, 1995
+  size: 58, 51
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+chinese_swordman_a
+  rotate: false
+  xy: 1303, 1311
+  size: 29, 39
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+chinese_swordman_b
+  rotate: false
+  xy: 124, 1269
+  size: 54, 46
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+chinese_warrior
+  rotate: false
+  xy: 1880, 1788
+  size: 39, 39
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+civilian_female
+  rotate: false
+  xy: 1169, 1243
+  size: 24, 37
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+civilian_male
+  rotate: false
+  xy: 887, 1311
+  size: 28, 39
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+civillian_male_zombie
+  rotate: false
+  xy: 887, 1270
+  size: 28, 39
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+clara
+  rotate: false
+  xy: 364, 1426
+  size: 48, 50
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+clara_b
+  rotate: false
+  xy: 400, 1185
+  size: 48, 44
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+conan
+  rotate: false
+  xy: 1946, 1655
+  size: 33, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+cruel_maid
+  rotate: false
+  xy: 830, 1550
+  size: 44, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+crusader
+  rotate: false
+  xy: 500, 1169
+  size: 44, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+cuty_berserker
+  rotate: false
+  xy: 269, 118
+  size: 47, 46
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+cyber_demon
+  rotate: false
+  xy: 1706, 2002
+  size: 58, 44
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+dai
+  rotate: false
+  xy: 962, 1458
+  size: 38, 46
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+dai_beginner
+  rotate: false
+  xy: 456, 1436
+  size: 38, 46
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+dai_heavyarmor
+  rotate: false
+  xy: 1042, 1447
+  size: 37, 46
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+dancing_archer_3
+  rotate: false
+  xy: 1876, 1611
+  size: 33, 39
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+dancing_archer_4
+  rotate: false
+  xy: 1042, 1405
+  size: 37, 40
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dancing_archer_5
+  rotate: false
+  xy: 894, 1910
+  size: 45, 44
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+dancing_archer_cafe_suit
+  rotate: false
+  xy: 1623, 1648
+  size: 34, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+dancing_archer_star_night
+  rotate: false
+  xy: 1797, 1749
+  size: 39, 37
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dancing_archer_timessquare
+  rotate: false
+  xy: 894, 1851
+  size: 45, 57
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dancing_archer_trex_doll
+  rotate: false
+  xy: 1042, 1358
+  size: 37, 45
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+dark_berserker
+  rotate: false
+  xy: 400, 1136
+  size: 48, 47
+  orig: 64, 64
+  offset: 2, 1
+  index: -1
+dark_dragon_partydress
+  rotate: false
+  xy: 1319, 1649
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+dark_knight_female
+  rotate: false
+  xy: 894, 1801
+  size: 45, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+dark_spirit_a
+  rotate: false
+  xy: 2, 1941
+  size: 64, 54
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_b
+  rotate: false
+  xy: 68, 1985
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_ballet
+  rotate: false
+  xy: 2, 1880
+  size: 64, 59
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_high_templar
+  rotate: false
+  xy: 68, 1919
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_ice_golem
+  rotate: false
+  xy: 134, 1999
+  size: 64, 47
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_space_owner
+  rotate: false
+  xy: 2, 1830
+  size: 64, 48
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_staraycat
+  rotate: false
+  xy: 68, 1870
+  size: 64, 47
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dark_spirit_summer
+  rotate: false
+  xy: 134, 1949
+  size: 64, 48
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+darkknight_captain
+  rotate: false
+  xy: 64, 581
+  size: 50, 53
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+ddong
+  rotate: false
+  xy: 1381, 1605
+  size: 22, 22
+  orig: 64, 64
+  offset: 23, 3
+  index: -1
+debuff_atk
+  rotate: false
+  xy: 1118, 1514
+  size: 35, 46
+  orig: 64, 64
+  offset: 15, 0
+  index: -1
+debuff_def
+  rotate: false
+  xy: 1081, 1501
+  size: 35, 46
+  orig: 64, 64
+  offset: 15, 0
+  index: -1
+debuff_poi
+  rotate: false
+  xy: 1081, 1453
+  size: 35, 46
+  orig: 64, 64
+  offset: 15, 0
+  index: -1
+demon_android_small
+  rotate: false
+  xy: 585, 1284
+  size: 22, 33
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+demon_brother_2
+  rotate: false
+  xy: 1443, 1610
+  size: 27, 35
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+demon_brother_3
+  rotate: false
+  xy: 1397, 1520
+  size: 28, 36
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+demon_brother_4
+  rotate: false
+  xy: 1962, 1786
+  size: 31, 40
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+demon_brother_5
+  rotate: false
+  xy: 894, 1751
+  size: 45, 48
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_brother_adult
+  rotate: false
+  xy: 1397, 1477
+  size: 28, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+demon_ceo_3
+  rotate: false
+  xy: 200, 1986
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_4
+  rotate: false
+  xy: 2, 1768
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_5
+  rotate: false
+  xy: 68, 1808
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_ballet
+  rotate: false
+  xy: 2, 972
+  size: 61, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_disguised
+  rotate: false
+  xy: 1164, 1839
+  size: 41, 46
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+demon_ceo_dragon_king
+  rotate: false
+  xy: 134, 1886
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_heart_queen
+  rotate: false
+  xy: 200, 1923
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demon_ceo_princess
+  rotate: false
+  xy: 266, 1994
+  size: 64, 52
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+demon_civilian_hulk_female
+  rotate: false
+  xy: 1995, 1947
+  size: 51, 52
+  orig: 64, 64
+  offset: 3, 0
+  index: -1
+demon_hulk
+  rotate: false
+  xy: 269, 74
+  size: 47, 42
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+demon_john_mcclane
+  rotate: false
+  xy: 1195, 1242
+  size: 24, 38
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+demon_lilithtower_android
+  rotate: false
+  xy: 673, 2
+  size: 26, 29
+  orig: 64, 64
+  offset: 18, 4
+  index: -1
+demon_operator_3
+  rotate: false
+  xy: 1660, 1690
+  size: 34, 39
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+demon_operator_4
+  rotate: false
+  xy: 480, 601
+  size: 37, 39
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+demon_operator_5
+  rotate: false
+  xy: 672, 1557
+  size: 40, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+demon_operator_racer
+  rotate: false
+  xy: 714, 1557
+  size: 40, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+demon_powergirl_3
+  rotate: false
+  xy: 500, 1118
+  size: 44, 49
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+demon_powergirl_4
+  rotate: false
+  xy: 654, 1834
+  size: 46, 50
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+demon_powergirl_5
+  rotate: false
+  xy: 398, 1081
+  size: 48, 53
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+demon_powergirl_fighter
+  rotate: false
+  xy: 410, 1371
+  size: 48, 53
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+demon_queen_2
+  rotate: false
+  xy: 1659, 1647
+  size: 34, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+demon_queen_3
+  rotate: false
+  xy: 1659, 1647
+  size: 34, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+demon_queen_4
+  rotate: false
+  xy: 1659, 1647
+  size: 34, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+demon_queen_5
+  rotate: false
+  xy: 1659, 1647
+  size: 34, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+demon_sister_2
+  rotate: false
+  xy: 1303, 1272
+  size: 29, 37
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+demon_sister_3
+  rotate: false
+  xy: 1911, 1612
+  size: 33, 37
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+demon_sister_4
+  rotate: false
+  xy: 525, 985
+  size: 35, 38
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+demon_sister_5
+  rotate: false
+  xy: 368, 1531
+  size: 40, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+demon_sister_adult
+  rotate: false
+  xy: 1303, 1225
+  size: 29, 45
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+demon_slayer_3
+  rotate: false
+  xy: 1118, 1473
+  size: 35, 39
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+demon_slayer_4
+  rotate: false
+  xy: 464, 560
+  size: 37, 39
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+demon_slayer_5
+  rotate: false
+  xy: 893, 1710
+  size: 45, 39
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+demon_slayer_cafe
+  rotate: false
+  xy: 233, 638
+  size: 52, 48
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+demon_trouble_shooter
+  rotate: false
+  xy: 1159, 1933
+  size: 56, 55
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+demonwarrior
+  rotate: false
+  xy: 576, 448
+  size: 31, 41
+  orig: 64, 64
+  offset: 17, 2
+  index: -1
+desert_slave_2
+  rotate: false
+  xy: 941, 1905
+  size: 43, 49
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+desert_slave_3
+  rotate: false
+  xy: 941, 1854
+  size: 43, 49
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+desert_slave_4
+  rotate: false
+  xy: 941, 1804
+  size: 43, 48
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+desert_slave_5
+  rotate: false
+  xy: 1766, 1995
+  size: 58, 51
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+desert_slave_hw_frankenstein
+  rotate: false
+  xy: 941, 1755
+  size: 43, 47
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+desert_slave_idol
+  rotate: false
+  xy: 451, 1320
+  size: 48, 49
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+desertelf_female
+  rotate: false
+  xy: 543, 354
+  size: 31, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+desertelf_hunter_3
+  rotate: false
+  xy: 464, 517
+  size: 37, 41
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+desertelf_hunter_4
+  rotate: false
+  xy: 464, 474
+  size: 37, 41
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+desertelf_hunter_5
+  rotate: false
+  xy: 410, 1542
+  size: 40, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+desertelf_hunter_bath
+  rotate: false
+  xy: 1946, 1616
+  size: 33, 37
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+desertelf_kid_girl
+  rotate: false
+  xy: 2016, 1527
+  size: 30, 30
+  orig: 64, 64
+  offset: 16, 4
+  index: -1
+desertelf_mad_female
+  rotate: false
+  xy: 2016, 1479
+  size: 30, 46
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+desertelf_mad_male
+  rotate: false
+  xy: 691, 655
+  size: 30, 46
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+desertelf_mad_male_bomb
+  rotate: false
+  xy: 691, 616
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+desertelf_prison_officer
+  rotate: false
+  xy: 711, 566
+  size: 30, 48
+  orig: 64, 64
+  offset: 16, 1
+  index: -1
+desertelf_prisoner
+  rotate: false
+  xy: 1981, 1640
+  size: 33, 40
+  orig: 64, 64
+  offset: 12, 0
+  index: -1
+desertelf_rider_male
+  rotate: false
+  xy: 790, 1998
+  size: 61, 48
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+detective
+  rotate: false
+  xy: 750, 1831
+  size: 46, 56
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+disguise_bard_girl
+  rotate: false
+  xy: 1623, 1608
+  size: 34, 38
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+doctor_bear
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_bear_1
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_bear_2
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_bear_3
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_bear_4
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_bear_5
+  rotate: false
+  xy: 320, 1529
+  size: 46, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+doctor_demon_sister
+  rotate: false
+  xy: 463, 259
+  size: 38, 38
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+doll_girl_2
+  rotate: false
+  xy: 1076, 1840
+  size: 42, 46
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+doll_girl_3
+  rotate: false
+  xy: 711, 523
+  size: 30, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+doll_girl_4
+  rotate: false
+  xy: 498, 1067
+  size: 44, 49
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+doll_girl_5
+  rotate: false
+  xy: 312, 1426
+  size: 50, 50
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+doll_girl_futurecastle_future
+  rotate: false
+  xy: 1155, 1498
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+doll_girl_tiger
+  rotate: false
+  xy: 922, 1525
+  size: 43, 45
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+doll_pet
+  rotate: false
+  xy: 568, 1034
+  size: 37, 30
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+dragon_boy_2
+  rotate: false
+  xy: 1397, 1432
+  size: 28, 43
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+dragon_boy_3
+  rotate: false
+  xy: 1318, 1598
+  size: 30, 43
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+dragon_boy_4
+  rotate: false
+  xy: 1163, 1792
+  size: 41, 45
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dragon_boy_5
+  rotate: false
+  xy: 1217, 1933
+  size: 56, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+dragon_boy_hw_werewolf
+  rotate: false
+  xy: 1163, 1744
+  size: 41, 46
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+dragon_otaku
+  rotate: false
+  xy: 1881, 1939
+  size: 55, 55
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+dronewolf
+  rotate: false
+  xy: 503, 570
+  size: 37, 29
+  orig: 64, 64
+  offset: 14, 7
+  index: -1
+ds_demon_sister_mother
+  rotate: false
+  xy: 576, 402
+  size: 31, 44
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+ds_mandrake
+  rotate: false
+  xy: 1341, 1560
+  size: 29, 36
+  orig: 64, 64
+  offset: 18, 4
+  index: -1
+ds_vampire_female
+  rotate: false
+  xy: 1397, 1392
+  size: 28, 38
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+ds_vampire_secretary
+  rotate: false
+  xy: 1433, 1571
+  size: 27, 37
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+dummy
+  rotate: false
+  xy: 1357, 1705
+  size: 21, 35
+  orig: 64, 64
+  offset: 22, 3
+  index: -1
+dungeon_ailie
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_ailie_1
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_ailie_2
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_ailie_3
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_ailie_4
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_ailie_5
+  rotate: false
+  xy: 1824, 1875
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+dungeon_archeologist
+  rotate: false
+  xy: 554, 607
+  size: 32, 37
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+dungeon_devil_archer
+  rotate: false
+  xy: 642, 427
+  size: 30, 44
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+dungeon_devil_archer.ice
+  rotate: false
+  xy: 642, 381
+  size: 30, 44
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+dungeon_devil_shaman
+  rotate: false
+  xy: 642, 335
+  size: 30, 44
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+dungeon_hard_succubus
+  rotate: false
+  xy: 269, 23
+  size: 47, 49
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+dungeon_hard_succubus2
+  rotate: false
+  xy: 320, 538
+  size: 47, 49
+  orig: 64, 64
+  offset: 7, 2
+  index: -1
+dungeon_imp_fighter
+  rotate: false
+  xy: 452, 1533
+  size: 40, 35
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+dungeon_mercenary_mage
+  rotate: false
+  xy: 1076, 1787
+  size: 42, 51
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+dungeon_mercenary_mage_og
+  rotate: false
+  xy: 1076, 1787
+  size: 42, 51
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+dungeon_mercenary_male_b
+  rotate: false
+  xy: 1058, 1540
+  size: 21, 35
+  orig: 64, 64
+  offset: 22, 3
+  index: -1
+dungeon_mercenary_thief
+  rotate: false
+  xy: 500, 1373
+  size: 29, 32
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+dungeon_mercenary_thief_og
+  rotate: false
+  xy: 500, 1373
+  size: 29, 32
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+dungeon_succubus_a
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_succubus_a_1
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_succubus_a_2
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_succubus_a_3
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_succubus_a_4
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_succubus_a_5
+  rotate: false
+  xy: 702, 1808
+  size: 46, 44
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+dungeon_tanker_real
+  rotate: false
+  xy: 917, 1351
+  size: 28, 41
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+east_iron_monarch
+  rotate: false
+  xy: 750, 1773
+  size: 46, 56
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+eight_tail_3
+  rotate: false
+  xy: 366, 10
+  size: 46, 35
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+eight_tail_4
+  rotate: false
+  xy: 893, 1670
+  size: 45, 38
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+eight_tail_5
+  rotate: false
+  xy: 64, 534
+  size: 50, 45
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+eight_tail_adult
+  rotate: false
+  xy: 249, 1370
+  size: 54, 54
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+eight_tail_hammock
+  rotate: false
+  xy: 64, 487
+  size: 50, 45
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+eight_tail_kindergartener
+  rotate: false
+  xy: 613, 1474
+  size: 36, 35
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+eight_tail_lupin
+  rotate: false
+  xy: 64, 440
+  size: 50, 45
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+eight_tail_sakura
+  rotate: false
+  xy: 1646, 1881
+  size: 56, 55
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+eight_tail_winter_cat
+  rotate: false
+  xy: 880, 1625
+  size: 44, 43
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+eight_tail_xmas_tree_fairy
+  rotate: false
+  xy: 1995, 1891
+  size: 51, 54
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+eleanor_3
+  rotate: false
+  xy: 1081, 1407
+  size: 35, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+eleanor_4
+  rotate: false
+  xy: 651, 1462
+  size: 36, 46
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+eleanor_5
+  rotate: false
+  xy: 1838, 1735
+  size: 39, 46
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+eleanor_caster
+  rotate: false
+  xy: 1706, 1954
+  size: 57, 46
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+eleanor_light_darkness
+  rotate: false
+  xy: 653, 1785
+  size: 46, 47
+  orig: 64, 64
+  offset: 3, 2
+  index: -1
+eleanor_summer
+  rotate: false
+  xy: 1921, 1780
+  size: 39, 46
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+eleanor_white_choco
+  rotate: false
+  xy: 1704, 1848
+  size: 56, 53
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+eleonore
+  rotate: false
+  xy: 292, 1313
+  size: 52, 55
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+elf_archer
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_archer_1
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_archer_2
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_archer_3
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_archer_4
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_archer_5
+  rotate: false
+  xy: 503, 531
+  size: 37, 37
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+elf_battleball_a
+  rotate: false
+  xy: 637, 868
+  size: 32, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+elf_boy_2
+  rotate: false
+  xy: 1118, 1433
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+elf_boy_3
+  rotate: false
+  xy: 1118, 1433
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+elf_boy_4
+  rotate: false
+  xy: 1118, 1433
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+elf_boy_5
+  rotate: false
+  xy: 1118, 1433
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+engineer
+  rotate: false
+  xy: 451, 1276
+  size: 48, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+epidemic_doctor
+  rotate: false
+  xy: 542, 565
+  size: 32, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+eugene_3
+  rotate: false
+  xy: 917, 1310
+  size: 28, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+eugene_4
+  rotate: false
+  xy: 542, 524
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+eugene_5
+  rotate: false
+  xy: 986, 1917
+  size: 43, 44
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+eugene_archangel
+  rotate: false
+  xy: 178, 968
+  size: 53, 54
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+eugene_batrider
+  rotate: false
+  xy: 543, 310
+  size: 31, 42
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+mv_batman_eugene_masked
+  rotate: false
+  xy: 543, 310
+  size: 31, 42
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+eugene_space_sheriff
+  rotate: false
+  xy: 1995, 1845
+  size: 51, 44
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+executioner_female
+  rotate: false
+  xy: 451, 1227
+  size: 48, 47
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+executioner_male
+  rotate: false
+  xy: 440, 857
+  size: 39, 53
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+executioner_male_b
+  rotate: false
+  xy: 168, 546
+  size: 49, 44
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+exhibitionism_knight
+  rotate: false
+  xy: 450, 1174
+  size: 48, 51
+  orig: 64, 64
+  offset: 4, 1
+  index: -1
+exorcist_brother
+  rotate: false
+  xy: 1462, 1570
+  size: 27, 38
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+fairy_plitvice
+  rotate: false
+  xy: 2, 908
+  size: 61, 62
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fastfood_captain
+  rotate: false
+  xy: 642, 286
+  size: 30, 47
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+fat_desertelf
+  rotate: false
+  xy: 2, 1716
+  size: 64, 50
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_devil
+  rotate: false
+  xy: 68, 1751
+  size: 64, 55
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_gnome
+  rotate: false
+  xy: 916, 2000
+  size: 60, 46
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_invader_guard
+  rotate: false
+  xy: 134, 1820
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_invader_guard.light
+  rotate: false
+  xy: 200, 1857
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_ogre
+  rotate: false
+  xy: 266, 1939
+  size: 64, 53
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_sapa
+  rotate: false
+  xy: 332, 1993
+  size: 64, 53
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_sapa.none
+  rotate: false
+  xy: 2, 1661
+  size: 64, 53
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fat_yeti
+  rotate: false
+  xy: 68, 1699
+  size: 64, 50
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+festival_girl_3
+  rotate: false
+  xy: 879, 1581
+  size: 44, 42
+  orig: 64, 64
+  offset: 8, 2
+  index: -1
+festival_girl_4
+  rotate: false
+  xy: 876, 1537
+  size: 44, 42
+  orig: 64, 64
+  offset: 8, 2
+  index: -1
+festival_girl_5
+  rotate: false
+  xy: 178, 910
+  size: 53, 56
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+festival_girl_couple
+  rotate: false
+  xy: 292, 1257
+  size: 52, 54
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+festival_girl_hotspring
+  rotate: false
+  xy: 1995, 1786
+  size: 51, 57
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+festival_girl_kimono
+  rotate: false
+  xy: 178, 852
+  size: 53, 56
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+festival_girl_spring_picnic
+  rotate: false
+  xy: 178, 797
+  size: 53, 53
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+fire_bishop_3
+  rotate: false
+  xy: 1659, 1605
+  size: 34, 40
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+fire_bishop_4
+  rotate: false
+  xy: 630, 1511
+  size: 40, 41
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+fire_bishop_5
+  rotate: false
+  xy: 369, 532
+  size: 47, 55
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+fire_bishop_dark_flame_dragon
+  rotate: false
+  xy: 288, 885
+  size: 51, 58
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+fire_bishop_firecracker
+  rotate: false
+  xy: 64, 393
+  size: 50, 45
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+fire_bishop_hw_mummy
+  rotate: false
+  xy: 986, 1860
+  size: 43, 55
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+fire_bishop_police
+  rotate: false
+  xy: 986, 1808
+  size: 43, 50
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+fire_harpy_3
+  rotate: false
+  xy: 647, 1742
+  size: 45, 41
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+fire_harpy_4
+  rotate: false
+  xy: 168, 503
+  size: 49, 41
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+fire_harpy_5
+  rotate: false
+  xy: 178, 749
+  size: 53, 46
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+fire_harpy_blackwing
+  rotate: false
+  xy: 178, 695
+  size: 53, 52
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+fire_harpy_chilla_pajama
+  rotate: false
+  xy: 1696, 1722
+  size: 34, 43
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+fire_harpy_detective
+  rotate: false
+  xy: 292, 1212
+  size: 52, 43
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+fire_knight
+  rotate: false
+  xy: 124, 1213
+  size: 54, 54
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+firemage
+  rotate: false
+  xy: 1163, 1702
+  size: 41, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+fknight_spy
+  rotate: false
+  xy: 693, 703
+  size: 29, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+fknight_volleyball
+  rotate: false
+  xy: 613, 1431
+  size: 36, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+flag_girl_2
+  rotate: false
+  xy: 1427, 1505
+  size: 27, 51
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+flag_girl_3
+  rotate: false
+  xy: 1427, 1505
+  size: 27, 51
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+flag_girl_4
+  rotate: false
+  xy: 1427, 1505
+  size: 27, 51
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+flag_girl_5
+  rotate: false
+  xy: 1427, 1505
+  size: 27, 51
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+flower_girl_3
+  rotate: false
+  xy: 320, 493
+  size: 47, 43
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+flower_girl_4
+  rotate: false
+  xy: 319, 445
+  size: 47, 46
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+flower_girl_5
+  rotate: false
+  xy: 305, 1371
+  size: 52, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+flower_girl_archangel
+  rotate: false
+  xy: 1765, 1932
+  size: 57, 61
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+flower_girl_mayreel_doll
+  rotate: false
+  xy: 1706, 1903
+  size: 57, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+flower_president
+  rotate: false
+  xy: 123, 1167
+  size: 54, 44
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+fly_gagoyle.ice
+  rotate: false
+  xy: 1765, 1891
+  size: 57, 39
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+football_girl
+  rotate: false
+  xy: 123, 1124
+  size: 54, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+founder
+  rotate: false
+  xy: 1473, 1623
+  size: 26, 37
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+fox_fairy_knight
+  rotate: false
+  xy: 1762, 1846
+  size: 56, 43
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+fox_garam
+  rotate: false
+  xy: 1881, 1887
+  size: 55, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+fox_kid_female
+  rotate: false
+  xy: 1054, 1501
+  size: 25, 31
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+fox_mouse_knight
+  rotate: false
+  xy: 1076, 1740
+  size: 42, 45
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+fox_mouse_nari
+  rotate: false
+  xy: 986, 1762
+  size: 43, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+fox_noble_male
+  rotate: false
+  xy: 672, 1510
+  size: 40, 45
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+fox_noble_old_male
+  rotate: false
+  xy: 1353, 1643
+  size: 28, 49
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+fox_tiger_knight
+  rotate: false
+  xy: 530, 1871
+  size: 63, 50
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+funny_engineer
+  rotate: false
+  xy: 674, 288
+  size: 25, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+future2_beta_weapon
+  rotate: false
+  xy: 134, 1782
+  size: 64, 36
+  orig: 64, 64
+  offset: 0, 8
+  index: -1
+future_knight_3
+  rotate: false
+  xy: 576, 567
+  size: 32, 38
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+future_knight_4
+  rotate: false
+  xy: 651, 1422
+  size: 36, 38
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+future_knight_5
+  rotate: false
+  xy: 395, 912
+  size: 44, 41
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+future_knight_bounty_hunter
+  rotate: false
+  xy: 1155, 1456
+  size: 35, 40
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+future_knight_cyberpunk
+  rotate: false
+  xy: 1981, 1601
+  size: 33, 37
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+future_knight_farmer
+  rotate: false
+  xy: 440, 811
+  size: 39, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+future_knight_male
+  rotate: false
+  xy: 394, 869
+  size: 44, 41
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+future_knight_princess_owner
+  rotate: false
+  xy: 645, 1688
+  size: 45, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+future_knight_specter_knight
+  rotate: false
+  xy: 394, 829
+  size: 44, 38
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+future_knight_vd_youth
+  rotate: false
+  xy: 701, 1764
+  size: 46, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+future_princess_3
+  rotate: false
+  xy: 1696, 1682
+  size: 34, 38
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+future_princess_4
+  rotate: false
+  xy: 1251, 1893
+  size: 41, 38
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+future_princess_5
+  rotate: false
+  xy: 393, 789
+  size: 44, 38
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+future_princess_dark_mage
+  rotate: false
+  xy: 287, 836
+  size: 51, 47
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+future_princess_dress
+  rotate: false
+  xy: 319, 401
+  size: 47, 42
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+future_princess_excalibur
+  rotate: false
+  xy: 287, 773
+  size: 51, 61
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+future_princess_hanbok
+  rotate: false
+  xy: 1820, 1828
+  size: 55, 45
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+future_princess_noble
+  rotate: false
+  xy: 1881, 1829
+  size: 55, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+noble_knight_female
+  rotate: false
+  xy: 1881, 1829
+  size: 55, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+noble_knight_female_3
+  rotate: false
+  xy: 1881, 1829
+  size: 55, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+noble_knight_female_4
+  rotate: false
+  xy: 1881, 1829
+  size: 55, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+noble_knight_female_5
+  rotate: false
+  xy: 1881, 1829
+  size: 55, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+future_princess_prestige_reward_1
+  rotate: false
+  xy: 1695, 1645
+  size: 34, 35
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+future_princess_pv_costume
+  rotate: false
+  xy: 576, 527
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+future_princess_seal_pajamas
+  rotate: false
+  xy: 123, 1078
+  size: 54, 44
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+future_princess_snowboard
+  rotate: false
+  xy: 689, 1425
+  size: 36, 41
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+future_princess_vd_confession
+  rotate: false
+  xy: 660, 828
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 2
+  index: -1
+future_princess_xm_bunny
+  rotate: false
+  xy: 257, 1426
+  size: 53, 49
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+futurecastle_onigirl_wheelchair
+  rotate: false
+  xy: 439, 765
+  size: 39, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+futurecastle_worker
+  rotate: false
+  xy: 660, 786
+  size: 32, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+futuristic_rider_eugene
+  rotate: false
+  xy: 1946, 1570
+  size: 33, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+futuristic_rider_eugenel
+  rotate: false
+  xy: 1695, 1599
+  size: 34, 44
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+gangho_m_female
+  rotate: false
+  xy: 574, 1415
+  size: 36, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+gangsi
+  rotate: false
+  xy: 501, 1330
+  size: 29, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+garam_3
+  rotate: false
+  xy: 662, 1946
+  size: 46, 44
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+garam_4
+  rotate: false
+  xy: 287, 727
+  size: 51, 44
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+garam_5
+  rotate: false
+  xy: 588, 1723
+  size: 55, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+garam_airline
+  rotate: false
+  xy: 319, 343
+  size: 47, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+garam_child
+  rotate: false
+  xy: 1575, 1776
+  size: 52, 43
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+garam_evening_emperor
+  rotate: false
+  xy: 168, 441
+  size: 49, 60
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+garam_girl
+  rotate: false
+  xy: 319, 296
+  size: 47, 45
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+general_girl_2
+  rotate: false
+  xy: 660, 743
+  size: 32, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+general_girl_3
+  rotate: false
+  xy: 660, 743
+  size: 32, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+general_girl_4
+  rotate: false
+  xy: 660, 743
+  size: 32, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+general_girl_5
+  rotate: false
+  xy: 660, 743
+  size: 32, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+innuit_2
+  rotate: false
+  xy: 660, 743
+  size: 32, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+genius_magician
+  rotate: false
+  xy: 1294, 1888
+  size: 41, 52
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+geomancy_ming
+  rotate: false
+  xy: 1732, 1719
+  size: 34, 40
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ghost_buster_2
+  rotate: false
+  xy: 1911, 1567
+  size: 33, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+ghost_buster_3
+  rotate: false
+  xy: 659, 703
+  size: 32, 38
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ghost_buster_4
+  rotate: false
+  xy: 694, 1715
+  size: 45, 47
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+ghost_buster_5
+  rotate: false
+  xy: 168, 379
+  size: 49, 60
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+ghost_busters
+  rotate: false
+  xy: 714, 1512
+  size: 40, 43
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+ghost_cafe_evil_dumb
+  rotate: false
+  xy: 541, 197
+  size: 32, 50
+  orig: 64, 64
+  offset: 16, 2
+  index: -1
+ghost_evilguard_female
+  rotate: false
+  xy: 1732, 1665
+  size: 34, 52
+  orig: 43, 58
+  offset: 4, 3
+  index: -1
+ghost_evilguard_male
+  rotate: false
+  xy: 539, 2
+  size: 35, 54
+  orig: 40, 59
+  offset: 2, 3
+  index: -1
+ghost_girl_2
+  rotate: false
+  xy: 1120, 1660
+  size: 41, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+ghost_girl_3
+  rotate: false
+  xy: 1163, 1664
+  size: 41, 36
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+ghost_girl_4
+  rotate: false
+  xy: 1163, 1664
+  size: 41, 36
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+ghost_girl_5
+  rotate: false
+  xy: 1163, 1664
+  size: 41, 36
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+ghost_guard_female
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_female_1
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_female_2
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_female_3
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_female_4
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_female_5
+  rotate: false
+  xy: 612, 1380
+  size: 36, 49
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+ghost_guard_male
+  rotate: false
+  xy: 1981, 1549
+  size: 33, 50
+  orig: 64, 64
+  offset: 16, 1
+  index: -1
+golem_ice
+  rotate: false
+  xy: 200, 1791
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+golem_livingarmor
+  rotate: false
+  xy: 266, 1878
+  size: 64, 59
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+golem_rider
+  rotate: false
+  xy: 2, 563
+  size: 60, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+golem_rider_3
+  rotate: false
+  xy: 123, 1024
+  size: 54, 52
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+golem_rider_4
+  rotate: false
+  xy: 1461, 1905
+  size: 56, 52
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+golem_rider_5
+  rotate: false
+  xy: 332, 1934
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+golem_rider_madrobot
+  rotate: false
+  xy: 1826, 1998
+  size: 58, 48
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+golem_rider_mechgolem
+  rotate: false
+  xy: 2, 845
+  size: 61, 61
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+golem_rider_yeti
+  rotate: false
+  xy: 398, 1989
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+golem_tanker
+  rotate: false
+  xy: 1040, 1984
+  size: 59, 62
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+gourry
+  rotate: false
+  xy: 1081, 1362
+  size: 35, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+gourry_black
+  rotate: false
+  xy: 1731, 1621
+  size: 34, 42
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+gourry_jellyfish
+  rotate: false
+  xy: 1519, 1870
+  size: 56, 55
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+graduate_pirate
+  rotate: false
+  xy: 1076, 1687
+  size: 42, 51
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+grim_reaper_2
+  rotate: false
+  xy: 1118, 1608
+  size: 41, 50
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+grim_reaper_3
+  rotate: false
+  xy: 790, 1946
+  size: 46, 50
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+grim_reaper_4
+  rotate: false
+  xy: 318, 241
+  size: 47, 53
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+grim_reaper_5
+  rotate: false
+  xy: 64, 341
+  size: 50, 50
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+guardian_bob
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_bob_1
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_bob_2
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_bob_3
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_bob_4
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_bob_5
+  rotate: false
+  xy: 1076, 1945
+  size: 23, 37
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+guardian_linda
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+guardian_linda_1
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+guardian_linda_2
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+guardian_linda_3
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+guardian_linda_4
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+guardian_linda_5
+  rotate: false
+  xy: 541, 157
+  size: 32, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+half_vampire_3
+  rotate: false
+  xy: 576, 363
+  size: 31, 37
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+half_vampire_4
+  rotate: false
+  xy: 541, 116
+  size: 32, 39
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+half_vampire_5
+  rotate: false
+  xy: 503, 487
+  size: 37, 42
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+half_vampire_halloween
+  rotate: false
+  xy: 134, 1413
+  size: 56, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+half_vampire_office_worker
+  rotate: false
+  xy: 642, 242
+  size: 30, 42
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+half_vampire_paper_bag
+  rotate: false
+  xy: 917, 1272
+  size: 28, 36
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+hana_3
+  rotate: false
+  xy: 642, 200
+  size: 30, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+hana_4
+  rotate: false
+  xy: 576, 321
+  size: 31, 40
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+hana_5
+  rotate: false
+  xy: 504, 443
+  size: 37, 42
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+hana_beachball
+  rotate: false
+  xy: 692, 1659
+  size: 45, 54
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+hana_fruit_harvester
+  rotate: false
+  xy: 986, 1676
+  size: 42, 42
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+hana_gray_raincoat
+  rotate: false
+  xy: 838, 1954
+  size: 46, 42
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+hana_nurse
+  rotate: false
+  xy: 260, 1478
+  size: 56, 49
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+hana_winter_girl
+  rotate: false
+  xy: 501, 1290
+  size: 29, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+hand_princess
+  rotate: false
+  xy: 575, 1601
+  size: 56, 59
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+hanfu_witch_coco
+  rotate: false
+  xy: 2, 1597
+  size: 64, 62
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+hatchling
+  rotate: false
+  xy: 417, 259
+  size: 43, 34
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+heavy_knight
+  rotate: false
+  xy: 1118, 1384
+  size: 35, 47
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+heavy_knight_b
+  rotate: false
+  xy: 504, 392
+  size: 37, 49
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+heavy_knight_b_alt
+  rotate: false
+  xy: 416, 208
+  size: 43, 49
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+high_class_devil
+  rotate: false
+  xy: 1938, 1940
+  size: 55, 54
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+highschool_akayuki
+  rotate: false
+  xy: 450, 1126
+  size: 48, 46
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+highschool_ghost_buster
+  rotate: false
+  xy: 1946, 1525
+  size: 33, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+highschool_knight_female
+  rotate: false
+  xy: 1155, 1412
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+highschool_knight_male
+  rotate: false
+  xy: 1192, 1511
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+highschool_science_male
+  rotate: false
+  xy: 977, 1322
+  size: 26, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+highschool_teatan_hero
+  rotate: false
+  xy: 727, 1425
+  size: 32, 34
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+hipster_girl
+  rotate: false
+  xy: 1886, 1996
+  size: 58, 50
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+honeybee_girl
+  rotate: false
+  xy: 576, 278
+  size: 31, 41
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+hulk_orc
+  rotate: false
+  xy: 448, 1083
+  size: 48, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+hulk_orc.light
+  rotate: false
+  xy: 220, 593
+  size: 48, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+hulk_orc_elite
+  rotate: false
+  xy: 122, 971
+  size: 54, 51
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+hulk_panda
+  rotate: false
+  xy: 798, 1906
+  size: 46, 38
+  orig: 64, 64
+  offset: 9, 4
+  index: -1
+hyper
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+hyper_1
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+hyper_2
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+hyper_3
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+hyper_4
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+hyper_5
+  rotate: false
+  xy: 441, 912
+  size: 39, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+ice_hockey_fan
+  rotate: false
+  xy: 690, 1601
+  size: 45, 56
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+iced_teatan_male
+  rotate: false
+  xy: 501, 1253
+  size: 29, 35
+  orig: 64, 64
+  offset: 17, 4
+  index: -1
+idol_captain
+  rotate: false
+  xy: 122, 916
+  size: 54, 53
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+idol_captain_3
+  rotate: false
+  xy: 168, 324
+  size: 49, 53
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+idol_captain_4
+  rotate: false
+  xy: 346, 1316
+  size: 52, 53
+  orig: 64, 64
+  offset: 7, 2
+  index: -1
+idol_captain_5
+  rotate: false
+  xy: 2, 504
+  size: 60, 57
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+idol_captain_rabbit_doll
+  rotate: false
+  xy: 178, 636
+  size: 53, 57
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+idol_captain_vd_passion
+  rotate: false
+  xy: 398, 1647
+  size: 57, 51
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+idols_member_cecil
+  rotate: false
+  xy: 576, 238
+  size: 31, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+innuit_3
+  rotate: false
+  xy: 650, 1374
+  size: 36, 46
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+innuit_4
+  rotate: false
+  xy: 439, 716
+  size: 39, 47
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+innuit_5
+  rotate: false
+  xy: 168, 265
+  size: 49, 57
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+innuit_female
+  rotate: false
+  xy: 641, 157
+  size: 30, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+innuit_male
+  rotate: false
+  xy: 575, 195
+  size: 31, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+invader_knight_3
+  rotate: false
+  xy: 1192, 1457
+  size: 35, 52
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+invader_knight_4
+  rotate: false
+  xy: 287, 673
+  size: 51, 52
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+invader_knight_5
+  rotate: false
+  xy: 457, 1622
+  size: 57, 55
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+invader_knight_boss
+  rotate: false
+  xy: 1731, 1581
+  size: 34, 38
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+invader_knight_dark_choco_maid
+  rotate: false
+  xy: 1335, 1504
+  size: 29, 51
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+invader_knight_janitor
+  rotate: false
+  xy: 1768, 1708
+  size: 34, 39
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+invader_knight_mafia
+  rotate: false
+  xy: 330, 1575
+  size: 45, 52
+  orig: 64, 64
+  offset: 6, 2
+  index: -1
+invader_knight_mecha
+  rotate: false
+  xy: 1946, 2001
+  size: 58, 45
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+invader_knight_prestige_reward_2
+  rotate: false
+  xy: 568, 998
+  size: 36, 34
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+invader_knight_xm_shooter
+  rotate: false
+  xy: 122, 868
+  size: 54, 46
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+invader_priestess
+  rotate: false
+  xy: 761, 1414
+  size: 32, 45
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+invader_reporter
+  rotate: false
+  xy: 1768, 1665
+  size: 34, 41
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+ipsissimus
+  rotate: false
+  xy: 1938, 1882
+  size: 55, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+ipsissimus_3
+  rotate: false
+  xy: 1938, 1882
+  size: 55, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+ipsissimus_4
+  rotate: false
+  xy: 1938, 1882
+  size: 55, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+ipsissimus_5
+  rotate: false
+  xy: 1938, 1882
+  size: 55, 56
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+iron_girl
+  rotate: false
+  xy: 68, 1640
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+isabella
+  rotate: false
+  xy: 596, 1932
+  size: 63, 55
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+jack_frost
+  rotate: false
+  xy: 415, 55
+  size: 42, 23
+  orig: 64, 64
+  offset: 11, 7
+  index: -1
+japanese_samurai
+  rotate: false
+  xy: 346, 1259
+  size: 52, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+japanese_swordman
+  rotate: false
+  xy: 798, 1862
+  size: 46, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+japanese_yokai
+  rotate: false
+  xy: 448, 1037
+  size: 38, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+jungpa_dosa.none
+  rotate: false
+  xy: 1514, 1534
+  size: 20, 34
+  orig: 64, 64
+  offset: 23, 3
+  index: -1
+jungpa_female
+  rotate: false
+  xy: 1192, 1412
+  size: 35, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+jungpa_female_archer
+  rotate: false
+  xy: 1155, 1367
+  size: 35, 43
+  orig: 64, 64
+  offset: 11, 2
+  index: -1
+jungpa_male_fighter
+  rotate: false
+  xy: 522, 890
+  size: 36, 41
+  orig: 64, 64
+  offset: 11, 2
+  index: -1
+kaden
+  rotate: false
+  xy: 575, 151
+  size: 31, 42
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+kaden_hero
+  rotate: false
+  xy: 318, 196
+  size: 47, 43
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+kamael
+  rotate: false
+  xy: 1383, 1668
+  size: 28, 37
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+kamael_3
+  rotate: false
+  xy: 1981, 1509
+  size: 33, 38
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+kamael_4
+  rotate: false
+  xy: 416, 168
+  size: 43, 38
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+kamael_5
+  rotate: false
+  xy: 67, 1223
+  size: 51, 38
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+kamael_cursed
+  rotate: false
+  xy: 1938, 1828
+  size: 55, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+kamael_fisherman
+  rotate: false
+  xy: 1192, 1370
+  size: 35, 40
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+kamael_headmaster
+  rotate: false
+  xy: 1335, 1456
+  size: 29, 46
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+kamael_mafia
+  rotate: false
+  xy: 398, 1037
+  size: 45, 42
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+kart_hero
+  rotate: false
+  xy: 1101, 1996
+  size: 59, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+kenshiro
+  rotate: false
+  xy: 393, 735
+  size: 44, 52
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+kid_civilian_boy
+  rotate: false
+  xy: 1335, 1423
+  size: 29, 31
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+knife_succubus
+  rotate: false
+  xy: 1466, 1959
+  size: 58, 47
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+knight_autumn_wind
+  rotate: false
+  xy: 530, 1812
+  size: 57, 57
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+knight_cafe_coffeehead
+  rotate: false
+  xy: 504, 346
+  size: 37, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+knight_cafe_suit
+  rotate: false
+  xy: 1005, 1322
+  size: 26, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+knight_captain_2
+  rotate: false
+  xy: 520, 798
+  size: 33, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_captain_3
+  rotate: false
+  xy: 795, 1419
+  size: 32, 38
+  orig: 64, 64
+  offset: 14, 2
+  index: -1
+knight_captain_4
+  rotate: false
+  xy: 1118, 1344
+  size: 35, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+knight_captain_5
+  rotate: false
+  xy: 168, 210
+  size: 49, 53
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+knight_captain_past
+  rotate: false
+  xy: 575, 110
+  size: 31, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+knight_dark_magician
+  rotate: false
+  xy: 1162, 1990
+  size: 59, 56
+  orig: 64, 64
+  offset: 1, 0
+  index: -1
+knight_darth_guardian
+  rotate: false
+  xy: 555, 814
+  size: 33, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_female_1
+  rotate: false
+  xy: 1155, 1323
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_female_2
+  rotate: false
+  xy: 1192, 1326
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_female_3
+  rotate: false
+  xy: 504, 297
+  size: 37, 47
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+knight_female_4
+  rotate: false
+  xy: 439, 667
+  size: 39, 47
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+knight_female_5
+  rotate: false
+  xy: 572, 1549
+  size: 56, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+knight_female_grandpa
+  rotate: false
+  xy: 1335, 1379
+  size: 29, 42
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+knight_female_hero
+  rotate: false
+  xy: 1081, 1318
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_female_reaper
+  rotate: false
+  xy: 977, 1282
+  size: 26, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+knight_female_refugee
+  rotate: false
+  xy: 1118, 1300
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_female_sauna
+  rotate: false
+  xy: 1155, 1282
+  size: 35, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+knight_female_sport_uniform
+  rotate: false
+  xy: 1192, 1282
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_fifer_boy
+  rotate: false
+  xy: 756, 1369
+  size: 32, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+knight_hazmat
+  rotate: false
+  xy: 590, 814
+  size: 33, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_m_basketball
+  rotate: false
+  xy: 1427, 1460
+  size: 27, 43
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+knight_m_spy
+  rotate: false
+  xy: 1334, 1337
+  size: 29, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+knight_mafia
+  rotate: false
+  xy: 643, 473
+  size: 30, 39
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+mafia
+  rotate: false
+  xy: 643, 473
+  size: 30, 39
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+knight_male_1
+  rotate: false
+  xy: 1229, 1511
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_male_2
+  rotate: false
+  xy: 460, 1391
+  size: 38, 43
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+knight_male_3
+  rotate: false
+  xy: 503, 249
+  size: 37, 46
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+knight_male_4
+  rotate: false
+  xy: 1002, 1447
+  size: 38, 46
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+knight_male_5
+  rotate: false
+  xy: 596, 1880
+  size: 56, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+knight_male_grandpa
+  rotate: false
+  xy: 1334, 1293
+  size: 29, 42
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+knight_male_hero
+  rotate: false
+  xy: 1229, 1467
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_male_reaper
+  rotate: false
+  xy: 674, 248
+  size: 25, 38
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+knight_male_refugee
+  rotate: false
+  xy: 1229, 1423
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_male_sauna
+  rotate: false
+  xy: 1229, 1382
+  size: 35, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+knight_male_sport_uniform
+  rotate: false
+  xy: 1229, 1338
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_refugee_vice
+  rotate: false
+  xy: 1839, 1587
+  size: 32, 48
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+knight_slime_face
+  rotate: false
+  xy: 1229, 1294
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+knight_suit_female
+  rotate: false
+  xy: 1005, 1282
+  size: 26, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+knight_turtle
+  rotate: false
+  xy: 1767, 1623
+  size: 34, 40
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+knight_zaco
+  rotate: false
+  xy: 1839, 1543
+  size: 32, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+korean_traditionaldancer
+  rotate: false
+  xy: 416, 123
+  size: 43, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+kunoichi_3
+  rotate: false
+  xy: 393, 695
+  size: 44, 38
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+kunoichi_4
+  rotate: false
+  xy: 397, 994
+  size: 45, 41
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+kunoichi_5
+  rotate: false
+  xy: 798, 1817
+  size: 46, 43
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+kunoichi_swat
+  rotate: false
+  xy: 415, 80
+  size: 43, 41
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+lady_student
+  rotate: false
+  xy: 1334, 1246
+  size: 29, 45
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+lady_thief_3
+  rotate: false
+  xy: 625, 816
+  size: 33, 50
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+lady_thief_4
+  rotate: false
+  xy: 524, 933
+  size: 36, 50
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+lady_thief_5
+  rotate: false
+  xy: 798, 1763
+  size: 46, 52
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+lady_thief_detective
+  rotate: false
+  xy: 1633, 1821
+  size: 40, 46
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+lady_thief_modern_queen
+  rotate: false
+  xy: 64, 287
+  size: 50, 52
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+lady_thief_rabbit_herald
+  rotate: false
+  xy: 633, 1604
+  size: 55, 56
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+lady_thief_racing
+  rotate: false
+  xy: 346, 1200
+  size: 52, 57
+  orig: 64, 64
+  offset: 3, 2
+  index: -1
+leaf_fairy_2
+  rotate: false
+  xy: 562, 943
+  size: 36, 53
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+leaf_fairy_3
+  rotate: false
+  xy: 1031, 1942
+  size: 43, 40
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+leaf_fairy_4
+  rotate: false
+  xy: 393, 648
+  size: 44, 45
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+leaf_fairy_5
+  rotate: false
+  xy: 1343, 1892
+  size: 56, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+leaf_fairy_tree_doll
+  rotate: false
+  xy: 756, 1507
+  size: 40, 57
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+leaf_fairy_worker
+  rotate: false
+  xy: 502, 194
+  size: 37, 53
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+legendary_hero_3
+  rotate: false
+  xy: 641, 118
+  size: 30, 37
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+legendary_hero_4
+  rotate: false
+  xy: 576, 71
+  size: 31, 37
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+legendary_hero_5
+  rotate: false
+  xy: 318, 143
+  size: 47, 51
+  orig: 64, 64
+  offset: 6, 1
+  index: -1
+legendary_hero_adventurer
+  rotate: false
+  xy: 1383, 1629
+  size: 28, 37
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+legendary_hero_commander
+  rotate: false
+  xy: 562, 902
+  size: 36, 39
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+legendary_hero_old
+  rotate: false
+  xy: 1033, 1316
+  size: 26, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+legendary_hero_yellow_jacket
+  rotate: false
+  xy: 576, 24
+  size: 31, 45
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+librarian_3
+  rotate: false
+  xy: 846, 1891
+  size: 46, 61
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+librarian_4
+  rotate: false
+  xy: 64, 224
+  size: 50, 61
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+librarian_5
+  rotate: false
+  xy: 2, 441
+  size: 60, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+librarian_ballet
+  rotate: false
+  xy: 1334, 1204
+  size: 29, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+librarian_fireworks
+  rotate: false
+  xy: 168, 156
+  size: 49, 52
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+librarian_hw_kangshi
+  rotate: false
+  xy: 2, 782
+  size: 61, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+librarian_wisp_owner
+  rotate: false
+  xy: 66, 1158
+  size: 55, 63
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+lifeguard_yuze_3
+  rotate: false
+  xy: 1229, 1249
+  size: 35, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+lifeguard_yuze_4
+  rotate: false
+  xy: 439, 622
+  size: 39, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+lifeguard_yuze_5
+  rotate: false
+  xy: 393, 601
+  size: 44, 45
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+lifeguard_yuze_prison_guard
+  rotate: false
+  xy: 1880, 1741
+  size: 39, 45
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+lina
+  rotate: false
+  xy: 1240, 1563
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+lina_idol
+  rotate: false
+  xy: 1251, 1845
+  size: 41, 46
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+lina_tennis
+  rotate: false
+  xy: 1266, 1517
+  size: 35, 44
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+little_devil
+  rotate: false
+  xy: 609, 105
+  size: 30, 40
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+little_witch
+  rotate: false
+  xy: 168, 105
+  size: 49, 49
+  orig: 64, 64
+  offset: 4, 1
+  index: -1
+maam
+  rotate: false
+  xy: 1266, 1475
+  size: 35, 40
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+maam_magicgunner
+  rotate: false
+  xy: 610, 473
+  size: 31, 39
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+maam_monk
+  rotate: false
+  xy: 609, 64
+  size: 30, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+mad_nurse
+  rotate: false
+  xy: 529, 1766
+  size: 57, 44
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+mad_scientist_2
+  rotate: false
+  xy: 1208, 1841
+  size: 41, 45
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+mad_scientist_3
+  rotate: false
+  xy: 1921, 1732
+  size: 39, 46
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+mad_scientist_4
+  rotate: false
+  xy: 846, 1843
+  size: 46, 46
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+mad_scientist_5
+  rotate: false
+  xy: 1223, 1987
+  size: 59, 59
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+mad_scientist_fallenangel
+  rotate: false
+  xy: 66, 1107
+  size: 55, 49
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+mad_scientist_police
+  rotate: false
+  xy: 1401, 1886
+  size: 56, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+magic_student_dancing_archer
+  rotate: false
+  xy: 236, 1162
+  size: 53, 47
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+magicschool_turret_laser
+  rotate: false
+  xy: 1266, 1424
+  size: 35, 49
+  orig: 64, 64
+  offset: 15, 0
+  index: -1
+maid_2
+  rotate: false
+  xy: 1873, 1568
+  size: 32, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+maid_3
+  rotate: false
+  xy: 502, 151
+  size: 37, 41
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+maid_4
+  rotate: false
+  xy: 502, 107
+  size: 37, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+maid_5
+  rotate: false
+  xy: 200, 1520
+  size: 58, 47
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+maiden
+  rotate: false
+  xy: 1873, 1528
+  size: 32, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+maiden_2
+  rotate: false
+  xy: 1873, 1528
+  size: 32, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+maiden_3
+  rotate: false
+  xy: 600, 953
+  size: 36, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+maiden_4
+  rotate: false
+  xy: 318, 92
+  size: 47, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+maiden_5
+  rotate: false
+  xy: 64, 171
+  size: 50, 51
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+mall_goblin_rich_monster
+  rotate: false
+  xy: 1266, 1384
+  size: 35, 38
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+mall_monster_desertelf_male_outlaw_melee
+  rotate: false
+  xy: 1907, 1524
+  size: 32, 41
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+mall_monster_desertelf_male_outlaw_projectile
+  rotate: false
+  xy: 1907, 1524
+  size: 32, 41
+  orig: 64, 64
+  offset: 15, 2
+  index: -1
+mall_monster_security_captain
+  rotate: false
+  xy: 168, 59
+  size: 49, 44
+  orig: 64, 64
+  offset: 8, 2
+  index: -1
+mall_security_monster
+  rotate: false
+  xy: 168, 18
+  size: 49, 39
+  orig: 64, 64
+  offset: 8, 2
+  index: -1
+mall_snowman_gang
+  rotate: false
+  xy: 790, 1368
+  size: 32, 44
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+marine_dl
+  rotate: false
+  xy: 66, 1051
+  size: 55, 54
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+mech_archer
+  rotate: false
+  xy: 962, 1415
+  size: 38, 41
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+mecha_android_3
+  rotate: false
+  xy: 65, 1003
+  size: 55, 46
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_android_4
+  rotate: false
+  xy: 1459, 1855
+  size: 56, 48
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_android_5
+  rotate: false
+  xy: 1517, 1817
+  size: 56, 51
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_android_courier
+  rotate: false
+  xy: 134, 1717
+  size: 64, 63
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_android_space
+  rotate: false
+  xy: 2, 391
+  size: 60, 48
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_android_strider
+  rotate: false
+  xy: 235, 1114
+  size: 53, 46
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+mecha_android_summer
+  rotate: false
+  xy: 200, 1744
+  size: 64, 45
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+mecha_sniper
+  rotate: false
+  xy: 65, 950
+  size: 55, 51
+  orig: 64, 64
+  offset: 1, 2
+  index: -1
+mecha_vampire
+  rotate: false
+  xy: 2, 336
+  size: 60, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+mechagirl
+  rotate: false
+  xy: 524, 1716
+  size: 57, 48
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+mechagirl_b
+  rotate: false
+  xy: 1577, 1869
+  size: 56, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+mechanic_redhood
+  rotate: false
+  xy: 318, 48
+  size: 47, 42
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+mercenary_3
+  rotate: false
+  xy: 947, 1325
+  size: 28, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+mercenary_4
+  rotate: false
+  xy: 641, 76
+  size: 30, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+mercenary_5
+  rotate: false
+  xy: 270, 583
+  size: 48, 41
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+mercenary_battle_angel
+  rotate: false
+  xy: 589, 674
+  size: 32, 54
+  orig: 64, 64
+  offset: 15, 0
+  index: -1
+mercenary_summer
+  rotate: false
+  xy: 220, 550
+  size: 48, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+minigun_viking
+  rotate: false
+  xy: 418, 549
+  size: 44, 50
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+modern_assassin
+  rotate: false
+  xy: 369, 487
+  size: 47, 43
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+monk_disciple
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_disciple_1
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_disciple_2
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_disciple_3
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_disciple_4
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_disciple_5
+  rotate: false
+  xy: 856, 1356
+  size: 29, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+monk_lee
+  rotate: false
+  xy: 601, 1153
+  size: 21, 35
+  orig: 64, 64
+  offset: 22, 3
+  index: -1
+ms_chrome_3
+  rotate: false
+  xy: 609, 24
+  size: 30, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+ms_chrome_4
+  rotate: false
+  xy: 1002, 1407
+  size: 38, 38
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+ms_chrome_5
+  rotate: false
+  xy: 418, 509
+  size: 44, 38
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+ms_chrome_swat
+  rotate: false
+  xy: 947, 1285
+  size: 28, 38
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+ms_grinder
+  rotate: false
+  xy: 689, 1468
+  size: 23, 40
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+ms_occult
+  rotate: false
+  xy: 501, 58
+  size: 37, 47
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_otaku
+  rotate: false
+  xy: 798, 1509
+  size: 40, 39
+  orig: 64, 64
+  offset: 19, 2
+  index: -1
+ms_student_bad_female
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_bad_female_1
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_bad_female_2
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_bad_female_3
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_bad_female_4
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_bad_female_5
+  rotate: false
+  xy: 555, 769
+  size: 33, 43
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+ms_student_female
+  rotate: false
+  xy: 1427, 1420
+  size: 27, 38
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+ms_student_infuse_male
+  rotate: false
+  xy: 972, 1612
+  size: 42, 62
+  orig: 64, 64
+  offset: 9, 2
+  index: -1
+ms_student_male
+  rotate: false
+  xy: 1033, 1276
+  size: 26, 38
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president_1
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president_2
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president_3
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president_4
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+ms_student_president_5
+  rotate: false
+  xy: 723, 661
+  size: 24, 40
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+mugger_2
+  rotate: false
+  xy: 641, 32
+  size: 30, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+mugger_3
+  rotate: false
+  xy: 714, 1468
+  size: 40, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+mugger_4
+  rotate: false
+  xy: 1031, 1898
+  size: 43, 42
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+mugger_5
+  rotate: false
+  xy: 64, 112
+  size: 50, 57
+  orig: 64, 64
+  offset: 5, 1
+  index: -1
+muscle_rudolph
+  rotate: false
+  xy: 1294, 1825
+  size: 41, 61
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+musketeer_2
+  rotate: false
+  xy: 287, 626
+  size: 51, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+musketeer_3
+  rotate: false
+  xy: 287, 626
+  size: 51, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+musketeer_4
+  rotate: false
+  xy: 287, 626
+  size: 51, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+musketeer_5
+  rotate: false
+  xy: 287, 626
+  size: 51, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+musketeer_male
+  rotate: false
+  xy: 344, 1030
+  size: 51, 46
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+mv_knight_eugene
+  rotate: false
+  xy: 1266, 1340
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+mv_staff_female_b
+  rotate: false
+  xy: 609, 431
+  size: 31, 40
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+mystery_cyborg
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+mystery_cyborg_1
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+mystery_cyborg_2
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+mystery_cyborg_3
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+mystery_cyborg_4
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+mystery_cyborg_5
+  rotate: false
+  xy: 587, 1227
+  size: 22, 37
+  orig: 64, 64
+  offset: 21, 4
+  index: -1
+necromancer_3
+  rotate: false
+  xy: 846, 1802
+  size: 46, 39
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+necromancer_4
+  rotate: false
+  xy: 219, 509
+  size: 48, 39
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+necromancer_5
+  rotate: false
+  xy: 343, 988
+  size: 51, 40
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+necromancer_ballet
+  rotate: false
+  xy: 342, 943
+  size: 51, 43
+  orig: 64, 64
+  offset: 5, 1
+  index: -1
+necromancer_high_templar
+  rotate: false
+  xy: 443, 955
+  size: 39, 37
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+necromancer_ice_golem
+  rotate: false
+  xy: 341, 901
+  size: 51, 40
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+necromancer_space_owner
+  rotate: false
+  xy: 122, 826
+  size: 54, 40
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+necromancer_staraycat
+  rotate: false
+  xy: 1962, 1741
+  size: 39, 43
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+necromancer_summer
+  rotate: false
+  xy: 368, 445
+  size: 47, 40
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+neet_fairy
+  rotate: false
+  xy: 623, 687
+  size: 32, 40
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+nine_tail
+  rotate: false
+  xy: 523, 1662
+  size: 57, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+noble_knight_male
+  rotate: false
+  xy: 1266, 1294
+  size: 35, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+noble_man_2
+  rotate: false
+  xy: 1266, 1248
+  size: 35, 44
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+noble_man_3
+  rotate: false
+  xy: 600, 911
+  size: 36, 40
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+noble_man_4
+  rotate: false
+  xy: 1337, 1849
+  size: 41, 41
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+noble_man_5
+  rotate: false
+  xy: 219, 455
+  size: 48, 52
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+noble_teacher
+  rotate: false
+  xy: 922, 1395
+  size: 38, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+nun_hitman
+  rotate: false
+  xy: 64, 59
+  size: 50, 51
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+ocean_uptown_lancer_girl
+  rotate: false
+  xy: 2, 273
+  size: 60, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+olave
+  rotate: false
+  xy: 589, 633
+  size: 32, 39
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+onigirl
+  rotate: false
+  xy: 2003, 1740
+  size: 39, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+onigirl_cafe_suit
+  rotate: false
+  xy: 1962, 1695
+  size: 39, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+onigirl_pizza
+  rotate: false
+  xy: 756, 1461
+  size: 40, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+otaku_scientist
+  rotate: false
+  xy: 219, 404
+  size: 48, 49
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+party_dress_knight_female
+  rotate: false
+  xy: 798, 1459
+  size: 40, 48
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+party_mad_panda_3
+  rotate: false
+  xy: 64, 15
+  size: 50, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+party_mad_panda_4
+  rotate: false
+  xy: 117, 610
+  size: 50, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+party_mad_panda_5
+  rotate: false
+  xy: 341, 853
+  size: 51, 46
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+party_mad_panda_boss_3
+  rotate: false
+  xy: 623, 646
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+party_mad_panda_boss_4
+  rotate: false
+  xy: 657, 658
+  size: 32, 43
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+party_mad_panda_boss_5
+  rotate: false
+  xy: 962, 1367
+  size: 38, 46
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+party_mad_panda_man_3
+  rotate: false
+  xy: 674, 204
+  size: 25, 42
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+party_mad_panda_man_4
+  rotate: false
+  xy: 585, 1371
+  size: 25, 42
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+party_mad_panda_man_5
+  rotate: false
+  xy: 1427, 1376
+  size: 27, 42
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+party_mad_panda_panda_3
+  rotate: false
+  xy: 531, 1373
+  size: 26, 30
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+party_mad_panda_panda_4
+  rotate: false
+  xy: 532, 1339
+  size: 26, 32
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+party_mad_panda_panda_5
+  rotate: false
+  xy: 532, 1303
+  size: 26, 34
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+party_mad_panda_partyend
+  rotate: false
+  xy: 116, 565
+  size: 50, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+party_mad_panda_partyend_boss
+  rotate: false
+  xy: 722, 1338
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+trio_boss_2
+  rotate: false
+  xy: 722, 1338
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+trio_boss_3
+  rotate: false
+  xy: 722, 1338
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+trio_boss_4
+  rotate: false
+  xy: 722, 1338
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+trio_boss_5
+  rotate: false
+  xy: 722, 1338
+  size: 32, 39
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+parvati_3
+  rotate: false
+  xy: 1061, 1279
+  size: 25, 37
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+parvati_4
+  rotate: false
+  xy: 856, 1315
+  size: 29, 39
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+parvati_5
+  rotate: false
+  xy: 673, 159
+  size: 30, 39
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+parvati_nun
+  rotate: false
+  xy: 609, 388
+  size: 31, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+parvati_raptor_doll
+  rotate: false
+  xy: 500, 10
+  size: 37, 46
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+pet_2
+  rotate: false
+  xy: 2003, 1711
+  size: 39, 27
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+pet_3
+  rotate: false
+  xy: 2003, 1682
+  size: 39, 27
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+pet_4
+  rotate: false
+  xy: 2, 2
+  size: 49, 32
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+pet_5
+  rotate: false
+  xy: 68, 1421
+  size: 59, 38
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+pet_hw_ghost
+  rotate: false
+  xy: 260, 1529
+  size: 58, 38
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+phantom_thief
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+phantom_thief_1
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+phantom_thief_2
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+phantom_thief_3
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+phantom_thief_4
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+phantom_thief_5
+  rotate: false
+  xy: 1251, 1795
+  size: 41, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+pilot_admiral
+  rotate: false
+  xy: 292, 1159
+  size: 52, 51
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+pirate_2
+  rotate: false
+  xy: 688, 1333
+  size: 32, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+pirate_3
+  rotate: false
+  xy: 756, 1326
+  size: 32, 41
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+pirate_4
+  rotate: false
+  xy: 496, 1499
+  size: 37, 46
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+pirate_5
+  rotate: false
+  xy: 65, 893
+  size: 55, 55
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+pirate_knightage
+  rotate: false
+  xy: 219, 347
+  size: 48, 55
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+pizza_delivery
+  rotate: false
+  xy: 368, 389
+  size: 47, 54
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+plague_doctor_male
+  rotate: false
+  xy: 219, 300
+  size: 48, 45
+  orig: 64, 64
+  offset: 7, 2
+  index: -1
+plasmapack
+  rotate: false
+  xy: 418, 459
+  size: 44, 48
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+plitvice_3
+  rotate: false
+  xy: 737, 1602
+  size: 45, 55
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+plitvice_4
+  rotate: false
+  xy: 340, 796
+  size: 51, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+plitvice_5
+  rotate: false
+  xy: 2, 210
+  size: 60, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+plitvice_choco_puding_doll
+  rotate: false
+  xy: 1206, 1787
+  size: 36, 50
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+plitvice_dark_queen
+  rotate: false
+  xy: 2, 1351
+  size: 63, 63
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+plitvice_hw_vampire
+  rotate: false
+  xy: 65, 830
+  size: 55, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+plitvice_mecha
+  rotate: false
+  xy: 116, 519
+  size: 50, 44
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+poacher_lady
+  rotate: false
+  xy: 673, 117
+  size: 30, 40
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+polar_bear_doll
+  rotate: false
+  xy: 1206, 1740
+  size: 36, 45
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+police_a
+  rotate: false
+  xy: 673, 70
+  size: 30, 45
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+police_goblin
+  rotate: false
+  xy: 1206, 1694
+  size: 36, 44
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+policeman
+  rotate: false
+  xy: 1350, 1598
+  size: 29, 43
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+popp
+  rotate: false
+  xy: 790, 1322
+  size: 32, 44
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+popp_mage
+  rotate: false
+  xy: 722, 1292
+  size: 32, 44
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+popp_sage
+  rotate: false
+  xy: 756, 1280
+  size: 32, 44
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+postman
+  rotate: false
+  xy: 840, 1493
+  size: 40, 42
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+priestess_3
+  rotate: false
+  xy: 1767, 1575
+  size: 34, 46
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+priestess_4
+  rotate: false
+  xy: 971, 1563
+  size: 42, 47
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+priestess_5
+  rotate: false
+  xy: 122, 762
+  size: 54, 62
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+priestess_fireworks
+  rotate: false
+  xy: 662, 1992
+  size: 62, 54
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+priestess_raincoat
+  rotate: false
+  xy: 116, 471
+  size: 50, 46
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+priestess_succubuzz
+  rotate: false
+  xy: 122, 699
+  size: 54, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+priestess_sweet_secret
+  rotate: false
+  xy: 396, 955
+  size: 45, 37
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+primitive
+  rotate: false
+  xy: 846, 1752
+  size: 46, 48
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+prince_knight_male
+  rotate: false
+  xy: 609, 346
+  size: 31, 40
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+princess
+  rotate: false
+  xy: 1413, 1671
+  size: 28, 34
+  orig: 64, 64
+  offset: 19, 4
+  index: -1
+princess_gnome_01
+  rotate: false
+  xy: 1413, 1630
+  size: 28, 39
+  orig: 64, 64
+  offset: 19, 4
+  index: -1
+princess_gnome_03
+  rotate: false
+  xy: 1443, 1647
+  size: 28, 54
+  orig: 64, 64
+  offset: 19, 4
+  index: -1
+princess_riri
+  rotate: false
+  xy: 790, 1282
+  size: 32, 38
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+princess_whitetiger_baby
+  rotate: false
+  xy: 1244, 1749
+  size: 36, 44
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+prometeia
+  rotate: false
+  xy: 340, 746
+  size: 51, 48
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+qs_invader_knight
+  rotate: false
+  xy: 1244, 1609
+  size: 35, 42
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+qs_mister_chief
+  rotate: false
+  xy: 1473, 1662
+  size: 28, 39
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+queen_knight_female
+  rotate: false
+  xy: 1403, 1558
+  size: 28, 45
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+ragdoll_mouse
+  rotate: false
+  xy: 1002, 1362
+  size: 38, 43
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+raid_boss_redhood
+  rotate: false
+  xy: 266, 1812
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+raid_boss_redhood_desert
+  rotate: false
+  xy: 332, 1868
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+redhood_2
+  rotate: false
+  xy: 1456, 1518
+  size: 27, 50
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+redhood_3
+  rotate: false
+  xy: 1088, 1266
+  size: 25, 50
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+redhood_4
+  rotate: false
+  xy: 1244, 1697
+  size: 36, 50
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+redhood_5
+  rotate: false
+  xy: 463, 404
+  size: 39, 53
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+redhood_ascent
+  rotate: false
+  xy: 417, 401
+  size: 44, 56
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+redhood_bath
+  rotate: false
+  xy: 1115, 1248
+  size: 25, 50
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+republic_officer
+  rotate: false
+  xy: 463, 357
+  size: 39, 45
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+reservoir_executive_black
+  rotate: false
+  xy: 856, 1275
+  size: 29, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+reservoir_executive_blonde
+  rotate: false
+  xy: 1372, 1558
+  size: 29, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+reservoir_gang
+  rotate: false
+  xy: 542, 251
+  size: 32, 44
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+reservoir_gang_brain
+  rotate: false
+  xy: 1366, 1521
+  size: 29, 35
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+reservoir_gang_doctor
+  rotate: false
+  xy: 1804, 1689
+  size: 34, 44
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+reservoir_gang_fat
+  rotate: false
+  xy: 398, 1945
+  size: 64, 42
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+reservoir_gang_hulk
+  rotate: false
+  xy: 1294, 1776
+  size: 41, 47
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+reservoir_member
+  rotate: false
+  xy: 623, 600
+  size: 32, 44
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+rift_boss_harvester
+  rotate: false
+  xy: 464, 1982
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rift_boss_invader
+  rotate: false
+  xy: 2, 1543
+  size: 64, 52
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rift_boss_mech
+  rotate: false
+  xy: 68, 1574
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rift_boss_minotaurs
+  rotate: false
+  xy: 134, 1652
+  size: 64, 63
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+rift_boss_sapa
+  rotate: false
+  xy: 200, 1678
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rift_boss_wolf
+  rotate: false
+  xy: 266, 1746
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+robot_tanker_3
+  rotate: false
+  xy: 134, 1470
+  size: 63, 58
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+robot_tanker_4
+  rotate: false
+  xy: 398, 1700
+  size: 63, 60
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+robot_tanker_5
+  rotate: false
+  xy: 332, 1806
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+robot_tanker_mecha
+  rotate: false
+  xy: 398, 1886
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+robot_tanker_night_voyager
+  rotate: false
+  xy: 464, 1919
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+robot_tanker_raiden
+  rotate: false
+  xy: 65, 771
+  size: 55, 57
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+robot_tanker_three_times
+  rotate: false
+  xy: 530, 1986
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+rockstar_idol_captain
+  rotate: false
+  xy: 1284, 2002
+  size: 59, 44
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+royal_guard
+  rotate: false
+  xy: 460, 13
+  size: 38, 56
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+royal_guard_b
+  rotate: false
+  xy: 463, 299
+  size: 39, 56
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+royal_knight_knight_male
+  rotate: false
+  xy: 235, 1067
+  size: 53, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+rudolph_3
+  rotate: false
+  xy: 840, 1439
+  size: 40, 52
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+rudolph_4
+  rotate: false
+  xy: 967, 1506
+  size: 42, 55
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+rudolph_5
+  rotate: false
+  xy: 1031, 1837
+  size: 43, 59
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+rudolph_wave
+  rotate: false
+  xy: 290, 1098
+  size: 52, 59
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+rudolph_xm_kid
+  rotate: false
+  xy: 673, 33
+  size: 30, 35
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+rudolph_xm_snowman
+  rotate: false
+  xy: 346, 1137
+  size: 52, 61
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+russia_hunter
+  rotate: false
+  xy: 1840, 1690
+  size: 34, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+saintess_3
+  rotate: false
+  xy: 2, 1482
+  size: 64, 59
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+saintess_4
+  rotate: false
+  xy: 68, 1513
+  size: 64, 59
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+saintess_5
+  rotate: false
+  xy: 134, 1589
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+saintess_armored_clara
+  rotate: false
+  xy: 200, 1626
+  size: 64, 50
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+saintess_puppet
+  rotate: false
+  xy: 266, 1680
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+santa_girl
+  rotate: false
+  xy: 368, 334
+  size: 47, 53
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+sapa_dragontalon_minion
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_dragontalon_minion_1
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_dragontalon_minion_2
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_dragontalon_minion_3
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_dragontalon_minion_4
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_dragontalon_minion_5
+  rotate: false
+  xy: 829, 1400
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sapa_henchman
+  rotate: false
+  xy: 723, 623
+  size: 23, 36
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+sapa_henchman_assassin
+  rotate: false
+  xy: 1491, 1570
+  size: 23, 36
+  orig: 64, 64
+  offset: 21, 2
+  index: -1
+sapa_uniform
+  rotate: false
+  xy: 824, 1361
+  size: 30, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sea_witch_3
+  rotate: false
+  xy: 122, 655
+  size: 54, 42
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+sea_witch_4
+  rotate: false
+  xy: 199, 1477
+  size: 58, 41
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+sea_witch_5
+  rotate: false
+  xy: 2, 151
+  size: 60, 57
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+sea_witch_ballon
+  rotate: false
+  xy: 2, 90
+  size: 60, 59
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+sea_witch_hw_sand
+  rotate: false
+  xy: 2, 1287
+  size: 63, 62
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sea_witch_tentacle
+  rotate: false
+  xy: 1030, 1664
+  size: 42, 40
+  orig: 64, 64
+  offset: 20, 0
+  index: -1
+sea_witch_tentacle_ballon
+  rotate: false
+  xy: 1016, 1622
+  size: 42, 40
+  orig: 64, 64
+  offset: 20, 0
+  index: -1
+sea_witch_tentacle_hw_sand
+  rotate: false
+  xy: 496, 1457
+  size: 37, 40
+  orig: 64, 64
+  offset: 21, 0
+  index: -1
+secret_liith
+  rotate: false
+  xy: 488, 1025
+  size: 38, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+servant_golem
+  rotate: false
+  xy: 1514, 1505
+  size: 20, 27
+  orig: 64, 64
+  offset: 23, 4
+  index: -1
+shaman_girl
+  rotate: false
+  xy: 1031, 1792
+  size: 43, 43
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+sheep_girl_3
+  rotate: false
+  xy: 1031, 1750
+  size: 43, 40
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+sheep_girl_4
+  rotate: false
+  xy: 219, 255
+  size: 48, 43
+  orig: 64, 64
+  offset: 7, 2
+  index: -1
+sheep_girl_5
+  rotate: false
+  xy: 219, 210
+  size: 48, 43
+  orig: 64, 64
+  offset: 7, 2
+  index: -1
+sheep_girl_mahjong
+  rotate: false
+  xy: 369, 1478
+  size: 43, 45
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+sheep_girl_pingpong
+  rotate: false
+  xy: 116, 429
+  size: 50, 40
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+shiren
+  rotate: false
+  xy: 344, 1078
+  size: 52, 57
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+shiren_3
+  rotate: false
+  xy: 344, 1078
+  size: 52, 57
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+shiren_4
+  rotate: false
+  xy: 344, 1078
+  size: 52, 57
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+shiren_5
+  rotate: false
+  xy: 344, 1078
+  size: 52, 57
+  orig: 64, 64
+  offset: 5, 2
+  index: -1
+shop_girl
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shop_girl_1
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shop_girl_2
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shop_girl_3
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shop_girl_4
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shop_girl_5
+  rotate: false
+  xy: 417, 353
+  size: 44, 46
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+shura
+  rotate: false
+  xy: 2, 1100
+  size: 62, 61
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+shy_druid
+  rotate: false
+  xy: 535, 1493
+  size: 37, 52
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+silvia
+  rotate: false
+  xy: 609, 306
+  size: 31, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+sinhwagyeong
+  rotate: false
+  xy: 1575, 1821
+  size: 56, 46
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+slime
+  rotate: false
+  xy: 460, 1371
+  size: 23, 18
+  orig: 64, 64
+  offset: 21, 8
+  index: -1
+slime_big
+  rotate: false
+  xy: 739, 1659
+  size: 45, 54
+  orig: 64, 64
+  offset: 10, 1
+  index: -1
+sniper_2
+  rotate: false
+  xy: 1456, 1478
+  size: 27, 38
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+sniper_3
+  rotate: false
+  xy: 590, 774
+  size: 33, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sniper_4
+  rotate: false
+  xy: 485, 985
+  size: 38, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+sniper_5
+  rotate: false
+  xy: 65, 727
+  size: 55, 42
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+snowgirl_vampire
+  rotate: false
+  xy: 234, 1014
+  size: 53, 51
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+snowman_begger
+  rotate: false
+  xy: 1281, 1598
+  size: 35, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+snowman_elite_guard
+  rotate: false
+  xy: 332, 1747
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+snowman_female
+  rotate: false
+  xy: 1456, 1429
+  size: 27, 47
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+snowman_guard_archer
+  rotate: false
+  xy: 1804, 1637
+  size: 34, 50
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+spartan
+  rotate: false
+  xy: 1337, 1797
+  size: 41, 50
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+spartan_tank
+  rotate: false
+  xy: 180, 1301
+  size: 54, 62
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+standard_goblin
+  rotate: false
+  xy: 560, 858
+  size: 35, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+steam_knight_2
+  rotate: false
+  xy: 600, 868
+  size: 35, 41
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+steam_knight_3
+  rotate: false
+  xy: 484, 933
+  size: 38, 50
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+steam_knight_4
+  rotate: false
+  xy: 544, 1066
+  size: 39, 50
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+steam_knight_5
+  rotate: false
+  xy: 417, 295
+  size: 44, 56
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+steam_princess_2
+  rotate: false
+  xy: 560, 1227
+  size: 25, 37
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+steam_princess_3
+  rotate: false
+  xy: 574, 1184
+  size: 25, 41
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+steam_princess_4
+  rotate: false
+  xy: 657, 608
+  size: 32, 48
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+steam_princess_5
+  rotate: false
+  xy: 116, 372
+  size: 50, 55
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+steam_princess_judge
+  rotate: false
+  xy: 180, 1245
+  size: 54, 54
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+steampunk_beggar
+  rotate: false
+  xy: 625, 773
+  size: 33, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+steampunk_castiron_alchemist
+  rotate: false
+  xy: 1550, 1727
+  size: 35, 43
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+steampunk_citizen_boy
+  rotate: false
+  xy: 606, 998
+  size: 30, 34
+  orig: 64, 64
+  offset: 17, 4
+  index: -1
+steampunk_citizen_girl
+  rotate: false
+  xy: 861, 1400
+  size: 29, 34
+  orig: 64, 64
+  offset: 15, 4
+  index: -1
+steampunk_citizen_male
+  rotate: false
+  xy: 1840, 1641
+  size: 34, 47
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+steampunk_detective
+  rotate: false
+  xy: 65, 678
+  size: 55, 47
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+steampunk_detective_gentleman
+  rotate: false
+  xy: 601, 1190
+  size: 22, 35
+  orig: 64, 64
+  offset: 21, 3
+  index: -1
+steampunk_gatsby
+  rotate: false
+  xy: 560, 1364
+  size: 23, 39
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+steampunk_hero
+  rotate: false
+  xy: 290, 1048
+  size: 52, 48
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+steampunk_officer
+  rotate: false
+  xy: 610, 555
+  size: 32, 43
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+steampunk_passionate_guy
+  rotate: false
+  xy: 532, 1260
+  size: 26, 41
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+steampunk_penny
+  rotate: false
+  xy: 1675, 1848
+  size: 27, 31
+  orig: 64, 64
+  offset: 17, 4
+  index: -1
+steampunk_prince
+  rotate: false
+  xy: 609, 267
+  size: 31, 37
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+steampunk_refugee_boy
+  rotate: false
+  xy: 532, 1227
+  size: 26, 31
+  orig: 64, 64
+  offset: 18, 1
+  index: -1
+steampunk_refugee_female
+  rotate: false
+  xy: 610, 514
+  size: 32, 39
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+steampunk_refugee_passionate_guy
+  rotate: false
+  xy: 546, 1184
+  size: 26, 41
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+steampunk_tear_traveler
+  rotate: false
+  xy: 1456, 1390
+  size: 27, 37
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+store_angel_3
+  rotate: false
+  xy: 236, 1316
+  size: 54, 52
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+store_angel_4
+  rotate: false
+  xy: 2, 36
+  size: 60, 52
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+store_angel_5
+  rotate: false
+  xy: 978, 1993
+  size: 60, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+store_angel_airline
+  rotate: false
+  xy: 236, 1273
+  size: 54, 41
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+store_angel_fitness
+  rotate: false
+  xy: 1671, 1778
+  size: 40, 41
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+store_angel_manager
+  rotate: false
+  xy: 398, 1824
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+store_angel_strawberry
+  rotate: false
+  xy: 464, 1739
+  size: 58, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+store_angel_teacher
+  rotate: false
+  xy: 192, 1371
+  size: 55, 53
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+store_angel_vd_cupid
+  rotate: false
+  xy: 464, 1856
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+strange_lady
+  rotate: false
+  xy: 116, 320
+  size: 50, 50
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+student_female
+  rotate: false
+  xy: 520, 758
+  size: 33, 38
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+student_male
+  rotate: false
+  xy: 1485, 1528
+  size: 27, 40
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+succubus_2
+  rotate: false
+  xy: 461, 213
+  size: 39, 44
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+succubus_3
+  rotate: false
+  xy: 368, 286
+  size: 47, 46
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+succubus_4
+  rotate: false
+  xy: 180, 1197
+  size: 54, 46
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_5
+  rotate: false
+  xy: 367, 238
+  size: 47, 46
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+succubus_cafe_suit
+  rotate: false
+  xy: 786, 1671
+  size: 45, 44
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+succubus_kimono
+  rotate: false
+  xy: 461, 165
+  size: 39, 46
+  orig: 64, 64
+  offset: 10, 2
+  index: -1
+succubus_noble_3
+  rotate: false
+  xy: 219, 153
+  size: 48, 55
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+succubus_noble_4
+  rotate: false
+  xy: 289, 991
+  size: 52, 55
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+succubus_noble_5
+  rotate: false
+  xy: 516, 1602
+  size: 57, 58
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_noble_batpajama
+  rotate: false
+  xy: 463, 1679
+  size: 58, 58
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_noble_cafe_suit
+  rotate: false
+  xy: 1284, 1942
+  size: 57, 58
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_noble_celestial
+  rotate: false
+  xy: 2, 1223
+  size: 63, 62
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+succubus_noble_frost_witch
+  rotate: false
+  xy: 530, 1923
+  size: 64, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_noble_hw_girl_ghost
+  rotate: false
+  xy: 219, 94
+  size: 48, 57
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+succubus_noble_succubuzz
+  rotate: false
+  xy: 596, 1989
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+succubus_researcher
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_researcher_1
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_researcher_2
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_researcher_3
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_researcher_4
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_researcher_5
+  rotate: false
+  xy: 461, 121
+  size: 39, 42
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+succubus_succubuzz
+  rotate: false
+  xy: 1713, 1800
+  size: 40, 46
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+succubus_teacher
+  rotate: false
+  xy: 824, 1315
+  size: 30, 44
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+suit_goblin
+  rotate: false
+  xy: 1550, 1688
+  size: 35, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+summer_android_3
+  rotate: false
+  xy: 219, 52
+  size: 48, 40
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+summer_android_4
+  rotate: false
+  xy: 116, 277
+  size: 50, 41
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+summer_android_5
+  rotate: false
+  xy: 332, 1630
+  size: 62, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+summer_android_kindergartener
+  rotate: false
+  xy: 340, 689
+  size: 51, 55
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+summer_android_steampunk
+  rotate: false
+  xy: 236, 1211
+  size: 54, 60
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+summer_android_winter
+  rotate: false
+  xy: 726, 1997
+  size: 62, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+summer_beach_librarian
+  rotate: false
+  xy: 1526, 1927
+  size: 58, 53
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+summer_kid_boy
+  rotate: false
+  xy: 546, 1152
+  size: 26, 30
+  orig: 64, 64
+  offset: 20, 4
+  index: -1
+summer_kid_girl
+  rotate: false
+  xy: 1366, 1485
+  size: 29, 34
+  orig: 64, 64
+  offset: 16, 4
+  index: -1
+summer_loraine_3
+  rotate: false
+  xy: 1380, 1841
+  size: 41, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+summer_loraine_4
+  rotate: false
+  xy: 1380, 1796
+  size: 41, 43
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+summer_loraine_5
+  rotate: false
+  xy: 219, 5
+  size: 48, 45
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+summer_loraine_doctor
+  rotate: false
+  xy: 644, 560
+  size: 32, 38
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+super_invader
+  rotate: false
+  xy: 2, 1416
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+surfer_sohee_3
+  rotate: false
+  xy: 1206, 1652
+  size: 36, 40
+  orig: 64, 64
+  offset: 13, 2
+  index: -1
+surfer_sohee_4
+  rotate: false
+  xy: 574, 1507
+  size: 37, 40
+  orig: 64, 64
+  offset: 12, 2
+  index: -1
+surfer_sohee_5
+  rotate: false
+  xy: 414, 1426
+  size: 40, 40
+  orig: 64, 64
+  offset: 10, 2
+  index: -1
+surfer_sohee_cheerleader
+  rotate: false
+  xy: 270, 537
+  size: 48, 44
+  orig: 64, 64
+  offset: 8, 2
+  index: -1
+surfer_sohee_courier
+  rotate: false
+  xy: 179, 1133
+  size: 54, 62
+  orig: 64, 64
+  offset: 10, 2
+  index: -1
+survivor_2
+  rotate: false
+  xy: 519, 719
+  size: 33, 37
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+survivor_3
+  rotate: false
+  xy: 414, 1468
+  size: 39, 41
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+survivor_4
+  rotate: false
+  xy: 1337, 1742
+  size: 41, 53
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+survivor_5
+  rotate: false
+  xy: 179, 1073
+  size: 54, 58
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+swindler
+  rotate: false
+  xy: 574, 1144
+  size: 25, 38
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+swindler_belfort
+  rotate: false
+  xy: 574, 1144
+  size: 25, 38
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+swindler_2
+  rotate: false
+  xy: 528, 1026
+  size: 38, 38
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+swindler_3
+  rotate: false
+  xy: 367, 188
+  size: 47, 48
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+swindler_4
+  rotate: false
+  xy: 318, 1478
+  size: 49, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+swindler_5
+  rotate: false
+  xy: 269, 486
+  size: 48, 49
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+tanker_2
+  rotate: false
+  xy: 1343, 1950
+  size: 57, 45
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+tanker_3
+  rotate: false
+  xy: 1402, 1944
+  size: 57, 48
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+tanker_4
+  rotate: false
+  xy: 116, 216
+  size: 50, 59
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+tanker_5
+  rotate: false
+  xy: 1345, 1997
+  size: 59, 49
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+tanker_ascent
+  rotate: false
+  xy: 726, 1946
+  size: 55, 49
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+tanker_hw_tin
+  rotate: false
+  xy: 595, 1824
+  size: 56, 54
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+teatan_fat
+  rotate: false
+  xy: 414, 1511
+  size: 29, 29
+  orig: 64, 64
+  offset: 17, 4
+  index: -1
+teatan_female
+  rotate: false
+  xy: 542, 487
+  size: 32, 35
+  orig: 64, 64
+  offset: 16, 4
+  index: -1
+teatan_fighter_a
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_a_1
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_a_2
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_a_3
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_a_4
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_a_5
+  rotate: false
+  xy: 1366, 1447
+  size: 29, 36
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b_1
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b_2
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b_3
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b_4
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_fighter_b_5
+  rotate: false
+  xy: 1366, 1412
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+teatan_hero_2
+  rotate: false
+  xy: 786, 1619
+  size: 45, 50
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+teatan_hero_3
+  rotate: false
+  xy: 749, 1722
+  size: 46, 49
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+teatan_hero_4
+  rotate: false
+  xy: 340, 638
+  size: 51, 49
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+teatan_hero_5
+  rotate: false
+  xy: 199, 1426
+  size: 56, 49
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+teatan_hero_npc
+  rotate: false
+  xy: 576, 491
+  size: 32, 34
+  orig: 64, 64
+  offset: 16, 4
+  index: -1
+teatan_hero_summer
+  rotate: false
+  xy: 1423, 1855
+  size: 32, 29
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_kid
+  rotate: false
+  xy: 641, 2
+  size: 23, 28
+  orig: 64, 64
+  offset: 20, 3
+  index: -1
+teatan_kid_summer
+  rotate: false
+  xy: 560, 1335
+  size: 23, 27
+  orig: 64, 64
+  offset: 20, 6
+  index: -1
+teatan_ninja
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_ninja_1
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_ninja_2
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_ninja_3
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_ninja_4
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_ninja_5
+  rotate: false
+  xy: 1074, 1638
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+teatan_private
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_private_1
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_private_2
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_private_3
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_private_4
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_private_5
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_zaco
+  rotate: false
+  xy: 824, 1282
+  size: 30, 31
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+teatan_resistance
+  rotate: false
+  xy: 1277, 1564
+  size: 30, 32
+  orig: 64, 64
+  offset: 17, 4
+  index: -1
+teatan_robot_marty_junior
+  rotate: false
+  xy: 269, 443
+  size: 48, 41
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+teatan_traitor
+  rotate: false
+  xy: 1366, 1377
+  size: 29, 33
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+tennis_girl
+  rotate: false
+  xy: 269, 398
+  size: 48, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+tiger_doll
+  rotate: false
+  xy: 519, 678
+  size: 33, 39
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+titantavern_ant_soldier.none
+  rotate: false
+  xy: 674, 424
+  size: 26, 47
+  orig: 64, 64
+  offset: 20, 2
+  index: -1
+titantavern_bombbug
+  rotate: false
+  xy: 1485, 1494
+  size: 27, 32
+  orig: 64, 64
+  offset: 20, 7
+  index: -1
+titantavern_fly
+  rotate: false
+  xy: 519, 609
+  size: 31, 28
+  orig: 64, 64
+  offset: 15, 12
+  index: -1
+titantavern_gnome_assistant
+  rotate: false
+  xy: 560, 1283
+  size: 23, 50
+  orig: 64, 64
+  offset: 20, 4
+  index: -1
+titantavern_gnome_female
+  rotate: false
+  xy: 674, 373
+  size: 26, 49
+  orig: 64, 64
+  offset: 19, 4
+  index: -1
+titantavern_gnome_male
+  rotate: false
+  xy: 585, 1319
+  size: 23, 50
+  orig: 64, 64
+  offset: 20, 4
+  index: -1
+titantavern_mouse
+  rotate: false
+  xy: 1380, 1751
+  size: 41, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+titantavern_mouse_white
+  rotate: false
+  xy: 1016, 1577
+  size: 41, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+toygun_sniper
+  rotate: false
+  xy: 589, 1775
+  size: 56, 47
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+trio_man_1
+  rotate: false
+  xy: 1142, 1237
+  size: 25, 43
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+trio_panda_1
+  rotate: false
+  xy: 546, 1120
+  size: 26, 30
+  orig: 64, 64
+  offset: 19, 3
+  index: -1
+trouble_shooter_2
+  rotate: false
+  xy: 1587, 1738
+  size: 35, 36
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+trouble_shooter_3
+  rotate: false
+  xy: 535, 1450
+  size: 37, 41
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+trouble_shooter_4
+  rotate: false
+  xy: 1015, 1534
+  size: 41, 41
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+trouble_shooter_5
+  rotate: false
+  xy: 926, 1617
+  size: 44, 51
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+trouble_shooter_cop
+  rotate: false
+  xy: 1587, 1700
+  size: 35, 36
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+ugauga_girl
+  rotate: false
+  xy: 482, 887
+  size: 38, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+unknown
+  rotate: false
+  xy: 671, 1296
+  size: 21, 35
+  orig: 64, 64
+  offset: 22, 3
+  index: -1
+unknown_enemy
+  rotate: false
+  xy: 1309, 1557
+  size: 30, 39
+  orig: 64, 64
+  offset: 16, 2
+  index: -1
+uptown_lancer_girl_3
+  rotate: false
+  xy: 116, 166
+  size: 50, 48
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+uptown_lancer_girl_4
+  rotate: false
+  xy: 116, 116
+  size: 50, 48
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+uptown_lancer_girl_5
+  rotate: false
+  xy: 1586, 1928
+  size: 58, 61
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+uptown_lancer_girl_guard
+  rotate: false
+  xy: 460, 71
+  size: 39, 48
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+uptown_lancer_girl_merry_berry
+  rotate: false
+  xy: 574, 1461
+  size: 37, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+uptown_lancer_girl_redpandapajama
+  rotate: false
+  xy: 925, 1572
+  size: 44, 43
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+valkyrie_girl
+  rotate: false
+  xy: 288, 945
+  size: 52, 44
+  orig: 64, 64
+  offset: 5, 3
+  index: -1
+vampire_captain_3
+  rotate: false
+  xy: 1303, 1514
+  size: 30, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_captain_4
+  rotate: false
+  xy: 1755, 1801
+  size: 40, 43
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+vampire_captain_5
+  rotate: false
+  xy: 269, 352
+  size: 48, 44
+  orig: 64, 64
+  offset: 6, 2
+  index: -1
+vampire_captain_student
+  rotate: false
+  xy: 1303, 1471
+  size: 30, 41
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lady_2
+  rotate: false
+  xy: 1244, 1653
+  size: 36, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lady_3
+  rotate: false
+  xy: 1244, 1653
+  size: 36, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lady_4
+  rotate: false
+  xy: 1244, 1653
+  size: 36, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lady_5
+  rotate: false
+  xy: 1244, 1653
+  size: 36, 42
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lord_3
+  rotate: false
+  xy: 644, 521
+  size: 32, 37
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+vampire_lord_4
+  rotate: false
+  xy: 519, 639
+  size: 33, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+vampire_lord_5
+  rotate: false
+  xy: 555, 730
+  size: 33, 37
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+vampire_lord_blood_lineage
+  rotate: false
+  xy: 609, 227
+  size: 31, 38
+  orig: 64, 64
+  offset: 15, 3
+  index: -1
+vampire_lord_rockstar
+  rotate: false
+  xy: 1011, 1495
+  size: 41, 37
+  orig: 64, 64
+  offset: 13, 3
+  index: -1
+vampire_lord_santa
+  rotate: false
+  xy: 1282, 1734
+  size: 36, 40
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+vampire_noble_2
+  rotate: false
+  xy: 1303, 1432
+  size: 30, 37
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+vampire_noble_3
+  rotate: false
+  xy: 455, 1484
+  size: 39, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+vampire_noble_4
+  rotate: false
+  xy: 1120, 1884
+  size: 42, 47
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+vampire_noble_5
+  rotate: false
+  xy: 400, 1317
+  size: 49, 52
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+vampire_noble_ascent
+  rotate: false
+  xy: 986, 1720
+  size: 43, 40
+  orig: 64, 64
+  offset: 8, 3
+  index: -1
+vampire_noble_white
+  rotate: false
+  xy: 269, 303
+  size: 48, 47
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+vampire_queen
+  rotate: false
+  xy: 1550, 1643
+  size: 35, 43
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+viking_2
+  rotate: false
+  xy: 1803, 1590
+  size: 34, 45
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+viking_3
+  rotate: false
+  xy: 1380, 1707
+  size: 41, 42
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+viking_4
+  rotate: false
+  xy: 68, 1372
+  size: 55, 47
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+viking_5
+  rotate: false
+  xy: 233, 958
+  size: 53, 54
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+viking_airline
+  rotate: false
+  xy: 1485, 1453
+  size: 27, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+viking_female
+  rotate: false
+  xy: 481, 842
+  size: 38, 43
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+villain_android_3
+  rotate: false
+  xy: 608, 187
+  size: 31, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+villain_android_4
+  rotate: false
+  xy: 608, 147
+  size: 31, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+villain_android_5
+  rotate: false
+  xy: 590, 734
+  size: 33, 38
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+villain_android_courier
+  rotate: false
+  xy: 678, 567
+  size: 31, 39
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+villain_android_dirt_racer
+  rotate: false
+  xy: 554, 688
+  size: 33, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+villain_redhood_3
+  rotate: false
+  xy: 233, 906
+  size: 53, 50
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+villain_redhood_4
+  rotate: false
+  xy: 67, 1320
+  size: 55, 50
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+villain_redhood_5
+  rotate: false
+  xy: 396, 1587
+  size: 57, 58
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+villain_redhood_death_angel
+  rotate: false
+  xy: 116, 55
+  size: 50, 59
+  orig: 64, 64
+  offset: 2, 0
+  index: -1
+villain_redhood_wild_maid
+  rotate: false
+  xy: 2, 724
+  size: 61, 56
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+viperpajama_villain_redhood
+  rotate: false
+  xy: 67, 1263
+  size: 55, 55
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+wedding_dress
+  rotate: false
+  xy: 833, 1645
+  size: 45, 46
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+white_beast_3
+  rotate: false
+  xy: 1303, 1393
+  size: 30, 37
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+white_beast_4
+  rotate: false
+  xy: 1803, 1551
+  size: 34, 37
+  orig: 64, 64
+  offset: 14, 3
+  index: -1
+white_beast_5
+  rotate: false
+  xy: 797, 1717
+  size: 46, 44
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+white_beast_kindergartener
+  rotate: false
+  xy: 367, 145
+  size: 47, 41
+  orig: 64, 64
+  offset: 1, 3
+  index: -1
+white_druid_3
+  rotate: false
+  xy: 554, 646
+  size: 33, 40
+  orig: 64, 64
+  offset: 16, 3
+  index: -1
+white_druid_4
+  rotate: false
+  xy: 1423, 1813
+  size: 41, 40
+  orig: 64, 64
+  offset: 9, 3
+  index: -1
+white_druid_5
+  rotate: false
+  xy: 400, 1275
+  size: 49, 40
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
+white_druid_black_tiger
+  rotate: false
+  xy: 941, 1709
+  size: 43, 44
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+white_druid_devil
+  rotate: false
+  xy: 1282, 1689
+  size: 36, 43
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+white_druid_pink_raincoat
+  rotate: false
+  xy: 400, 1231
+  size: 49, 42
+  orig: 64, 64
+  offset: 0, 3
+  index: -1
+whitetiger_baby
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+whitetiger_baby_1
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+whitetiger_baby_2
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+whitetiger_baby_3
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+whitetiger_baby_4
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+whitetiger_baby_5
+  rotate: false
+  xy: 1675, 1821
+  size: 36, 25
+  orig: 64, 64
+  offset: 11, 3
+  index: -1
+witch_coco_3
+  rotate: false
+  xy: 455, 1570
+  size: 57, 50
+  orig: 64, 64
+  offset: 3, 1
+  index: -1
+witch_coco_4
+  rotate: false
+  xy: 68, 1461
+  size: 64, 50
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+witch_coco_5
+  rotate: false
+  xy: 134, 1530
+  size: 64, 57
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+witch_coco_cafe_suit
+  rotate: false
+  xy: 853, 1998
+  size: 61, 48
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+witch_coco_pharaoh
+  rotate: false
+  xy: 200, 1569
+  size: 64, 55
+  orig: 64, 64
+  offset: 0, 2
+  index: -1
+witch_coco_rabbit_pajama
+  rotate: false
+  xy: 1646, 1938
+  size: 58, 55
+  orig: 64, 64
+  offset: 2, 3
+  index: -1
+witch_coco_super_star
+  rotate: false
+  xy: 2, 674
+  size: 61, 48
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+witch_coco_xm_rudolph
+  rotate: false
+  xy: 266, 1629
+  size: 64, 49
+  orig: 64, 64
+  offset: 0, 1
+  index: -1
+wolf_coco
+  rotate: false
+  xy: 1164, 1887
+  size: 42, 44
+  orig: 64, 64
+  offset: 10, 3
+  index: -1
+worker_a
+  rotate: false
+  xy: 678, 527
+  size: 31, 38
+  orig: 64, 64
+  offset: 17, 3
+  index: -1
+wraith_book
+  rotate: false
+  xy: 940, 1676
+  size: 40, 31
+  orig: 64, 64
+  offset: 13, 8
+  index: -1
+wraith_book_magic.light
+  rotate: false
+  xy: 1713, 1767
+  size: 40, 31
+  orig: 64, 64
+  offset: 13, 8
+  index: -1
+wraith_female
+  rotate: false
+  xy: 1120, 1846
+  size: 42, 36
+  orig: 64, 64
+  offset: 10, 0
+  index: -1
+wraith_male
+  rotate: false
+  xy: 1755, 1761
+  size: 40, 38
+  orig: 64, 64
+  offset: 12, 0
+  index: -1
+wraith_male.light
+  rotate: false
+  xy: 1797, 1788
+  size: 40, 38
+  orig: 64, 64
+  offset: 12, 0
+  index: -1
+xellos
+  rotate: false
+  xy: 1365, 1336
+  size: 29, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+xellos_dress
+  rotate: false
+  xy: 1365, 1295
+  size: 29, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+xellos_tennis
+  rotate: false
+  xy: 1365, 1254
+  size: 29, 39
+  orig: 64, 64
+  offset: 18, 3
+  index: -1
+xm_devil_boss
+  rotate: false
+  xy: 332, 1681
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+xm_santa
+  rotate: false
+  xy: 1031, 1706
+  size: 43, 42
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+xm_snowman_no_hat
+  rotate: false
+  xy: 444, 994
+  size: 39, 41
+  orig: 64, 64
+  offset: 13, 0
+  index: -1
+xm_snowsoldier
+  rotate: false
+  xy: 1423, 1760
+  size: 41, 51
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+xm_snowsoldier_archer
+  rotate: false
+  xy: 845, 1693
+  size: 46, 57
+  orig: 64, 64
+  offset: 7, 3
+  index: -1
+xm_snowsoldier_heavy
+  rotate: false
+  xy: 1466, 1800
+  size: 41, 53
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+xm_snowsoldier_mage
+  rotate: false
+  xy: 1423, 1708
+  size: 41, 50
+  orig: 64, 64
+  offset: 12, 3
+  index: -1
+xm_tree_big
+  rotate: false
+  xy: 398, 1762
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+youth_dragon
+  rotate: false
+  xy: 340, 589
+  size: 51, 47
+  orig: 64, 64
+  offset: 4, 3
+  index: -1
