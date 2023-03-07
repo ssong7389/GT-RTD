@@ -243,27 +243,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: range2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 875
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 24, y: 24, z: 24, w: 24}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c47fd80b1b46ced4ab5cca5c48055c19
-      internalID: 1442250003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: ui_bg_01
       rect:
         serializedVersion: 2
@@ -285,13 +264,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sell
+      name: icon_sell
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1206
-        width: 126
-        height: 112
+        x: 371
+        y: 152
+        width: 44
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +414,10 @@ TextureImporter:
       name: icon_gold
       rect:
         serializedVersion: 2
-        x: 248
-        y: 199
-        width: 44
-        height: 32
+        x: 343
+        y: 890
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +435,10 @@ TextureImporter:
       name: icon_towers
       rect:
         serializedVersion: 2
-        x: 163
-        y: 130
-        width: 38
-        height: 38
+        x: 2008
+        y: 118
+        width: 40
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,8 +498,8 @@ TextureImporter:
       name: ui_inner
       rect:
         serializedVersion: 2
-        x: 1148
-        y: 370
+        x: 1144
+        y: 237
         width: 24
         height: 24
       alignment: 0
@@ -578,6 +557,258 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: icon_retry
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 254
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4db7b33681315e429ed2983420afa48
+      internalID: -2030860918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_back
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 334
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ba83da7aa73b0468c988ddbd0bdbb5
+      internalID: -1287812202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_home
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 411
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12497b93ed2283048b45656c26fcbb90
+      internalID: 1990109761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_sound
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 445
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dac0d5c3bc4e64fab61ef6ac555e0d
+      internalID: -1866570249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_merge
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 983
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74feeaed96e768348a7db32f40a0800f
+      internalID: -561856002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_build
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1628
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb538f02e9339c54caf3d2a05bc700e5
+      internalID: -1085424325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flag
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 836
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7610a7104be2a8140bbf6b4a4504b707
+      internalID: 2117532291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_starpiece
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 937
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c4a790be6feb4bacbe5202be51bd3
+      internalID: 2070754965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_to_gem
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 947
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd28fe424b4e4f4492432ba923774b8
+      internalID: 859511997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_gem_white
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 201
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adb1058a1577f54f8b403f53a4af1fc
+      internalID: 1467646982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_gold_white
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 35
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf9c8114cdd8af41a236835bcbc36a6
+      internalID: -1247983156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_crystal
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3948fecf983194abf4a4d2c0bad2fc
+      internalID: -1526317793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -590,32 +821,44 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       icon_setting: -1438274092
+      icon_build: -1085424325
       ui_upper_bg: -1495774290
+      upgrade_SUIN: 1303906024
       ui_popup: -1069171256
       button_bg: -23197905
       range1: -623593542
+      icon_merge: -561856002
+      flag: 2117532291
+      icon_home: 1990109761
+      icon_back: -1287812202
       range2: 1442250003
       icon_book: 1610613604
       main_button: 1639588919
       ui_btn_ok: 1130324244
       ui_btn_no: 34887259
       ui_bg_01: 1987922316
+      icon_gem_white: 1467646982
       upgrade_DEMON: -224338114
       icon_speed: 937945506
+      icon_sell: -434615075
       icon_towers: 254259444
+      icon_starpiece: 2070754965
       indicator: -1609993798
+      icon_retry: -2030860918
       icon_gold: -1188666376
+      gold_to_gem: 859511997
       range: 1245495245
-      sell: -434615075
       icon_gem: -1443854407
+      icon_gold_white: -1247983156
       upgrade_HUMAN: 462237529
       life: -1591582931
       icon_atk: -1690207213
       icon_list: -331093151
       ui_inner: -8379311
+      icon_sound: -1866570249
       ui_popup_bg: -798610487
       ui_indicator: -990248745
-      upgrade_SUIN: 1303906024
+      icon_crystal: -1526317793
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -288,10 +288,10 @@ TextureImporter:
       name: forest_9
       rect:
         serializedVersion: 2
-        x: 830
+        x: 832
         y: 826
-        width: 64
-        height: 64
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: forest_10
       rect:
         serializedVersion: 2
-        x: 895
-        y: 825
-        width: 64
-        height: 64
+        x: 894
+        y: 826
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,6 +347,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: forest_towerarea1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18940475eb3a55d4eb2bf5f8b9e553bf
+      internalID: 1904036366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_towerarea2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a732b6d802de994f987c95385938df5
+      internalID: -1490783669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_towerarea3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8bfb9407f30dd40a2a177a8cee422b
+      internalID: 1046437717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_towerarea4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feacfa0e48023304a80a123222d3b344
+      internalID: 1817405599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -360,10 +444,14 @@ TextureImporter:
     nameFileIdTable:
       forest_5: -1563726293
       forest_4: -1987966813
+      forest_towerarea3: 1046437717
       forest_8: 212465638
+      forest_towerarea4: 1817405599
       forest_line2: 349087661
       forest_6: -207777337
+      forest_towerarea1: 1904036366
       forest_9: -2105704344
+      forest_towerarea2: -1490783669
       forest_7: 988247576
       forest_10: -1676805809
       forest_line1: -1209986720

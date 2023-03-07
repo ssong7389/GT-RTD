@@ -13,12 +13,13 @@ public class StatusController : MonoBehaviour
     GameObject statDmg;
 
     public Text nameText;
-    Slider hpSlider;
+    public Slider hpSlider;
+    public Text hpText;
+
     Text dmgText;
 
     Image portrait;
     Image towerIcon;
-    SpriteAtlas uiAtlas;
     SpriteAtlas characterAtals;
     void Awake()
     {
@@ -27,11 +28,13 @@ public class StatusController : MonoBehaviour
         nameText = statName.GetComponent<Text>();
         statHp = transform.Find("StatusHp").gameObject;
         hpSlider = statHp.GetComponent<Slider>();
+        hpText = hpSlider.transform.Find("Hp").GetComponent<Text>();
+        //hpSlider.onValueChanged.AddListener(DisplayEnemyHp);
+
         statDmg = transform.Find("StatusDmg").gameObject;
         dmgText = statDmg.GetComponent<Text>();
         characterAtals = Resources.Load<SpriteAtlas>("characters/characters_atlas");
         portrait = transform.Find("Portrait").GetComponent<Image>();
-        uiAtlas = Resources.Load<SpriteAtlas>("ui_atlas");
         towerIcon = transform.Find("TowerIcon").GetComponent<Image>();
     }
 
@@ -53,7 +56,7 @@ public class StatusController : MonoBehaviour
         towerIcon.gameObject.SetActive(true);
         Tower selectedTower = gm.SelectedObject.GetComponent<Tower>();
         TowerManager.Type type = selectedTower.Type;
-        towerIcon.sprite = uiAtlas.GetSprite($"upgrade_{type}");
+        towerIcon.sprite = characterAtals.GetSprite($"upgrade_{type}");
         ChangeSprite(selectedTower.portraitName);
         if (TowerManager.Instance.GetUpgrade(selectedTower.Type) == 0)
             dmgText.text = $" {selectedTower.dmg}";
@@ -72,5 +75,23 @@ public class StatusController : MonoBehaviour
         EnemyController enemyController = gm.SelectedObject.GetComponent<EnemyController>();
         ChangeSprite(enemyController.enemyAnim.GetPortriatName());
         hpSlider.value = enemyController.hp / enemyController.maxHp;
+    }
+
+    void DisplayEnemyHp(float value)
+    {
+        GameObject enemy = GameManager.Instance.SelectedObject;
+        EnemyController enemyController = enemy.GetComponent<EnemyController>();
+        hpText.text = $"{enemyController.hp} / {enemyController.maxHp}";
+    }
+
+    private void Update()
+    {
+        if (GameManager.Instance.SelectedObject.CompareTag("ENEMY"))
+        {
+            GameObject enemy = GameManager.Instance.SelectedObject;
+            EnemyController enemyController = enemy.GetComponent<EnemyController>();
+            hpText.text = $"{enemyController.hp} / {enemyController.maxHp}";
+            hpSlider.value = enemyController.hp / enemyController.maxHp;
+        }
     }
 }

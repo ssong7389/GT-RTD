@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1385,6 +1385,45 @@ MonoBehaviour:
   attachments:
   - slot: '[base]weapon1_front'
     region: cwp_knightcaptain
+--- !u!1 &533132348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6069790736593744661, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
+  m_PrefabInstance: {fileID: 1673567025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &533132356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533132348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: e19ea185cb1a08c47b0168a28a5bd800, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]face'
+    region: side/face/[base]damaged
+--- !u!114 &533132364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533132348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde57cc4fd39bb4dbd61b73403ae6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlasAsset: {fileID: 11400000, guid: 963e49b427e7d6b4db9abca7ae20b146, type: 2}
+  inheritProperties: 1
+  attachments:
+  - slot: '[base]weapon2_side'
+    region: cwp_eighttail
 --- !u!1001 &539381700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3864,7 +3903,7 @@ SpriteRenderer:
   m_Size: {x: 1.2, y: 1.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1578912906
@@ -3891,12 +3930,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -9073364780154796689, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
       propertyPath: loop
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9073364780154796689, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
+      propertyPath: timeScale
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -9073364780154796689, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
       propertyPath: _animationName
-      value: basket_attack_front
+      value: frustration_side
       objectReference: {fileID: 0}
+    - target: {fileID: -9073364780154796689, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: f5baef4ba569f6040bf7bd2245dac04e, type: 2}
     - target: {fileID: 546556544011927447, guid: b3b60941f487df344b5a16deeed96ad4, type: 3}
       propertyPath: m_RootOrder
       value: 22

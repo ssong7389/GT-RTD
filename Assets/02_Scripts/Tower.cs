@@ -65,7 +65,7 @@ public class Tower : MonoBehaviour
     }
     public enum States
     {
-        idle, attack
+        idle, attack, lose
     }
     [SerializeField]
     States state;
@@ -75,7 +75,7 @@ public class Tower : MonoBehaviour
         set
         {
             state = value;
-            
+
             if (state == States.attack)
             {
                 //skel.AnimationName = 
@@ -85,7 +85,6 @@ public class Tower : MonoBehaviour
                 //Debug.Log("att");
                 //State = States.idle;
             }
-
             else
             {
                 skel.AnimationName = $"{weaponType}_{state}_{direction}";
@@ -110,7 +109,7 @@ public class Tower : MonoBehaviour
         set
         {
             target = value;
-            if(target != null)
+            if (target != null)
             {
                 targetCtrl = Target.GetComponent<EnemyController>();
                 State = States.attack;
@@ -129,13 +128,13 @@ public class Tower : MonoBehaviour
     [SerializeField]
     string weaponAtlas;
 
-    SpineAtlasAsset atlasAsset; 
+    SpineAtlasAsset atlasAsset;
     Atlas atlas;
 
     public string attackName;
     public string portraitName;
     public void InitTowerData(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
-        float range,float attackSpeed)
+        float range, float attackSpeed)
     {
         this.rank = rank;
         this.type = type;
@@ -164,7 +163,7 @@ public class Tower : MonoBehaviour
         path = $"characters/{assetName}/{assetName}";
         atlasAsset = (SpineAtlasAsset)Resources.Load("items/items_Atlas");
         atlas = atlasAsset.GetAtlas();
-        
+
         Direction = Dir.front;
         originScaleXY = towerTr.localScale.x;
         State = States.idle;
@@ -172,14 +171,17 @@ public class Tower : MonoBehaviour
     }
     private void Update()
     {
-        if (Target != null && targetCtrl.hp>0)
+        if (GameManager.Instance.Life > 0)
         {
-            //Debug.Log(Quaternion.FromToRotation(Vector2.one, (target.transform.position - towerTr.position)).eulerAngles.z);
+            if (Target != null && targetCtrl.hp > 0)
+            {
+                //Debug.Log(Quaternion.FromToRotation(Vector2.one, (target.transform.position - towerTr.position)).eulerAngles.z);
 
-        }
-        if (Target == null)
-        {
-            SetTargetAndAttack();
+            }
+            if (Target == null)
+            {
+                SetTargetAndAttack();
+            }
         }
     }
     void SetDirection()
@@ -218,6 +220,8 @@ public class Tower : MonoBehaviour
         meshRenderer.sharedMaterial = (Material)Resources.Load($"{path}_Material");
         meshRenderer.sortingOrder = -1;
         //Debug.Log($"{path}_{direction}_SkeletonData");
+        if (state == States.lose)
+            return;
         SkeletonDataAsset newSkeletonData = (SkeletonDataAsset)Resources.Load($"{path}_{direction}_SkeletonData");
         if (skel.skeletonDataAsset != newSkeletonData)
         {
@@ -254,7 +258,7 @@ public class Tower : MonoBehaviour
         }
         Attachment originalAttachment = slot.Attachment;
         AtlasRegion region = atlas.FindRegion(weaponAtlas);
-        
+
         float scale = skel.SkeletonDataAsset.scale;
         if (region == null)
         {
@@ -268,13 +272,13 @@ public class Tower : MonoBehaviour
         {
             var newRegionAttachment = region.ToRegionAttachment(region.name, scale);
             slot.Attachment = newRegionAttachment;
-            
+
             //Bone muzzle = skel.Skeleton.FindBone("b.aim");
             //Vector3 pos = muzzle.GetLocalPosition();
             //GameObject go = new GameObject();
             //Instantiate(go);
             //go.transform.position = pos;
-        }       
+        }
     }
 
     IEnumerator AttackCoroutine()
@@ -301,14 +305,14 @@ public class Tower : MonoBehaviour
                     Target = null;
                     break;
                 }
-                if(State != States.attack)
+                if (State != States.attack)
                     State = States.attack;
                 targetCtrl.hp -= dmg + increment * tm.GetUpgrade(type);
 
                 yield return new WaitForSeconds(attackSpeed);
             }
         }
-        
+
         //Debug.Log($"target null");
         yield return new WaitForSeconds(attackSpeed);
         StopCoroutine(AttackCoroutine());
@@ -318,13 +322,13 @@ public class Tower : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(new Vector2(transform.position.x, transform.position.y +0.25f), range);
+        Gizmos.DrawWireSphere(new Vector2(transform.position.x, transform.position.y + 0.25f), range);
     }
     void SetTargetAndAttack()
     {
-        if(Target == null)
+        if (Target == null)
         {
-            Collider[] colls = Physics.OverlapSphere(transform.position + Vector3.up *0.25f, range);
+            Collider[] colls = Physics.OverlapSphere(transform.position + Vector3.up * 0.25f, range);
             Dictionary<GameObject, float> nearby = new Dictionary<GameObject, float>();
             foreach (var coll in colls)
             {
@@ -349,6 +353,45 @@ public class Tower : MonoBehaviour
                 Target.GetComponent<MeshRenderer>().material.color = Color.red;
                 StartCoroutine(AttackCoroutine());
             }
+        }
+    }
+
+    public void TowerGameOver()
+    {
+        target = null;
+        StopAllCoroutines();
+        direction = Dir.side;
+        SetSkeletonDirection();
+        SkeletonDataAsset newSkeletonData = (SkeletonDataAsset)Resources.Load($"{path}_side_SkeletonData");
+        skel.skeletonDataAsset = newSkeletonData;
+        skel.Initialize(true);
+        skel.loop = false;
+        skel.timeScale = 0.5f;
+        skel.AnimationName = "frustration_side";
+        Slot faceSlot = skel.Skeleton.FindSlot("[base]face");
+        SpineAtlasAsset characterAtlasAsset = Resources.Load<SpineAtlasAsset>($"{path}_Atlas");
+        //Debug.Log(path);
+
+        
+        Atlas characterAtlas = characterAtlasAsset.GetAtlas();
+        AtlasRegion region = characterAtlas.FindRegion("side/face/[base]damaged");
+
+        float scale = skel.SkeletonDataAsset.scale;
+
+        var originalAttachment = faceSlot.Attachment;
+        if (region == null)
+        {
+            faceSlot.Attachment = null;
+        }
+        else if (originalAttachment != null)
+        {
+            faceSlot.Attachment = originalAttachment.GetRemappedClone(region, true, true, scale);
+        }
+        else
+        {
+            var newRegionAttachment = region.ToRegionAttachment(region.name, scale);
+            faceSlot.Attachment = newRegionAttachment;
+
         }
     }
 }

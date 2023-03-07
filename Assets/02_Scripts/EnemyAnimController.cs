@@ -19,14 +19,6 @@ public class EnemyAnimController : MonoBehaviour
         set
         {
             direction = value;
-            if (direction == Dir.left)
-            {
-                transform.localScale = new Vector3(-originScaleXY, originScaleXY, 1f);
-            }
-            else
-            {
-                transform.localScale = new Vector3(originScaleXY, originScaleXY, 1f);
-            }
         }
     }
     public enum States
@@ -45,6 +37,7 @@ public class EnemyAnimController : MonoBehaviour
     // front side back side front side back side front side back
     string[] enemyNames;
     string[] enemyPortraits;
+    string path;
     private void Awake()
     {
         originScaleXY = transform.localScale.x;
@@ -58,6 +51,7 @@ public class EnemyAnimController : MonoBehaviour
             enemyNames[i] = data[i]["Name"].ToString();
             enemyPortraits[i] = data[i]["Portrait"].ToString();
         }
+        path = $"enemy/{enemyNames[0]}/{enemyNames[0]}";
     }
 
     public void SetSkeleton(int round)
@@ -66,7 +60,7 @@ public class EnemyAnimController : MonoBehaviour
         if (index > 50)
             index %= 50;
         //Debug.Log("index : " + index);
-        string path = $"enemy/{enemyNames[index]}/{enemyNames[index]}";
+        path = $"enemy/{enemyNames[index]}/{enemyNames[index]}";
         //Debug.Log(path);
         meshRenderer = GetComponent<MeshRenderer>();
         //Debug.Log($"{path}_Material");
@@ -83,17 +77,18 @@ public class EnemyAnimController : MonoBehaviour
         {
             case Dir.right:
                 strDir = "side";
+                transform.localScale = new Vector3(originScaleXY, originScaleXY, 1f);
                 break;
             case Dir.left:
                 strDir = "side";
+                transform.localScale = new Vector3(-originScaleXY, originScaleXY, 1f);
                 break;
             default:
                 strDir = dir.ToString();
                 break;
         }
         newSkeletonData = (SkeletonDataAsset)Resources.Load($"{path}_{strDir}_SkeletonData");
-        //skel.skeletonDataAsset = null;
-        //skel.skeletonDataAsset.Clear();
+
         if (skel.SkeletonDataAsset != newSkeletonData)
         {
             skel.skeletonDataAsset = newSkeletonData;
@@ -104,5 +99,11 @@ public class EnemyAnimController : MonoBehaviour
     public string GetPortriatName()
     {
         return enemyPortraits[GameManager.Instance.Rounds - 1];
+    }
+    public void GameOverAnimation()
+    {
+        skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_side_SkeletonData");
+        skel.Initialize(true);
+        skel.AnimationName = $"dance_side";
     }
 }

@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
             {
                 infoManager.lifeText.text = life.ToString();
             }
-            if (life == 0)
+            if (life <= 0)
             {
                 //Game over
                 GameOver();
@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    private int modeLife;
     private int end;
     public int End
     {
@@ -152,6 +153,7 @@ public class GameManager : MonoBehaviour
     #region CREDITS
     [SerializeField]
     int gold;
+    int modeGold;
     public int Gold
     {
         get { return gold; }
@@ -166,6 +168,7 @@ public class GameManager : MonoBehaviour
     }
     [SerializeField]
     int gem;
+    int modeGem;
     public int Gem
     {
         get { return gem; }
@@ -180,6 +183,7 @@ public class GameManager : MonoBehaviour
     }
 
     int crystals;
+    int modeCrystals;
     public int Crystals
     {
         get { return crystals; }
@@ -215,6 +219,7 @@ public class GameManager : MonoBehaviour
                 {
                     statusController.gameObject.SetActive(false);
                 }
+                ButtonManager.Instance.SetMainBtnIcon(selected);
             }
             else
             {
@@ -222,15 +227,16 @@ public class GameManager : MonoBehaviour
                 switch (selectedObject.layer)
                 {
                     case 6:
-                        //Debug.Log("TowerArea");
                         selected = Selected.TOWER_AREA;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnBuildBtnClicked());
+                        ButtonManager.Instance.sellBtn.gameObject.SetActive(false);                       
+                        StartCoroutine(selectedObject.GetComponent<TowerAreaIndicator>().IndicatesArea());
                         statusController.gameObject.SetActive(false);
                         break;
                     case 7:
-                        //Debug.Log("Tower");
                         selected = Selected.TOWER;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnMergeBtnClicked(selectedObject));
+                        ButtonManager.Instance.sellBtn.gameObject.SetActive(true);
                         selectedObject.GetComponent<TowerUIController>().IndicatesTower(true);
 
                         statusController.DisplayTower();
@@ -238,10 +244,13 @@ public class GameManager : MonoBehaviour
                     case 8:
                         selected = Selected.ENEMY;
                         statusController.DisplayEnemy();
+                        ButtonManager.Instance.sellBtn.gameObject.SetActive(false);
                         break;
                     default:
+                        ButtonManager.Instance.sellBtn.gameObject.SetActive(false);
                         break;
                 }
+                ButtonManager.Instance.SetMainBtnIcon(selected);
             }
         }
     }
@@ -282,8 +291,12 @@ public class GameManager : MonoBehaviour
     public void InitGameData(string modeName, int gold, int life, int ratio, int end)
     {
         mode = modeName;
-        this.gold = gold;
-        this.life = life;
+        modeGold = gold;
+        this.gold = modeGold;
+        modeLife = life;
+        this.life = modeLife;
+        modeGem = 0;
+        gem = modeGem;
         this.ratio = ratio;
         this.end = end;
     }
@@ -296,21 +309,45 @@ public class GameManager : MonoBehaviour
             creditManager.SetGold();
             creditManager.SetGem();
             infoManager = GameObject.FindGameObjectWithTag("InfoManager").GetComponent<GameInfoManager>();
-            statusController = GameObject.FindGameObjectWithTag("Status").GetComponent<StatusController>();
-            //Debug.Log(life);
-            infoManager.lifeText.text = life.ToString();
+
+            statusController = GameObject.FindGameObjectWithTag("Status")?.GetComponent<StatusController>();
+               
             Rounds = 1;
-            Life = life;
-            Gold = gold;
+
+            if (modeLife != 0)
+            {
+                Life = modeLife;
+            }
+            Gold = modeGold;
+            Gem = modeGem;
             Ratio = ratio;
             End = end;
             Mode = this.mode;
             SelectedObject = null;
+            removedEnemyCnt = 0;
+            totalKills = 0;
         }
     }
-
     void GameOver()
     {
-        Debug.Log("Game Over");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("ENEMY");
+        foreach (var enemy in enemies)
+        {
+            EnemyController ctrl = enemy.GetComponent<EnemyController>();
+            ctrl.EnemyGameOver();
+        }
+        List<GameObject> towers = new List<GameObject>();
+        towers.AddRange(GameObject.FindGameObjectsWithTag("NORMAL"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("RARE"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("HERO"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("LEGEND"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("GOD"));
+        //Debug.Log(towers.Count);
+        foreach (var tower in towers)
+        {
+            tower.GetComponent<Tower>().TowerGameOver();
+        }
+        SelectedObject = null;
+        ButtonManager.Instance.gameOverPanel.SetActive(true);
     }
 }

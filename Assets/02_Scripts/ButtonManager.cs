@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 public class ButtonManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class ButtonManager : MonoBehaviour
     {
         get { return mainBtn; }
     }
+    Image mainBtnIcon;
     public Button sellBtn;
     public Button exchangeBtn;
     public GameObject crystalPopup;
@@ -38,6 +40,12 @@ public class ButtonManager : MonoBehaviour
     public Button upperTowerListBtn;
     public GameObject towerListPopup;
     public Button towerListBackBtn;
+
+    public GameObject gameOverPanel;
+    Button overIntroBtn;
+    Button overRetryBtn;
+
+    SpriteAtlas atlas;
     void Awake()
     {
         if (_instance == null)
@@ -63,6 +71,17 @@ public class ButtonManager : MonoBehaviour
 
 
         towerListBackBtn.onClick.AddListener(() => OnTowerListBackBtbClicked());
+
+        atlas = Resources.Load<SpriteAtlas>("characters/characters_atlas");
+        mainBtnIcon = mainBtn.transform.Find("Icon").GetComponent<Image>();
+
+        overIntroBtn = gameOverPanel.transform.Find("Intro").GetComponent<Button>();
+        overIntroBtn.onClick.AddListener(() => OnSettingsIntroClicked());
+
+        overRetryBtn = gameOverPanel.transform.Find("Retry").GetComponent<Button>();
+        overRetryBtn.onClick.AddListener(() => OnRetryBtnClicked());
+
+        gameOverPanel.SetActive(false);
     }
 
     void Start()
@@ -77,29 +96,6 @@ public class ButtonManager : MonoBehaviour
         towerListBtns[0].interactable = false;
         clickedList = towerListBtns[0].transform.Find($"TowerList_{towerListBtns[0].name}").gameObject;
     
-    }
-    void Update()
-    {
-        // test
-        if(gm.selected == GameManager.Selected.TOWER_AREA)
-        {
-            mainBtn.GetComponentInChildren<Text>().text = "Build";
-        }
-        else if(gm.selected == GameManager.Selected.TOWER)
-        {
-            mainBtn.GetComponentInChildren<Text>().text = "Merge";
-            sellBtn.gameObject.SetActive(true);
-        }
-        else if(gm.selected == GameManager.Selected.NONE)
-        {
-            mainBtn.GetComponentInChildren<Text>().text = "";
-            sellBtn.gameObject.SetActive(false);
-        }
-        else if(gm.selected == GameManager.Selected.ENEMY)
-        {
-            mainBtn.GetComponentInChildren<Text>().text = "";
-            sellBtn.gameObject.SetActive(false);
-        }
     }
 
     public void OnBuildBtnClicked()
@@ -166,5 +162,29 @@ public class ButtonManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         towerListPopup.SetActive(false);
+    }
+
+    public void SetMainBtnIcon(GameManager.Selected selected)
+    {        
+        if(selected == GameManager.Selected.TOWER_AREA)
+        {
+            mainBtnIcon.gameObject.SetActive(true);
+            mainBtnIcon.sprite = atlas.GetSprite("icon_build");
+        }
+        else if(selected == GameManager.Selected.TOWER)
+        {
+            mainBtnIcon.gameObject.SetActive(true);
+            mainBtnIcon.sprite = atlas.GetSprite("icon_merge");
+        }
+        else
+        {
+            mainBtnIcon.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnRetryBtnClicked()
+    {
+        //Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
     }
 }

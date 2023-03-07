@@ -72,17 +72,20 @@ public class PlayerController : MonoBehaviour
                 cam.orthographicSize = 1;
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (GameManager.Instance.Life > 0)
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            if (Input.GetMouseButtonUp(0))
             {
-                GameManager.Instance.SelectedObject = hit.collider.gameObject;
-            }
-            else
-            {                
-                gm.SelectedObject = null;
+                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit))
+                {
+                    GameManager.Instance.SelectedObject = hit.collider.gameObject;
+                }
+                else
+                {
+                    gm.SelectedObject = null;
+                }
             }
         }
     }

@@ -23,6 +23,7 @@ public class EnemyController : MonoBehaviour
     public float maxHp = 100f;
 
     public EnemyAnimController enemyAnim;
+    StatusController sc;
     string path;
     void Awake()
     {
@@ -30,7 +31,8 @@ public class EnemyController : MonoBehaviour
 
         spawn = GameObject.FindGameObjectWithTag("Spawn");
         arrival = GameObject.FindGameObjectWithTag("Arrival");
-        enemyAnim = GetComponent<EnemyAnimController>();     
+        enemyAnim = GetComponent<EnemyAnimController>();
+
         //MoveToArrival();
     }
     private void Update()
@@ -59,8 +61,13 @@ public class EnemyController : MonoBehaviour
     {
         while (true)
         {
+            if (GameManager.Instance.Life <= 0)
+            {
+                break;
+            }
             if (tpIndex < turns.Count)
             {
+
                 dir = (turns[tpIndex].transform.position - enemyTr.position);
                 enemyTr.Translate(dir.normalized * moveSpeed * Time.deltaTime);
                 if (dir.magnitude < Vector3.forward.magnitude * 0.1)
@@ -159,7 +166,8 @@ public class EnemyController : MonoBehaviour
 
         GetComponent<BoxCollider>().enabled = false;
         gameObject.SetActive(false);
-
+        if (GameManager.Instance.Life <= 0)
+            return;
         if (spawn == null)
             spawn = GameObject.FindGameObjectWithTag("Spawn");
 
@@ -189,5 +197,15 @@ public class EnemyController : MonoBehaviour
                 enemyAnim.Direction = EnemyAnimController.Dir.front;
             }
         }     
+    }
+
+    public void EnemyGameOver()
+    {
+        StopCoroutine(MoveCoroutine());
+        if (gameObject.activeSelf)
+        {
+            enemyAnim.GameOverAnimation();
+        }
+
     }
 }
