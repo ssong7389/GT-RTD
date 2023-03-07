@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     ButtonManager bm;
     Camera cam;
     Transform camTr;
-    public float camLimit = 5f;
+    public float camLimit = 6f;
 
     private float Speed = 0.25f;
     private Vector2 nowPos, prePos;
@@ -65,8 +65,8 @@ public class PlayerController : MonoBehaviour
             cam.orthographicSize += deltaMagnitudeDiff * zoomSpeed * Time.deltaTime;
             cam.orthographicSize = Mathf.Max(cam.orthographicSize, 0.1f);
 
-            if (cam.orthographicSize > 7)
-                cam.orthographicSize = 7;
+            if (cam.orthographicSize > 9)
+                cam.orthographicSize = 9;
 
             if (cam.orthographicSize < 1)
                 cam.orthographicSize = 1;

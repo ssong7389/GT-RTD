@@ -1268,11 +1268,15 @@ SpriteAtlas:
   - {fileID: 7536158685746229529, guid: 873228e09dd53c941bfdb4be8cd95bed, type: 3}
   - {fileID: -224338114, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -990248745, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: -434615075, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 859511997, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -798610487, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1866570249, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -561856002, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1987922316, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 2117532291, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 2070754965, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 1467646982, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 462237529, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1591582931, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1495774290, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
@@ -1286,11 +1290,12 @@ SpriteAtlas:
   - {fileID: -1690207213, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 34887259, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 254259444, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: -1526317793, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -2030860918, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1990109761, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1303906024, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: -1247983156, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 937945506, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
-  - {fileID: -434615075, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1443854407, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1438274092, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1639588919, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
@@ -2524,11 +2529,15 @@ SpriteAtlas:
   - ghost_buster_4
   - upgrade_DEMON
   - ui_indicator
+  - icon_sell
+  - gold_to_gem
   - ui_popup_bg
   - icon_sound
   - icon_merge
   - ui_bg_01
   - flag
+  - icon_starpiece
+  - icon_gem_white
   - upgrade_HUMAN
   - life
   - ui_upper_bg
@@ -2542,11 +2551,12 @@ SpriteAtlas:
   - icon_atk
   - ui_btn_no
   - icon_towers
+  - icon_crystal
   - icon_retry
   - icon_home
   - upgrade_SUIN
+  - icon_gold_white
   - icon_speed
-  - sell
   - icon_gem
   - icon_setting
   - main_button
