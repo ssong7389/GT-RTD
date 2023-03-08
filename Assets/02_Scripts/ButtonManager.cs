@@ -24,6 +24,12 @@ public class ButtonManager : MonoBehaviour
     public Button sellBtn;
     public Button exchangeBtn;
     public GameObject crystalPopup;
+    GameObject crystalPanel;
+    Button crystalConfirm;
+    Button crystalCancel;
+    Button crystalGold;
+    Button crystalGem;
+    bool crystalGoldSelected = true;
 
     GameManager gm;
     TowerManager tm;
@@ -82,6 +88,20 @@ public class ButtonManager : MonoBehaviour
         overRetryBtn.onClick.AddListener(() => OnRetryBtnClicked());
 
         gameOverPanel.SetActive(false);
+
+        RectTransform crystalTransform = crystalPopup.GetComponent<RectTransform>();
+        crystalPanel = crystalTransform.parent.gameObject;
+        crystalCancel = crystalTransform.Find("Cancel").GetComponent<Button>();
+        crystalCancel.onClick.AddListener(() => OnCrystalCancelBtnClicked());
+        crystalConfirm = crystalTransform.Find("Confirm").GetComponent<Button>();
+        crystalConfirm.onClick.AddListener(() => OnCrystalConfirmBtnClicked());
+
+        RectTransform crystalPanelTransform = crystalTransform.Find("Panel").GetComponentInChildren<RectTransform>();
+        crystalGem = crystalPanelTransform.Find("Gem").GetComponent<Button>();
+        crystalGem.onClick.AddListener(() => OnCrystalGemBtnClicked());
+        crystalGold = crystalPanelTransform.Find("Gold").GetComponent<Button>();
+        crystalGold.onClick.AddListener(() => OnCrystalGoldBtnClicked());
+
     }
 
     void Start()
@@ -186,5 +206,37 @@ public class ButtonManager : MonoBehaviour
     {
         //Time.timeScale = 1f;
         SceneManager.LoadScene(1);
+    }
+
+    private void OnCrystalConfirmBtnClicked()
+    {
+        GameManager.Instance.Crystals--;
+        if (crystalGoldSelected)
+        {
+            GameManager.Instance.Gold += 400;
+        }
+        else
+        {
+            GameManager.Instance.Gem += 300;
+        }
+        Time.timeScale = 1f;
+        crystalPanel.SetActive(false);
+    }
+    private void OnCrystalCancelBtnClicked()
+    {
+        Time.timeScale = 1f;
+        crystalPanel.SetActive(false);
+    }
+    private void OnCrystalGoldBtnClicked()
+    {
+        crystalGold.interactable = false;
+        crystalGoldSelected = true;
+        crystalGem.interactable = true;
+    }
+    private void OnCrystalGemBtnClicked()
+    {
+        crystalGem.interactable = false;
+        crystalGoldSelected = false;
+        crystalGold.interactable = true;
     }
 }

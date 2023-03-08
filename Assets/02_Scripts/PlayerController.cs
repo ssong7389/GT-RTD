@@ -24,6 +24,11 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+        if (Time.timeScale == 0)
+        {
+            gm.SelectedObject = null;
+            return;
+        }
         if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);

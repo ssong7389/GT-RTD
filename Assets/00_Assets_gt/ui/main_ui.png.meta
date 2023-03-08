@@ -582,9 +582,9 @@ TextureImporter:
       name: icon_back
       rect:
         serializedVersion: 2
-        x: 865
+        x: 867
         y: 334
-        width: 36
+        width: 34
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -789,7 +789,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_crystal
+      name: icon_crystal_white
       rect:
         serializedVersion: 2
         x: 544
@@ -809,6 +809,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ui_beige_bg_01
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 386
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6754da99e4d73bb4eaf3121c6b3b3517
+      internalID: -1793185424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_beige_bg_02
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 263
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 10, z: 8, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68f213d19ab52b43a5359f46e35b1af
+      internalID: 29907699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_crystal
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedfbc4868979ee4d803448eb0253604
+      internalID: -1149978056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_q
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1019
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f87402bdebaee498ebf18ee7ce88e8
+      internalID: 1889043285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touch
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 584
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f64d21a45fa90042aac9669c0e527b8
+      internalID: -2037430388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawn
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 550
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af90f826b078dde4caa6f87afad4fc57
+      internalID: 1661664666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_next
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 690
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f467b7bf26c7c04eb7af2f5b1047151
+      internalID: -898294795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_alert
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 998
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab3cbbd238124f4e97acd3cc0c238f7
+      internalID: 1483645231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -823,24 +991,36 @@ TextureImporter:
       icon_setting: -1438274092
       icon_build: -1085424325
       ui_upper_bg: -1495774290
+      ui_beige_bg_02: 29907699
+      ui_beige_bg_01: -1793185424
       upgrade_SUIN: 1303906024
       ui_popup: -1069171256
       button_bg: -23197905
-      range1: -623593542
       icon_merge: -561856002
       flag: 2117532291
       icon_home: 1990109761
       icon_back: -1287812202
-      range2: 1442250003
-      icon_book: 1610613604
+      icon_q: 1889043285
       main_button: 1639588919
       ui_btn_ok: 1130324244
       ui_btn_no: 34887259
-      ui_bg_01: 1987922316
+      icon_sell: -434615075
+      icon_crystal_white: -1526317793
+      icon_gem: -1443854407
+      spawn: 1661664666
+      icon_gold_white: -1247983156
+      upgrade_HUMAN: 462237529
+      icon_sound: -1866570249
+      ui_indicator: -990248745
+      touch: -2037430388
+      icon_alert: 1483645231
+      range1: -623593542
+      range2: 1442250003
+      icon_book: 1610613604
       icon_gem_white: 1467646982
+      ui_bg_01: 1987922316
       upgrade_DEMON: -224338114
       icon_speed: 937945506
-      icon_sell: -434615075
       icon_towers: 254259444
       icon_starpiece: 2070754965
       indicator: -1609993798
@@ -848,17 +1028,13 @@ TextureImporter:
       icon_gold: -1188666376
       gold_to_gem: 859511997
       range: 1245495245
-      icon_gem: -1443854407
-      icon_gold_white: -1247983156
-      upgrade_HUMAN: 462237529
       life: -1591582931
       icon_atk: -1690207213
       icon_list: -331093151
       ui_inner: -8379311
-      icon_sound: -1866570249
       ui_popup_bg: -798610487
-      ui_indicator: -990248745
-      icon_crystal: -1526317793
+      icon_next: -898294795
+      icon_crystal: -1149978056
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

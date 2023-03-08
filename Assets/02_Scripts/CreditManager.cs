@@ -7,9 +7,10 @@ public class CreditManager : MonoBehaviour
 {
     GameObject golds;
     GameObject gems;
-    GameObject crystals;
+    public GameObject crystals;
     public GameObject crystalPopup;
-    private void Start()
+    public Text crystalText;
+    private void Awake()
     {
         golds = transform.Find("Golds").gameObject;
         gems = transform.Find("Gems").gameObject;
@@ -32,15 +33,14 @@ public class CreditManager : MonoBehaviour
 
     public void SetCrystal()
     {
-        if (crystals == null)
-            crystals = transform.Find("Crystals").gameObject;
-        crystals.GetComponentInChildren<Text>().text = GameManager.Instance.Crystals.ToString();
+        crystalText.text = $"남은 수량: {GameManager.Instance.Crystals}";
     }
 
     private void OnCrystalBtnClicked()
     {
         if (GameManager.Instance.Crystals < 1)
             return;
+        Time.timeScale = 0;
         crystalPopup.SetActive(true);
     }
 }

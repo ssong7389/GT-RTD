@@ -181,7 +181,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-
+    [SerializeField]
     int crystals;
     int modeCrystals;
     public int Crystals
@@ -192,7 +192,16 @@ public class GameManager : MonoBehaviour
             crystals = value;
             if (creditManager != null)
             {
+                if (crystals == 0)
+                {
+                    creditManager.crystals.SetActive(false);
+                }
+                else
+                {
+                    creditManager.crystals.SetActive(true);
+                }
                 creditManager.SetCrystal();
+                
             }
         }
     }
@@ -229,8 +238,8 @@ public class GameManager : MonoBehaviour
                     case 6:
                         selected = Selected.TOWER_AREA;
                         ButtonManager.Instance.MainBtn.onClick.AddListener(() => ButtonManager.Instance.OnBuildBtnClicked());
-                        ButtonManager.Instance.sellBtn.gameObject.SetActive(false);                       
-                        StartCoroutine(selectedObject.GetComponent<TowerAreaIndicator>().IndicatesArea());
+                        ButtonManager.Instance.sellBtn.gameObject.SetActive(false);
+                        selectedObject.GetComponent<TowerAreaIndicator>().IndicatesArea();
                         statusController.gameObject.SetActive(false);
                         break;
                     case 7:
@@ -297,6 +306,8 @@ public class GameManager : MonoBehaviour
         this.life = modeLife;
         modeGem = 0;
         gem = modeGem;
+        modeCrystals = 0;
+        Crystals = modeCrystals;
         this.ratio = ratio;
         this.end = end;
     }
@@ -326,6 +337,7 @@ public class GameManager : MonoBehaviour
             SelectedObject = null;
             removedEnemyCnt = 0;
             totalKills = 0;
+            Crystals = 10;
         }
     }
     void GameOver()
