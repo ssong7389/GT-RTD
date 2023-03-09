@@ -1,6 +1,6 @@
-ModeName,Life,Gold,Ratio,End
-일반,10,500,2,50
-초보자,30,300,1,50
-어려움,10,300,3,50
-아주어려움,5,500,5,50
-무한모드,10,500,5,0
+ModeName,Life,Gold,Ratio,End,SpriteName
+일반,10,500,2,50,_normal
+초보자,30,300,1,50,_chobo
+어려움,10,300,3,50,_hard
+아주어려움,5,500,5,50,_very_hard
+무한모드,10,500,5,0,_infinity

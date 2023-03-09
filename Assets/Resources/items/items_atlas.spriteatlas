@@ -26,8 +26,8 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 0
-      enableTightPacking: 0
+      enableRotation: 1
+      enableTightPacking: 1
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
@@ -276,6 +276,7 @@ SpriteAtlas:
   - {fileID: 4690565036790684147, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -5498977909804825583, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6604607162940072821, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
+  - {fileID: 6017316831710908218, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -7527993173053982440, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -7002865056505634604, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6331269813807411105, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -550,7 +551,6 @@ SpriteAtlas:
   - {fileID: -4198429217816737827, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 3669958947023309665, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 2981995948172547914, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
-  - {fileID: 6017316831710908218, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -8253295887114570668, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 8443624817355349140, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6765933491221312961, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -606,6 +606,7 @@ SpriteAtlas:
   - {fileID: -6653865909681055329, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -3570108449276928363, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -4651736279004867108, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
+  - {fileID: 5779325867545221347, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -9000530628847092079, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -3524415463204411074, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6735859380889091208, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -807,7 +808,6 @@ SpriteAtlas:
   - {fileID: 4203391234494309169, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 2472877537048051133, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 4302748317976362826, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
-  - {fileID: 5779325867545221347, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -263182922512615640, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 6194069149747546006, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -5258069521488117189, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1044,7 +1044,6 @@ SpriteAtlas:
   - {fileID: -433344779724011823, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 2361540283865320356, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 740219118577357995, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
-  - {fileID: -9158298362850916278, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6634357091441485632, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -8335367498901071971, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -8706219229537445577, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1246,7 +1245,6 @@ SpriteAtlas:
   - {fileID: 4048208626791274594, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -127685482013278952, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -5219688838229572053, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
-  - {fileID: -3529791124673832518, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 7758300533699744694, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 671190431464530462, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 4602309489687151105, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1343,6 +1341,7 @@ SpriteAtlas:
   - {fileID: -7827544491199661895, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -7769132651301147336, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 5613702403234187407, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
+  - {fileID: -9158298362850916278, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -1177558886607357095, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 6450176336077578948, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -6447425338429205866, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1750,6 +1749,7 @@ SpriteAtlas:
   - {fileID: 4742385313366675012, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 665552730125528502, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -2172964953461109302, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
+  - {fileID: -1003789001473009367, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 1620576825957884169, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -7401657878840515260, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -1754559673292190669, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1853,6 +1853,7 @@ SpriteAtlas:
   - {fileID: 8246626631324323261, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -2317817067774247689, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -115238277902359871, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
+  - {fileID: -3529791124673832518, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -5329026698677283063, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -3266290671862748624, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -4947114088560752387, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -1930,7 +1931,6 @@ SpriteAtlas:
   - {fileID: 5428893321353088883, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 8903613375976752516, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -4242398033050134669, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
-  - {fileID: -1003789001473009367, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: -7507828551773364151, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 3945982980039789127, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
   - {fileID: 4072867151190570915, guid: 587f1b43d8a1c6c43afb190fb6353d8c, type: 3}
@@ -2406,6 +2406,7 @@ SpriteAtlas:
   - turbo_gauntlet
   - emerald_ring_accessory
   - shield_beer_full
+  - _very_hard
   - evolve_stone_half_vampire
   - ice_crystal_bow
   - cwp_firebishop2
@@ -2680,7 +2681,6 @@ SpriteAtlas:
   - volcano_fury_claw
   - mall_sweater_cloak
   - justice_claw
-  - mall_buff_electric_shock
   - cwp_legendaryhero
   - mall_bicycle_machine
   - beach_ball
@@ -2736,6 +2736,7 @@ SpriteAtlas:
   - cwp_robottanker2
   - electric_saw_twohand_sword
   - mall_flashlight
+  - _chobo
   - curse_necklace_accessory
   - navae_basket
   - devil_claw
@@ -2937,7 +2938,6 @@ SpriteAtlas:
   - judgement_shield
   - cwp_vampirecaptain
   - orb_futurecastle_sera
-  - mall_buff_hard_defense
   - gaia_blade_twohand_sword
   - cwp_hana
   - magic_shield
@@ -3174,7 +3174,6 @@ SpriteAtlas:
   - mall_carpet
   - vine_basket
   - mall_glass
-  - mall_buff_trainer
   - capsule_pill
   - mall_mandrake_strongest
   - waffle_shield
@@ -3376,7 +3375,6 @@ SpriteAtlas:
   - bow_suit_hanger
   - heat_ring_accessory
   - bless_bow
-  - mall_buff_physical_training
   - orb_elf_archer
   - desert_pass
   - orb_demonworld_lunchbox
@@ -3473,6 +3471,7 @@ SpriteAtlas:
   - cupidshot_bow
   - cobra_basket
   - gardener_sword
+  - _hard
   - eye_of_frost_staff
   - lovers_earring_accessory
   - food_hamburg
@@ -3880,6 +3879,7 @@ SpriteAtlas:
   - glory_shield
   - sword_hyunckel
   - knight_badge
+  - _infinity
   - orb_police_goblin
   - venom_sword
   - scream_gauntlet
@@ -3983,6 +3983,7 @@ SpriteAtlas:
   - bar_drink_bluemoon
   - copper_ore
   - tea_cup_filled_2
+  - _normal
   - evolve_stone_steam_knight
   - crusader_sword
   - m20_rifle
@@ -4060,7 +4061,6 @@ SpriteAtlas:
   - evolve_stone_future_knight
   - orb_demonworld_mad_scientist
   - awakeningStone_dream_high
-  - mall_buff_bounty_hunter
   - prayer_twohand_sword
   - clock_spring_basket
   - molten_shield

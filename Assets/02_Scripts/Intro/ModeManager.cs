@@ -11,11 +11,12 @@ public class ModeManager : MonoBehaviour
     public int life;
     public int ratio;
     public int end;
+    public string spriteName;
     GameManager gm;
 
     Text modeNameText;
     Text modeInfoText;
-    
+    public Image modeIcon;
     void Start()
     {
         gm = GameManager.Instance;
@@ -26,6 +27,7 @@ public class ModeManager : MonoBehaviour
     {
         modeNameText = transform.Find("ModeNameText").GetComponent<Text>();
         modeInfoText = transform.Find("ModeInfoText").GetComponent<Text>();
+        modeIcon = transform.Find("Icon").GetComponent<Image>();
         modeNameText.text = modeName;
         modeInfoText.text = $"Life: {life}\nGold:{gold}\nHp:{ratio * 100}";
         if (end == 0)
