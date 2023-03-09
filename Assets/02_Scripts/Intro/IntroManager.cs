@@ -10,6 +10,10 @@ public class IntroManager : MonoBehaviour
     string modesPath = "Modes";
     public GameObject modeContent;
     public GameObject modePrefab;
+
+    public Button how;
+    public Button exit;
+    public GameObject howToPlay;
     private void Awake()
     {
         modes = CSVReader.Read(modesPath);
@@ -31,8 +35,17 @@ public class IntroManager : MonoBehaviour
             mode.GetComponent<Button>().onClick.AddListener(() => modeManager.OnModeBtnClicked());
             mode.transform.SetParent(modeContent.transform, false);
         }
-
+        how.onClick.AddListener(()=>OnHowToPlay());
+        exit.onClick.AddListener(() => OnExitBtn());
+    }
+    private void OnHowToPlay()
+    {
+        howToPlay.SetActive(true);
     }
 
+    private void OnExitBtn()
+    {
+        Application.Quit();
+    }
 
 }
