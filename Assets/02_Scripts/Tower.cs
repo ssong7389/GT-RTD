@@ -161,7 +161,7 @@ public class Tower : MonoBehaviour
         skel = GetComponent<SkeletonAnimation>();
         skel.loop = true;
         path = $"characters/{assetName}/{assetName}";
-        atlasAsset = (SpineAtlasAsset)Resources.Load("items/items_Atlas");
+        atlasAsset = Resources.Load<SpineAtlasAsset>("items/items_Atlas");
         atlas = atlasAsset.GetAtlas();
 
         Direction = Dir.front;
