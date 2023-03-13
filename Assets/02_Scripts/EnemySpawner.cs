@@ -16,9 +16,12 @@ public class EnemySpawner : MonoBehaviour
     GameObject boss;
     EnemyController bossController;
     EnemyAnimController bossAnimCtrl;
+    public GameObject background;
+    BackgroundController bg;
     void Start()
     {
         gm = GameManager.Instance;
+        bg = background.GetComponent<BackgroundController>();
         spawnPoint = GetComponent<Transform>();
         enemies = new GameObject[enemyCnt];
         for (int i = 0; i < enemyCnt; i++)
@@ -27,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
 
             enemies[i] = enemy;
             EnemyController enemyCtrl = enemies[i].GetComponent<EnemyController>();
-            enemyCtrl.GenerateEnemy(100f, 100f);
+            enemyCtrl.GenerateEnemy(100f, 100f*GameManager.Instance.Ratio);
         }
         boss = Instantiate(bossPrefab);
         bossController = boss.GetComponent<EnemyController>();
@@ -47,6 +50,8 @@ public class EnemySpawner : MonoBehaviour
 
         if (GameManager.Instance.Rounds % 10 == 0)
         {
+            AudioManager.Instance.StopBgm();
+            AudioManager.Instance.PlayBgm("bgm_boss");
             bossAnimCtrl.Direction = EnemyAnimController.Dir.front;
             bossAnimCtrl.SetSkeleton(GameManager.Instance.Rounds);
             bossController.InitEnemy();
@@ -62,6 +67,11 @@ public class EnemySpawner : MonoBehaviour
         }
         else
         {
+            if (!AudioManager.Instance.isPlaying)
+            {
+                AudioManager.Instance.PlayBgm($"bgm_0{GameManager.Instance.Rounds / 10 + 1}");
+                bg.SetBackground();
+            }
             for (int i = 0; i < enemies.Length; i++)
             {
                 enemies[i].SetActive(true);

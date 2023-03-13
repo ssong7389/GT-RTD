@@ -977,6 +977,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ui_slider_btn
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 407
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82fb74d43ad5a4b9008a1fe1374e7f
+      internalID: 1822309371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_slider_plus
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 476
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701584b9dedadc944a0f8413fce2d812
+      internalID: 188852125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_slider_fillarea
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 12, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf850e9e6a5a944807ffc27a7300e5
+      internalID: -15680427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_slider_bar
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 51
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 12, z: 8, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ad59e178f1aa479abfd3e564ec9d0
+      internalID: 1709428657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -998,7 +1082,9 @@ TextureImporter:
       button_bg: -23197905
       icon_merge: -561856002
       flag: 2117532291
+      ui_slider_btn: 1822309371
       icon_home: 1990109761
+      ui_slider_bar: 1709428657
       icon_back: -1287812202
       icon_q: 1889043285
       main_button: 1639588919
@@ -1010,6 +1096,7 @@ TextureImporter:
       spawn: 1661664666
       icon_gold_white: -1247983156
       upgrade_HUMAN: 462237529
+      ui_slider_fillarea: -15680427
       icon_sound: -1866570249
       ui_indicator: -990248745
       touch: -2037430388
@@ -1032,6 +1119,7 @@ TextureImporter:
       icon_atk: -1690207213
       icon_list: -331093151
       ui_inner: -8379311
+      ui_slider_plus: 188852125
       ui_popup_bg: -798610487
       icon_next: -898294795
       icon_crystal: -1149978056

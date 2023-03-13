@@ -106,13 +106,15 @@ public class GameManager : MonoBehaviour
                 {
                     infoManager.roundText.text = $"{rounds.ToString()} Round";
                 }
-                else if(rounds <= End)
+                else if (rounds <= End)
                 {
                     // Clear
-                    //Debug.Log($"{rounds}/{End}");
                     infoManager.roundText.text = $"{rounds.ToString()} Round";
-                }                    
+                }
+                else if (rounds > End)
+                    GameClear();
             }
+
         }
     }
     public int unitsPerRound;
@@ -314,8 +316,13 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        if(scene.buildIndex == 0)
+        {
+            AudioManager.Instance.PlayBgm("bgm_intro");
+        }
         if(scene.buildIndex == 1)
         {
+            AudioManager.Instance.StopBgm();
             creditManager = GameObject.FindGameObjectWithTag("CreditManager").GetComponent<CreditManager>();
             creditManager.SetGold();
             creditManager.SetGem();
@@ -361,5 +368,21 @@ public class GameManager : MonoBehaviour
         }
         SelectedObject = null;
         ButtonManager.Instance.gameOverPanel.SetActive(true);
+    }
+    void GameClear()
+    {
+        List<GameObject> towers = new List<GameObject>();
+        towers.AddRange(GameObject.FindGameObjectsWithTag("NORMAL"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("RARE"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("HERO"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("LEGEND"));
+        towers.AddRange(GameObject.FindGameObjectsWithTag("GOD"));
+        //Debug.Log(towers.Count);
+        foreach (var tower in towers)
+        {
+            tower.GetComponent<Tower>().TowerGameClear();
+        }
+        SelectedObject = null;
+        ButtonManager.Instance.gameClearPanel.SetActive(true);
     }
 }

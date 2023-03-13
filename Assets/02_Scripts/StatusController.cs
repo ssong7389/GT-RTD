@@ -62,7 +62,8 @@ public class StatusController : MonoBehaviour
             dmgText.text = $" {selectedTower.dmg}";
         else
         {
-            dmgText.text = $" {selectedTower.dmg}(+{selectedTower.increment} x {TowerManager.Instance.GetUpgrade(selectedTower.Type)})";
+            dmgText.text = $" {selectedTower.dmg}(+{(selectedTower.dmg*selectedTower.increment).ToString("F2")} x " +
+                $"{TowerManager.Instance.GetUpgrade(selectedTower.Type)})";
         }
     }
     public void DisplayEnemy()
@@ -77,12 +78,6 @@ public class StatusController : MonoBehaviour
         hpSlider.value = enemyController.hp / enemyController.maxHp;
     }
 
-    void DisplayEnemyHp(float value)
-    {
-        GameObject enemy = GameManager.Instance.SelectedObject;
-        EnemyController enemyController = enemy.GetComponent<EnemyController>();
-        hpText.text = $"{enemyController.hp} / {enemyController.maxHp}";
-    }
 
     private void Update()
     {
@@ -90,7 +85,7 @@ public class StatusController : MonoBehaviour
         {
             GameObject enemy = GameManager.Instance.SelectedObject;
             EnemyController enemyController = enemy.GetComponent<EnemyController>();
-            hpText.text = $"{enemyController.hp} / {enemyController.maxHp}";
+            hpText.text = $"{enemyController.hp.ToString("F2")} / {enemyController.maxHp}";
             hpSlider.value = enemyController.hp / enemyController.maxHp;
         }
     }

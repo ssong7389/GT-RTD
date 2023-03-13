@@ -28,6 +28,8 @@ public class ModeManager : MonoBehaviour
         modeNameText = transform.Find("ModeNameText").GetComponent<Text>();
         modeInfoText = transform.Find("ModeInfoText").GetComponent<Text>();
         modeIcon = transform.Find("Icon").GetComponent<Image>();
+        //modeIcon.SetNativeSize();
+        //modeIcon.rectTransform.sizeDelta = new Vector2(modeIcon.rectTransform.rect.width * 2, modeIcon.rectTransform.rect.height * 2);
         modeNameText.text = modeName;
         modeInfoText.text = $"Life: {life}\nGold:{gold}\nHp:{ratio * 100}";
         if (end == 0)

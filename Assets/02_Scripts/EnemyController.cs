@@ -21,6 +21,7 @@ public class EnemyController : MonoBehaviour
     public float hp = 100f;
     public float initHp = 100f;
     public float maxHp = 100f;
+    private bool deadPlaying = false;
 
     public EnemyAnimController enemyAnim;
     StatusController sc;
@@ -37,7 +38,7 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
-        if (hp <= 0)
+        if (hp <= 0 && !deadPlaying)
         {
             EnemyDead();
         }
@@ -65,6 +66,10 @@ public class EnemyController : MonoBehaviour
             {
                 break;
             }
+            if(hp <= 0)
+            {
+                break;
+            }
             if (tpIndex < turns.Count)
             {
 
@@ -74,13 +79,10 @@ public class EnemyController : MonoBehaviour
                 {
                     enemyTr.position = turns[tpIndex].transform.position;
                     dir = (turns[tpIndex].transform.position - enemyTr.position);
-                    // 방향전환
 
                     int dirInt = (int)enemyAnim.Direction;
                     enemyAnim.Direction = (EnemyAnimController.Dir)(++dirInt % 4);
                     enemyAnim.SetSkeleton(GameManager.Instance.Rounds);
-                    //Debug.Log((int)(++enemyAnim.Direction) % 4);
-                    //Debug.Log(enemyAnim.Direction);
                     tpIndex++;
                 }
             }
@@ -105,6 +107,7 @@ public class EnemyController : MonoBehaviour
                 {
                     gm.SelectedObject = null;
                 }
+                AudioManager.Instance.StopBgm();
             }
             else
             {
@@ -117,32 +120,43 @@ public class EnemyController : MonoBehaviour
                 }
                 StopCoroutine(MoveCoroutine());
             }
-
             InitEnemy();
         }
     }
 
     public void EnemyDead()
     {
+        deadPlaying = true;
         if (gm.SelectedObject == gameObject)
         {
             gm.SelectedObject = null;
         }
         StopCoroutine(MoveCoroutine());
+        GetComponent<BoxCollider>().enabled = false;
         if (CompareTag("BOSS"))
         {
             ++gm.Crystals;
             // 보스 처치 연출 등
+            AudioManager.Instance.StopBgm();
             GameManager.Instance.IsRoundClear = true;
         }
         else
         {
-            ++gm.RemovedEnemyCnt;
+            StartCoroutine(DeadCoroutine());
+
             //Debug.Log($"removed: {gm.RemovedEnemyCnt}");
             ++gm.TotalKills;
             //Debug.Log(gm.TotalKills);
         }
+    }
+    IEnumerator DeadCoroutine()
+    {
+        //Debug.Log("dead");
+        enemyAnim.DeadAnimation();
+        yield return new WaitForSeconds(2.367f);
+        ++gm.RemovedEnemyCnt;
         InitEnemy();
+
     }
     public void GenerateEnemy(float initHp, float maxHp)
     {
@@ -163,9 +177,10 @@ public class EnemyController : MonoBehaviour
     public void InitEnemy()
     {
         int nextRound = GameManager.Instance.Rounds + 1;
-
-        GetComponent<BoxCollider>().enabled = false;
+        deadPlaying = false;
         gameObject.SetActive(false);
+        GetComponent<BoxCollider>().enabled = false;
+
         if (GameManager.Instance.Life <= 0)
             return;
         if (spawn == null)

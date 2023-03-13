@@ -37,7 +37,7 @@ public class EnemyAnimController : MonoBehaviour
     // front side back side front side back side front side back
     string[] enemyNames;
     string[] enemyPortraits;
-    string path;
+    public string path;
     private void Awake()
     {
         originScaleXY = transform.localScale.x;
@@ -57,7 +57,7 @@ public class EnemyAnimController : MonoBehaviour
     public void SetSkeleton(int round)
     {
         int index = round - 1;
-        if (index > 50)
+        if (index >= 50)
             index %= 50;
         //Debug.Log("index : " + index);
         path = $"enemy/{enemyNames[index]}/{enemyNames[index]}";
@@ -93,8 +93,16 @@ public class EnemyAnimController : MonoBehaviour
         {
             skel.skeletonDataAsset = newSkeletonData;
         }
+        skel.loop = true;
         skel.Initialize(true);
-        skel.AnimationName = $"{State}_{strDir}";
+        if (gameObject.CompareTag("ENEMY"))
+        {
+            skel.AnimationName = $"{State}_{strDir}";
+        }
+        else
+        {
+            skel.AnimationName = $"walk_{strDir}";
+        }
     }
     public string GetPortriatName()
     {
@@ -102,8 +110,32 @@ public class EnemyAnimController : MonoBehaviour
     }
     public void GameOverAnimation()
     {
-        skel.skeletonDataAsset = (SkeletonDataAsset)Resources.Load($"{path}_side_SkeletonData");
+        skel.skeletonDataAsset = Resources.Load<SkeletonDataAsset>($"{path}_side_SkeletonData");
         skel.Initialize(true);
         skel.AnimationName = $"dance_side";
+    }
+
+    public void DeadAnimation()
+    {
+        skel.skeletonDataAsset = Resources.Load<SkeletonDataAsset>($"{path}_side_SkeletonData");
+
+        skel.AnimationName = $"dead_side";
+        skel.Initialize(true);
+    }
+    public void BossDeadAnimation()
+    {
+        skel.skeletonDataAsset = Resources.Load<SkeletonDataAsset>($"{path}_side_SkeletonData");
+        if (GameManager.Instance.Rounds % 50 == 0)
+        {
+            skel.loop = false;
+            skel.AnimationName = $"monster_damaged_side";
+            skel.Initialize(true);
+        }
+        else
+        {
+            skel.loop = false;
+            skel.AnimationName = $"damaged_side";
+            skel.Initialize(true);
+        }
     }
 }

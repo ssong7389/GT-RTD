@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: yuze_sfx
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 998d1611c7c3e8c4a9c391ea23543c14, type: 3}
+    - {fileID: 2800000, guid: 459e57c18d0694c43bf5fee9d529afa4, type: 3}
+    - {fileID: 2800000, guid: 696f396c3684f2d42b6ca5f66be4eb22, type: 3}
+    - {fileID: 2800000, guid: 9d6a5446b11291d47996f94bac96d501, type: 3}
+    - {fileID: 2800000, guid: 4c004e5a24fd6ec4bb8e7aa5c2b3a4e6, type: 3}
+    - {fileID: 2800000, guid: 470aae68779655740b4df6900ebda5dd, type: 3}
+    - {fileID: 2800000, guid: dbda22adb51328046ba2ae1b985ec26e, type: 3}
+    - {fileID: 2800000, guid: 0a09798e1dcbf4c4a9e212e215b62eb4, type: 3}
+    - {fileID: 2800000, guid: 9c9cbaf37ccd0ac469477794b84031c0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 998d1611c7c3e8c4a9c391ea23543c14, type: 3}
+  - {fileID: 21300000, guid: 459e57c18d0694c43bf5fee9d529afa4, type: 3}
+  - {fileID: 21300000, guid: 9c9cbaf37ccd0ac469477794b84031c0, type: 3}
+  - {fileID: 21300000, guid: 9d6a5446b11291d47996f94bac96d501, type: 3}
+  - {fileID: 21300000, guid: 470aae68779655740b4df6900ebda5dd, type: 3}
+  - {fileID: 21300000, guid: 4c004e5a24fd6ec4bb8e7aa5c2b3a4e6, type: 3}
+  - {fileID: 21300000, guid: 696f396c3684f2d42b6ca5f66be4eb22, type: 3}
+  - {fileID: 21300000, guid: dbda22adb51328046ba2ae1b985ec26e, type: 3}
+  - {fileID: 21300000, guid: 0a09798e1dcbf4c4a9e212e215b62eb4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fx_yuze_splash_seq_color_01
+  - fx_yuze_splash_seq_color_02
+  - fx_yuze_splash_seq_color_09
+  - fx_yuze_splash_seq_color_04
+  - fx_yuze_splash_seq_color_06
+  - fx_yuze_splash_seq_color_05
+  - fx_yuze_splash_seq_color_03
+  - fx_yuze_splash_seq_color_07
+  - fx_yuze_splash_seq_color_08
+  m_RenderDataMap: {}
+  m_Tag: yuze_sfx
+  m_IsVariant: 0

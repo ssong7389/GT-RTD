@@ -1268,16 +1268,19 @@ SpriteAtlas:
   - {fileID: 7536158685746229529, guid: 873228e09dd53c941bfdb4be8cd95bed, type: 3}
   - {fileID: -224338114, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -990248745, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 1709428657, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -434615075, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 859511997, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -798610487, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1866570249, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1889043285, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 1822309371, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -561856002, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -898294795, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1987922316, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 2117532291, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 2070754965, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: 188852125, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1467646982, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 462237529, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1793185424, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
@@ -1307,6 +1310,7 @@ SpriteAtlas:
   - {fileID: -2037430388, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: -1438274092, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   - {fileID: 1639588919, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
+  - {fileID: -15680427, guid: ee0f54db8b3a0e24aa64b48de21f3d0f, type: 3}
   m_PackedSpriteNamesToIndex:
   - succubus_researcher_5
   - knight_male_sauna
@@ -2537,16 +2541,19 @@ SpriteAtlas:
   - ghost_buster_4
   - upgrade_DEMON
   - ui_indicator
+  - ui_slider_bar
   - icon_sell
   - gold_to_gem
   - ui_popup_bg
   - icon_sound
   - icon_q
+  - ui_slider_btn
   - icon_merge
   - icon_next
   - ui_bg_01
   - flag
   - icon_starpiece
+  - ui_slider_plus
   - icon_gem_white
   - upgrade_HUMAN
   - ui_beige_bg_01
@@ -2576,6 +2583,7 @@ SpriteAtlas:
   - touch
   - icon_setting
   - main_button
+  - ui_slider_fillarea
   m_RenderDataMap: {}
   m_Tag: characters_atlas
   m_IsVariant: 0

@@ -49,11 +49,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273ded3c30d160a4f9998c83507986e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 100
+  dmg: 400
   increment: 0.1
-  range: 2
-  attackSpeed: 0.5
-  towerName: "\uC601\uC6C5_7"
+  range: 6
+  attackSpeed: 0.333
+  towerName: "\uC601\uC6C5_\uC548\uB4DC\uB77C\uC2A4"
   assetName: demon_slayer
   rank: 2
   type: 2
@@ -61,8 +61,11 @@ MonoBehaviour:
   weaponType: 5
   target: {fileID: 0}
   weaponAtlas: cwp_demonslayer
+  isAttack: 0
   attackName: staff_attack
   portraitName: demon_slayer_5
+  angle: 0
+  atkAngle: 0
 --- !u!33 &4794029288017124112
 MeshFilter:
   m_ObjectHideFlags: 0

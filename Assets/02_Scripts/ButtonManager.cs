@@ -48,6 +48,7 @@ public class ButtonManager : MonoBehaviour
     public Button towerListBackBtn;
 
     public GameObject gameOverPanel;
+    public GameObject gameClearPanel;
     Button overIntroBtn;
     Button overRetryBtn;
 
@@ -153,6 +154,8 @@ public class ButtonManager : MonoBehaviour
     private void OnSettingsConfirmClicked()
     {
         Time.timeScale = 1f;
+        PlayerPrefs.SetFloat("bgm", AudioManager.Instance.bgmVolume);
+        PlayerPrefs.Save();
         settingsPopup.SetActive(false);
     }
     private void OnSettingsIntroClicked()

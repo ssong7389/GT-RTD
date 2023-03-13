@@ -103,7 +103,7 @@ public class Tower : MonoBehaviour
     Transform towerTr;
     [SerializeField]
     GameObject target;
-    GameObject Target
+    public GameObject Target
     {
         get { return target; }
         set
@@ -131,8 +131,17 @@ public class Tower : MonoBehaviour
     SpineAtlasAsset atlasAsset;
     Atlas atlas;
 
+    public bool isAttack = false;
     public string attackName;
     public string portraitName;
+
+    SwordEffect sword;
+    RangeAttack rangeEffect;
+    RifleAttack rifle;
+    AroundAttack aroundAttack;
+    GameObject effect;
+    public float angle;
+    public float atkAngle;
     public void InitTowerData(TowerManager.Ranks rank, TowerManager.Type type, float dmg, float increment,
         float range, float attackSpeed)
     {
@@ -186,23 +195,27 @@ public class Tower : MonoBehaviour
     }
     void SetDirection()
     {
-        float angle = Quaternion.FromToRotation((Target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
+        angle = Quaternion.FromToRotation((Target.transform.position - towerTr.position), new Vector2(-1, 1)).eulerAngles.z;
         if (angle > 0 && angle <= 90)
         {
             Direction = Dir.back;
+            atkAngle = 245;
         }
         else if (angle > 90 && angle <= 180)
         {
             Direction = Dir.side;
             towerTr.localScale = new Vector3(originScaleXY, originScaleXY);
+            atkAngle = 150;
         }
         else if (angle > 180 && angle <= 270)
         {
             Direction = Dir.front;
+            atkAngle = 60;
         }
         else if (angle > 270 && angle <= 360)
         {
             Direction = Dir.side;
+            atkAngle = 315;
             towerTr.localScale = new Vector3(-originScaleXY, originScaleXY, 1);
         }
     }
@@ -296,7 +309,7 @@ public class Tower : MonoBehaviour
             }
             else
             {
-                if (Target.activeSelf)
+                if (targetCtrl.hp>0&&!isAttack)
                 {
                     SetDirection();
                 }
@@ -307,9 +320,51 @@ public class Tower : MonoBehaviour
                 }
                 if (State != States.attack)
                     State = States.attack;
-                targetCtrl.hp -= dmg + increment * tm.GetUpgrade(type);
+                isAttack = true;
+                if (transform.Find("Effect") != null)
+                {
+                    effect = transform.Find("Effect").gameObject;
+                    effect.SetActive(true);
+                    if (weaponType == Weapon.sword || weaponType == Weapon.spear || weaponType == Weapon.katana)
+                    {
+                        sword = GetComponent<SwordEffect>();
+                        if (sword == null)
+                        {
+                            rangeEffect = GetComponent<RangeAttack>();
+                            if (rangeEffect == null)
+                            {
+                                aroundAttack = GetComponent<AroundAttack>();
+                                aroundAttack.PlayAroundAttack();
+                            }
+                            else
+                            {
+                               rangeEffect.PlayRangeAttack();
+                            }
+                        }
+                        else
+                        {
+                            sword.PlayEffect();
+                        }
+                    }
+                    else if (weaponType == Weapon.rifle)
+                    {
+                        rifle = GetComponent<RifleAttack>();
+                        rifle.PlayRifleAttack();
+                    }
+                    else
+                    {
+                        rangeEffect = GetComponent<RangeAttack>();
+                        rangeEffect.PlayRangeAttack();
+                    }
+                }
+                targetCtrl.hp -= dmg + dmg * increment * tm.GetUpgrade(type);
 
                 yield return new WaitForSeconds(attackSpeed);
+                if(effect!= null)
+                {
+                    effect.SetActive(false);
+                }
+                isAttack = false;
             }
         }
 
@@ -375,6 +430,44 @@ public class Tower : MonoBehaviour
         
         Atlas characterAtlas = characterAtlasAsset.GetAtlas();
         AtlasRegion region = characterAtlas.FindRegion("side/face/[base]damaged");
+
+        float scale = skel.SkeletonDataAsset.scale;
+
+        var originalAttachment = faceSlot.Attachment;
+        if (region == null)
+        {
+            faceSlot.Attachment = null;
+        }
+        else if (originalAttachment != null)
+        {
+            faceSlot.Attachment = originalAttachment.GetRemappedClone(region, true, true, scale);
+        }
+        else
+        {
+            var newRegionAttachment = region.ToRegionAttachment(region.name, scale);
+            faceSlot.Attachment = newRegionAttachment;
+
+        }
+    }
+    public void TowerGameClear()
+    {
+        target = null;
+        StopAllCoroutines();
+        direction = Dir.side;
+        SetSkeletonDirection();
+        SkeletonDataAsset newSkeletonData = (SkeletonDataAsset)Resources.Load($"{path}_side_SkeletonData");
+        skel.skeletonDataAsset = newSkeletonData;
+        skel.Initialize(true);
+        skel.loop = true;
+        skel.timeScale = 0.5f;
+        skel.AnimationName = "success_side";
+        Slot faceSlot = skel.Skeleton.FindSlot("[base]face");
+        SpineAtlasAsset characterAtlasAsset = Resources.Load<SpineAtlasAsset>($"{path}_Atlas");
+        //Debug.Log(path);
+
+
+        Atlas characterAtlas = characterAtlasAsset.GetAtlas();
+        AtlasRegion region = characterAtlas.FindRegion("side/face/[base]smile");
 
         float scale = skel.SkeletonDataAsset.scale;
 
